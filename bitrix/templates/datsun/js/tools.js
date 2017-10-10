@@ -136,6 +136,16 @@
             ],
             navigation : true
         });
+        $('.offers-slider').owlCarousel({
+            items : 3,
+            itemsCustom : [
+                [0, 1],
+                [590, 2],
+                [768, 2],
+                [1160, 3]
+            ],
+            navigation : true
+        });
         $('.owl-wrapper .owl-item:nth-child(3n+1)').addClass('first');
         $('.owl-wrapper .owl-item:nth-child(3n+2)').addClass('second');
         $('.owl-wrapper .owl-item:nth-child(3n+3)').addClass('third');

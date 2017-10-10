@@ -16,7 +16,7 @@ $this->setFrameMode(true);
 	<div class="first-title"><?=$arResult["NAME"]?></div>
 	<!-- news slider -->
 
-	<div class="news-slider">
+	<div class="offers-slider">
 
 		<?foreach($arResult["ITEMS"] as $arItem):?>
 		<div class="news-slider-item">
@@ -49,7 +49,7 @@ $this->setFrameMode(true);
 
 
 	</div>
-	<a class="news-slider-prev" href="javascript:void(0);"><img src="<?=SITE_TEMPLATE_PATH?>/images/news-slider-prev.png" alt=""></a>
-	<a class="news-slider-next" href="javascript:void(0);"><img src="<?=SITE_TEMPLATE_PATH?>/images/news-slider-next.png" alt=""></a>
+	<a class="offers-slider-prev" href="javascript:void(0);"><img src="<?=SITE_TEMPLATE_PATH?>/images/news-slider-prev.png" alt=""></a>
+	<a class="offers-slider-next" href="javascript:void(0);"><img src="<?=SITE_TEMPLATE_PATH?>/images/news-slider-next.png" alt=""></a>
 
 </div>

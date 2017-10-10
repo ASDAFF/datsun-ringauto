@@ -146,6 +146,12 @@ $(document).ready(function($) {
     $(".news-slider-prev").click(function(){
         $('.news-slider').trigger('owl.prev');
     });
+    $(".offers-slider-next").click(function(){
+        $('.offers-slider').trigger('owl.next');
+    });
+    $(".offers-slider-prev").click(function(){
+        $('.offers-slider').trigger('owl.prev');
+    });
     function newsArr () {
         if (($('.owl-prev').width() !== 0) && ($('.owl-next').width() !== 0)) {
             $('.news-slider-prev').css('display', 'block');
@@ -155,9 +161,20 @@ $(document).ready(function($) {
             $('.news-slider-next').css('display', 'none');
         }
     };
+    function offerArr () {
+        if (($('.owl-prev').width() !== 0) && ($('.owl-next').width() !== 0)) {
+            $('.offers-slider-prev').css('display', 'block');
+            $('.offers-slider-next').css('display', 'block');
+        } else {
+            $('.offers-slider-prev').css('display', 'none');
+            $('.offers-slider-next').css('display', 'none');
+        }
+    };
     newsArr();
+    offerArr();
     $(window).resize(function(event) {
         newsArr();
+        offerArr();
     });
     $(".news-owl").owlCarousel({
         items : 4,

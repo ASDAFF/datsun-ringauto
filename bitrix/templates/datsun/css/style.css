@@ -260,16 +260,25 @@ section.news-list .first-title{
 
 .news {padding:2em 3% 0 3%}
 .news-slider {margin:1em 0 0 0; position:relative; width:100%; overflow:hidden}
+.offers-slider {margin:1em 0 0 0; position:relative; width:100%; overflow:hidden}
 .news-slider-container {position:relative; width:100%}
 .news-slider-content {position:relative; width:100%; overflow:hidden}
 .news-slider-content ul {position:relative; width:9999px; margin:0; padding:0; list-style:none}
 .news-slider-content ul li {float:left; margin:0; padding:0; position:relative; overflow:hidden}
+
 .news-slider-prev,
 .news-slider-next {display:none; position:absolute; top:50%; line-height:0; width:2.5%;margin-top: -27px;}
 .news-slider-prev {left:0}
 .news-slider-next {right:0}
 .news-slider-prev img,
 .news-slider-next img {width:100%}
+
+.offers-slider-prev,
+.offers-slider-next {display:none; position:absolute; top:50%; line-height:0; width:2.5%;margin-top: -27px;}
+.offers-slider-prev {left:0}
+.offers-slider-next {right:0}
+.offers-slider-prev img,
+.offers-slider-next img {width:100%}
 
 .news-item {color:#001e67; text-decoration:none}
 .news-item-inner {border:1px solid #e3e3e3}
@@ -613,6 +622,13 @@ nav > ul > li > a > img {
 	left: -41px;
 }
 .news-slider-next {
+	right: -41px;
+}
+
+.offers-slider-prev {
+	left: -41px;
+}
+.offers-slider-next {
 	right: -41px;
 }
 
