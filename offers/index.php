@@ -1,10 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("test");
-?><br>
-<div class="header-spacer">
-</div>
+$APPLICATION->SetTitle("offers");
+?>
 
-
+Text here....
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

@@ -1,0 +1,48 @@
+
+.offer-item-prices span{
+	display: inline-block;
+	color: #4d4d4d;
+}
+
+.offer-item-prices span.price{
+	font-weight: bold;
+	color: #1E679E;
+	font-size: 20px;
+}
+.offer-item-prices span.sale{
+	font-weight: bold;
+	color: #194470;
+	font-size: 20px;
+}
+
+.offer-item-prices span{
+	width: 40%;
+	text-align: center;
+}
+
+.offer-item-prices span:first-child{ width: 40%;text-align: left; }
+.offer-item-prices span:last-child{ width: 20%;text-align: right; }
+
+.news-item-title.offer{
+	color: #4d4d4d;
+	text-align: center;
+}
+.news-item-descr.offer{
+	border-color: #4d4d4d;
+}
+
+.offer-item-btn span{
+	border: 2px solid #1E679E;
+	color: #FFFFFF;
+	background: #1E679E;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 10px;
+	display: block;
+	text-align: center;
+	transition: 1s;
+}
+.offer-item-btn span:hover{
+	color: #1E679E;
+	background:#FFFFFF;
+}
