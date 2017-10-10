@@ -6,7 +6,7 @@
             <h2>Комплектации и цены</h2>
         </div>
         <p style="margin:-20px 0 40px;">Модель седана Datsun on-DO произвела фурор среди автолюбителей, предложив концепцию надежного японского автомобиля по весьма доступной цене в 2017 году.</p>
-        <ul class="pricing-table">
+        <ul class="pricing-table on">
             <li class="wow flipInY"data-wow-delay="0.2s">
                 <small>комплектация</small>
                 <h3>Access</h3>

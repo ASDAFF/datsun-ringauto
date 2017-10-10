@@ -37,6 +37,7 @@
 
                     <ul>
                         <li><a href="/on-do/"><img src="http://datsun-spb.ru/upload/medialibrary/d8d/nav_oniDO@2x.png" width="239" height="118" /><br>Datsun on-DO</a></li>
+                        <li><a href="/mi-do/"><img src="http://datsun-spb.ru/upload/medialibrary/36e/nav_miDO@2x.png" width="239" height="118" /><br>Datsun mi-DO</a></li>
                         <li><a href="/offers/"><img src="<?=SITE_TEMPLATE_PATH?>/images/auto@2x.png" width="239" height="118" /><br>Автомобили в наличии</a></li>
                     </ul>
 

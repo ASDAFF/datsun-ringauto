@@ -9,7 +9,7 @@
         </div>
         <div id="subscribe_form">
 
-            <form name="SIMPLE_FORM_12" action="/on-do/" method="POST" enctype="multipart/form-data"><input type="hidden" name="sessid" id="sessid_1" value="35328a620dee4260e952fa5514697c39" /><input type="hidden" name="WEB_FORM_ID" value="12" /><div class="input-group">
+            <form name="SIMPLE_FORM_12" action="/mi-do/" method="POST" enctype="multipart/form-data"><input type="hidden" name="sessid" id="sessid_1" value="386b6a86f67a133e279886b02ff814fb" /><input type="hidden" name="WEB_FORM_ID" value="12" /><div class="input-group">
                     <input class="form-control" type="email" name="form_email_54" id="subscribe_email" placeholder="Введите E-mail" required>
                     <label class="nam"><table><tbody><tr><td><input type="text" name="name" value=""></td></tr></tbody></table></label>
                     <div class="input-group-btn">
@@ -29,6 +29,7 @@
             </form>
 
         </div>
+
     </div>
 </section>
 <!-- SOCIAL END -->

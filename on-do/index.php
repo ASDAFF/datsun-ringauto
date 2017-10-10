@@ -34,7 +34,7 @@ $APPLICATION->SetTitle("on-do");
 
 
         <?
-        for($i = 1; $i <= 14; $i++) {
+        for($i = 1; $i <= 13; $i++) {
             $APPLICATION->IncludeFile($APPLICATION->GetCurDir() . "block" .$i.".php", Array(), Array(
                 "MODE" => "html",                                           // будет редактировать в веб-редакторе
                 "NAME" => "Редактирование включаемой области раздела",      // текст всплывающей подсказки на иконке

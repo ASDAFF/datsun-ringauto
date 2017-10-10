@@ -4,7 +4,7 @@
         <ul class="facts-list">
             <li class="wow bounceIn">
                 <i class="icon icon-clock"></i>
-                <p class="wow like-h3">530л</p>
+                <p class="wow like-h3">240л</p>
                 <p class="like-h4">Объем багажника</p>
             </li>
             <li class="wow bounceIn" data-wow-delay="0.4s">

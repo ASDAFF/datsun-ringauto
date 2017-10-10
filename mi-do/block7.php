@@ -28,11 +28,6 @@
                         <i>Серый</i>
                     </a>
                 </div>
-                <div class="cars_img_color_6 link_img" id="color_div_6">
-                    <a href="#" num-of-div="6" data-color-switcher="./images/scripts/brown/img_0_0_0.jpg" data-additional-color-cost="1">
-                        <i>Коричневый</i>
-                    </a>
-                </div>
                 <div class="cars_img_color_7 link_img" id="color_div_7">
                     <a href="#" num-of-div="7" data-color-switcher="./images/scripts/black/img_0_0_0.jpg" data-additional-color-cost="1">
                         <i>Чёрный</i>
