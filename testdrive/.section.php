@@ -1,0 +1,6 @@
+<?
+$sSectionName = "testdrive";
+$arDirProperties = Array(
+
+);
+?>
