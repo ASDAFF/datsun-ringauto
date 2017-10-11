@@ -1,0 +1,1074 @@
+
+img {
+	/*width:auto;*/
+	max-width:100%;
+}
+.navigation li a {
+	padding-top:20px;
+}
+/* layout styels */
+
+#our_buying_pulldown,
+#our_models_pulldown,
+#our_owning_pulldown{
+	position:absolute;
+}
+/* 2014/4/24 #header ants start */
+#header {
+	max-width:1600px;
+	min-height:66px;
+	overflow:visible;
+	height:66px;
+	min-height:66px;
+	background:url("/~/media/Images/DATSUN/Shared/img/common/bg_header.png") no-repeat 0 0;
+	background-size:100% 100%;
+}
+#contents_header {
+	margin:0 19px 0 0;
+	height:66px;
+	min-height:66px;
+	max-height:66px;
+	overflow:visible;
+}
+#sitelogo,#catchcopy {
+	width:auto;
+}
+#main_sections{
+	padding-top:66px;
+}
+#sitelogo {
+	width:108px;
+	height:66px;
+	margin:0;
+	padding:0;
+}
+#sitelogo a {
+	display:block;
+	width:108px;
+	height:66px;
+	margin:0;
+	padding:0;
+	background-image:url("/~/media/Images/DATSUN/Shared/img/common/logo.png");
+	background-size:108px 66px;
+}
+#sitelogo a img{
+	display:none;
+}
+#catchcopy {
+	position:relative;
+	width:120px;
+	height:66px;
+	margin:0;
+	padding:0;
+	background-image:url("/~/media/Images/DATSUN/Shared/img/common/break_through.png");
+	background-size:120px 66px;
+}
+#catchcopy img{
+	display:none;
+}
+/* 2014/4/24 #header ants end */
+
+#gnavi_wrapper {
+	display:none;
+}
+/* 2014/02/14 #searchbox ants :start */
+#jsSearch.sp_search_unit{
+	display:none!important;
+}
+/* 2014/02/14 #searchbox ants :end */
+.navigation {
+	float:left;
+	clear:none;
+	border:0 none;
+	display:block;
+	margin-left:50px;
+/* 2014/3/2 #site_logo ants :start */
+	margin-top:5px;
+/* 2014/3/2 #site_logo ants :end */
+}
+.navigation li {
+	float:left;
+}
+.navigation li a {
+	border:0;
+}
+/* 2014/3/13 #whiteline ants : start */
+.navigation li a:focus{
+	outline:0;
+}
+/* 2014/3/13 #whiteline ants : end */
+
+.right_contents_group {
+	width:27%;
+	display:block;
+	float:right;
+	padding-bottom:10px!important;
+	font-family:'Datsun',sans-serif;
+}
+.right_contents_group_no_tops {
+	margin-top:19px;
+}
+.right_contents_group.region {
+	padding-top:10px;
+	padding-bottom:0;
+}
+.right_contents_top {
+	text-align:right;
+	margin-bottom:5px;
+}
+.right_contents_bottom {
+	position:relative;
+	width:50%;
+	float:right;
+}
+
+.right_contents_bottom .language,
+.right_contents_bottom input[type="search"] {
+	float:left;
+}
+.right_contents_bottom .language {
+	z-index:100;
+	cursor:pointer;
+	display:block;
+	font-size:12px;
+	color:#fff;
+	padding:3px 40px 0 0!important;
+	font-family:'Datsun';
+	width:20%;
+	text-align:right;
+}
+#search_box_container {
+	float:right;
+	width:100%;
+	padding-right:50px!important;
+/* 2014/02/14 #searchbox ants :start */
+	width:197px!important;
+/* 2014/02/14 #searchbox ants :end */
+}
+#search_box_input {
+	width:100%;
+	border:0;
+	padding:4px;
+	font-size:12px;
+}
+
+/* 2014/02/14 #searchbox ants :start */
+#cse-search-form-pc {
+	width:100%;
+	margin:0; padding:0;
+    margin:0 auto;
+    position:relative;
+    width:197px;
+}
+#cse-search-form-pc .cse form.gsc-search-box,
+#cse-search-form-pc form.gsc-search-box {
+  padding:0!important;
+  margin-bottom:0!important;
+}
+#cse-search-form-pc .gsc-control-cse,
+#cse-search-form-pc .gsib_a{
+    margin:0!important;
+    padding:0!important;
+}
+#cse-search-form-pc table.gsc-search-box td,
+#cse-search-form-pc table.gsc-search-box input {
+    vertical-align:middle!important;
+}
+#cse-search-form-pc input[type="text"]{
+	margin:0; padding:0 55px 0  0;
+	background:#fff;
+	width:100%!important;
+	height:auto!important;
+    font-size:12px;
+}
+#cse-search-form-pc input[type="text"]:focus {
+    outline:0;
+}
+#cse-search-form-pc .gsc-input input{
+	text-indent: 5px; /* 2014/5/1 */
+/*    background-image:none!important;*/
+}
+#cse-search-form-pc .cse input.gsc-search-button,
+#cse-search-form-pc input.gsc-search-button {
+	border:none;
+	background:url("/~/media/Images/DATSUN/Shared/images/common/icon_search.gif") no-repeat 0 0;
+	text-indent:-9999px;
+	margin:0; padding:0;
+	min-width:14px;
+	width:14px; height:14px;
+	overflow:hidden;
+	display:blcok;
+}
+#cse-search-form-pc div.gsc-clear-button{
+	vertical-align:middle;
+}
+#cse-search-form-pc table tbody td {
+/* text-align:center; */
+/* font-size:11px; */
+/* font-size:1.1rem; */
+/* color:#4c4c4c; */
+}
+#cse-search-form-pc table td {
+	border:0; 
+/* border-right:1px solid #c1c1c1; */
+/* border-left:1px solid white; */
+/* padding:5px; */
+}
+/* 2014/02/14 #searchbox ants :end */
+
+
+
+#our_buying,
+#our_models,
+#our_owning {
+	position:relative;
+	padding-right:20px;
+}
+.navigation .arrow { display:block; }
+.language .arrow {
+	top:70%;
+	right:20px;
+}
+#our_buying .arrow,
+#our_models .arrow,
+#our_owning .arrow {
+	top:35px;
+	right:12px;
+}
+.right_contents_bottom .language .arrow:before,
+#our_buying .arrow:before,
+#our_models .arrow:before,
+#our_owning .arrow:before { border-top-width:5px; }
+.right_contents_bottom .language .arrow:after,
+#our_buying .arrow:after,
+#our_models .arrow:after,
+#our_owning .arrow:after  {
+	z-index:100;
+	border-top-width:5px;
+	border-top-color:#386e95;
+	top:-2px;
+}
+#our_buying .arrow:after { border-top-color:#273d5f; }
+#our_models .arrow:after { border-top-color:#273d5f; }
+#our_owning .arrow:after { border-top-color:#273d5f; }
+/*#icon_search { right:57px; }*/
+
+.right_contents_top li {
+	float:right;
+}
+.right_contents_top li:first-child {
+	margin-left:18px;
+}
+.right_contents_top a {
+	color:#fff;
+	text-decoration:none;
+	font-size:10px;
+}
+.social_navi {
+	display:none;
+}
+#accessible_price_contents {
+	margin-right:-1%;
+	position:relative;
+	overflow:hidden;
+}
+#accessible_price_contents .one_contnets,
+#accessible_price_contents .rest_one_contnets {
+	float:left;
+	width:24%;
+}
+
+.full_images { text-align:center; }
+
+/* 2014/5/1 #sns ants:start */
+#sns_area {
+	width:100%;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	height:85px;
+	line-height:1;
+}
+#sns_area,
+#sns_area * {
+	font: 10px/1 "Helvetica Light","Helvetica Neue Light","Neue Helvetica Light","Arial Light","Arial Std Light",Helvetica,"Helvetica Neue","Neue Helvetica",Arial,Verdana,Geneva,sans-serif;
+}
+#sns_area #datsun_official_channel{
+	display:block;
+	float:left;
+	margin:0 2% 0 0;
+	padding:30px 0 0 0;
+	width:15%;
+	font-size:10px;
+	color:#9b9b9b;
+	text-align:right;
+}
+#sns_area .sns_list{
+	margin:0; padding:0;
+	width:85%;
+	height:85px;
+	overflow:hidden;
+}
+#sns_area .sns_list li{
+	float:left;
+	width:25%;
+	height:45px;
+	margin:20px 0; padding:0;
+	border:0;
+	overflow:hidden;
+}
+#sns_area .social_right_area p {
+	line-height:20px;
+	margin:0; padding:0;
+}
+#sns_area section{
+	overflow:hidden;
+}
+.social_btn_unit{
+	margin:0; padding:0;
+	overflow:hidden;
+}
+/* 2014/5/1 #sns ants:end */
+
+/* parts styles */
+.btn_normal_details { 
+	text-align:right;
+}
+.btn_normal_details a {
+	display:inline;
+	display:inline-block;
+	*zoom:1;
+	padding:15px 25px;
+	font-size:14px;
+	width:auto;
+}
+.btn_normal_details a strong { font-size:16px; }
+.contents_titles,.on_img_titles,.contents_main_title_border { font-size:36px;}
+
+/* 2014/5/1 #sns ants:start */
+#site_footer {
+	position:relative;
+	overflow:visible;
+	margin:0; padding:0;
+	box-sizing:border-box;
+	padding:26px 30px 20px 30px;
+}
+#site_footer:after{
+	height:0;visibility:hidden;content:".";display:block;clear:both;
+}
+#site_footer_nav  {
+	float:left;
+	height:28px;
+	margin:0 0 0 8px;
+	padding:0;
+}
+#site_footer_nav ul:after {height:0;visibility:hidden;content:".";display:block;clear:both;}
+#site_footer_nav ul{
+	margin:0; padding:0;
+	display:block;
+	height:24px;
+}
+#site_footer_nav ul li{
+	display:block;
+	float:left;
+	margin:0 20px 0 0; padding:0;
+	height:24px;
+}
+#copyright {
+	font-size:14px;
+	float:right;
+	line-height:1.5;
+	margin:-10px 0 0 0; padding:0;
+}
+#copyright.region {
+	float:none;
+}
+/* 2014/5/1 #sns ants:end */
+.news_unit_container .contents_sub_unit {
+	width:33.33333333333%;
+	margin-left:10px;
+}
+.contents_sub_unit.news:first-child {
+	margin-left:0;
+}
+.contents_blockquote {
+	padding-top:0;
+}
+.btn_normal_details.more {
+	float:right;
+}
+.media_library {
+	border:1px solid #9B9B9B;
+}
+
+/* 2014/02/20 0017783:USPの文字位置スペーシング微調整 start */
+/*
+.text_area { padding-top:80px; }
+media screen and (min-width:1200px) {
+	.text_area { padding-top:130px; }
+}
+@media screen and (min-width:1400px) {
+	.text_area { padding-top:160px; }
+}
+*/
+
+.text_area { padding-top:13%; }
+/* 2014/02/20 0017783:USPの文字位置スペーシング微調整 end */
+
+
+
+#map_btns {
+	text-align:right;
+	margin:30px 0 50px;
+}
+#map_btns li {
+	float:left;
+	margin-right:1%;
+}
+
+.btn_spacer { margin:5px 0 20px; }
+.btn_spacer_btm_none { margin-bottom:0; }
+.btn_spacer_top_big { margin-top:20px; }
+
+.modal_container {
+	width:80%;
+	left:10%;
+}
+.modal_closer {
+	right:12%;
+	top:13%;
+}
+.make_your_selection {
+	width:42%;
+	padding-right:3%;
+	border-right:3px solid #9b9b9b;
+}
+.payments_huh {
+	width:51%;
+	margin-left:3%;
+}
+.make_your_selection,
+.payments_huh {
+	float:left;	
+}
+.make_your_selection_table,
+.payments_huh_table { 
+	width:100%;	
+}
+
+#our_models_navigation {
+	background:#939393;
+	padding:10px 0 10px 90px;
+}
+#our_models_navigation li {
+	float:left;
+	margin-right:30px;
+}
+#our_models_navigation li a {
+	color:#d0d0d0;
+	font-size:12px;
+	text-decoration:none;
+	font-family:'Datsun';
+}
+#our_models_navigation li.active a { color:#fff; }
+
+/* 2014/11/11 #DatsunVLP2 comment out start*/
+/*#car_sub_title { font-size: 36px; width:10em;}*/
+/* 2014/11/11 #DatsunVLP2 comment out end*/
+
+/* 2014/11/11 #DatsunVLP2 start*/
+#car_sub_title { 
+	font-size: 36px; width:13em;
+	margin: 0 0 40px;
+	z-index:2;
+}
+/* 2014/11/11 #DatsunVLP2 end*/
+
+#language_sp { display: none; }
+
+/* 2014/5/1 #sns ants : start */
+#site_footer li#pc_language_selecter {
+	display:inline;
+	*zoom:1;
+	display:inline-block;
+	padding-right:25px;
+	position:relative;
+	cursor:pointer;
+}
+#site_footer li#pc_language_selecter,
+#site_footer li,
+#site_footer li a {
+	line-height:1;
+	font-size: 12px;
+}
+#site_footer li#pc_language_selecter,
+#site_footer li{
+}
+#site_footer li#pc_language_selecter .arrow {
+	bottom:20px;
+	top:.05em;
+}
+#site_footer li#pc_language_selecter .arrow:before {
+	border-color:transparent;
+	border-bottom-color:#005496; 
+	top:2px;
+	border-width:5px;
+}
+#site_footer li#pc_language_selecter .arrow:after {
+	border-color:transparent;
+	border-bottom-color:#fff;
+	border-width:6px;
+}
+/* 2014/5/1 #sns ants : end */
+#pc_pull_downs {
+	position:absolute;
+	bottom:74px;
+	left:30px;
+	width:150px;
+	background:#005496;
+	z-index:102;
+}
+#index #pc_pull_downs {
+	bottom:74px;
+}
+#pc_pull_downs li {
+	display:block;
+	border-bottom:1px solid #5f98bb;
+	padding:5px;
+	font-size:12px;
+}
+#pc_pull_downs li a {
+	display:block;
+	color:#fff;
+	text-decoration:none;
+}
+
+#sns_menu {
+/* 2014/5/1 #sns ants : start */
+    right:-19px;
+/* 2014/5/1 #sns ants : end */
+	top:31px;
+    width:auto;
+    padding:20px 12px 20px 22px;
+    background-color:#3d83ac;
+    z-index:102;
+}
+.social_header_icon_img:hover{
+	opacity:0.8;
+}
+.contents_titles{
+	color:rgb(0,0,103);
+}
+#map_btns li{
+	float:right;
+}
+#map_btns li{
+	margin-left:1%;
+	margin-right:0;
+}
+#top_news_area .contents_sub_unit,
+#top_news_area .contents_sub_unit.news,
+#media_library_box .contents_sub_unit,
+#media_library_box .contents_sub_unit.news,
+#top_news_area .contents_sub_unit,
+#top_news_area .contents_sub_unit.news{
+	margin:0;
+}
+#media_library_box .contents_sub_unit.news .latest_news{
+	padding:0;
+}
+/*.contents_sub_unit:first-child .news_unit_box{
+	margin-right:2%;
+}
+.contents_sub_unit:nth-child(3) .news_unit_box{
+	margin-left:2%;
+}*/
+.contents_sub_unit .news_unit_box{
+	margin:0 2%;
+}
+
+#main_car_imgs {
+	min-height:300px;
+	margin-bottom:20px;
+	padding-top:10px;
+}
+.main_car_area_btns { bottom:0; }
+.top_bg_car_img { margin-top:-300px; }
+
+#datsun_slide_top_contents .on_car_title {
+	position:absolute;
+/* 2014/3/2 #top pfa ants : start*/
+	font-size:70px;
+	margin-top:10%;
+	overflow: hidden;
+/* 2014/3/2 #top pfa ants : end */
+}
+/* 2014/5/29 #top pfa hp : start*/
+#datsun_slide_top_contents h2.on_car_title .h2_goplus {
+	width: 320px;
+	height: 111px;
+	display: block;
+	background:url("/~/media/Images/DATSUN/Indonesia/Home/components/Sliders/logo_goplus.png") no-repeat;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+#datsun_slide_top_contents h2.on_car_title .h2_go {
+	width: 320px;
+	height: 111px;
+	display: block;
+	background:url("/~/media/Images/DATSUN/Indonesia/Home/components/Sliders/logo_go.png") no-repeat;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+/* 2014/5/29 #top pfa hp : end */
+
+#datsun_slide_top_contents .on_car_catchcopy {
+/* 2014/3/2 #top pfa ants : start*/
+	font-size:25px;
+	margin-top:20%;
+/* 2014/3/2 #top pfa ants : end */
+}
+
+
+#our_models_navigation { display:block; }
+#main_contents {
+	position:relative;
+	z-index:1;
+}
+
+#sns_menu { position:absolute; }
+
+.toggle_only { display:none; }
+.jsNavigation { display:block !important; }
+
+#movieTemplate object {
+	width:100%;
+	height:500px;
+}
+
+.box_hidder { bottom:0; }
+
+/* 2014/02/20 0017783:USPの文字位置スペーシング微調整 start */
+/*.separate_side_contents .img_area img { width:75%; }*/
+.separate_side_contents .img_area img {width:100%;}
+/* 2014/02/20 0017783:USPの文字位置スペーシング微調整 end */
+
+#accessories_back { margin-top:-20px; }
+
+.separate_side_contents { overflow:hidden; }
+.separate_side_contents .img_area {
+	position:relative;
+	filter:alpha(opacity=0);
+	-moz-opacity:0;
+	opacity:0;
+}
+.separate_side_contents .left_side.img_area { left:-250px; }
+.separate_side_contents .right_side.img_area { right:-250px; }
+.fadeContents {
+	position:relative;
+	top:50px;
+	filter:alpha(opacity=0);
+	-moz-opacity:0;
+	opacity:0;
+}
+.title_spacer { font-size:33px; }
+
+.topSlideAnimation {
+	position:relative;
+	top:-27px;
+}
+
+.box_hidder.top_imgs_box_btn,.box_hidder {
+	position:absolute;
+	overflow:hidden;
+	bottom:0;
+	right:0;
+	height:55px;
+}
+.box_hidder {
+	position:relative;
+	float:right;
+}
+.main_car_area_btns_active,.main_car_area_btns {
+	position:absolute;
+	z-index:2;
+	top:0;
+	right:0;
+	height:57px;
+}
+.main_car_area_btns { text-align:right; }
+.main_car_area_btns_active a,.main_car_area_btns a {
+	margin-top:0;
+	margin-left:1px;
+	display:block;
+	font-size:14px;
+}
+.main_car_area_btns a { width:220px; }
+.main_car_area_btns_active { z-index:1; }
+.main_car_area_btns_active a {
+	float:left;
+	display:block;
+}
+
+.main_car_btn_opend { display:none; }
+.main_car_area_btns {
+	display:block;
+	background:#fff;
+}
+.main_car_area_btns_active { display:block; }
+
+/* 2014/02/27 レイアウト ants & #41 */
+/*#financialCalculator_modal,#accessories_change a {
+	padding:15px 25px;
+	font-size:14px;
+}*/
+
+#financialCalculator_modal{
+	padding: 15px 25px;
+	font-size: 14px;
+/* 2014/02/27 レイアウト ants*/
+	width:220px;
+/* 2014/02/27 レイアウト ants*/
+}
+#accessories_change a {
+	padding: 15px 25px;
+	font-size: 14px;
+}
+/* 2014/02/27 レイアウト ants */
+
+
+.sp_mode { display:none !important; }
+.tab_mode { display:none !important; }
+.pc_mode { display:block !important; }
+
+
+/* 2014/02/22 #22 */
+
+/* 2014/11/11 #DatsunVLP2 comment out start*/
+
+/*#color_name {*/
+/* 2014/02/27 レイアウト ants*/
+/*	max-width:270px;
+	width:13%;
+	margin:-3% 0 0;
+	position:relative;*/
+/* 2014/02/27 レイアウト ants*/
+/*	float:right;
+	z-index:1002;
+}
+*/
+/* 2014/11/11 #DatsunVLP2 comment out end*/
+
+/* 2014/04/07 russia非表示設定　HP*/
+#color_name span{
+	display:none;
+}
+
+#grade_box { 
+	width:13%;
+	
+/* 2014/02/27 レイアウト ants*/
+	/*left:87%;	
+*/
+	top:96px;
+	right:0;
+	left:inherit;
+	padding:0;
+/* 2014/02/27 レイアウト ants*/
+	margin:0;
+}
+
+/* 2014/02/27 レイアウト ants*/
+#grade_ex_box {
+	position:absolute;
+	top:-78px !important;
+	right:6%;
+	left:inherit;
+	bottom:inherit;
+	width:24%;
+}
+
+#grade_ex_box p.grade_title {
+	text-align:center;
+	margin:5px auto;
+	float:none;
+}
+
+#ex_list {
+	width:100%;
+	
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+.vlp-finance-overlay label span {
+	font-size:18px;
+}
+
+/* 2014/11/11 #DatsunVLP2 comment out start*/
+/*
+#car_spac_color_box {
+	width:13%;
+	max-width:270px;
+}
+*/
+/* 2014/11/11 #DatsunVLP2 comment out end*/
+
+#car_spac_color_box2 {
+	display:none;
+}
+
+#h2_accessories {
+	margin:40px 0 20px;padding:0;
+}
+
+#dealer-locator .form fieldset legend#pin {
+	font-size:33px;
+}
+/* 2014/3/2 #act ants : start */
+#accessories_contents .thumb_inner {
+	margin:0 10px;
+}
+/* 2014/3/2 #act ants : end */
+
+/* 2014/3/6 #news ants : start */
+#modalWrapper .full-size-imgs img {
+	height:438px; max-width:100%;
+	width:auto!important;
+}
+#modalWrapper .datsun_slideshow .full-size-imgs img,
+#modalWrapper.news_slider .full-size-imgs img {
+	height:410px;
+	display:block;
+	margin:0 auto 45px auto;
+}
+#modalWrapper.news_slider .full-size-imgs h3.contents_sub_title,
+#modalWrapper.news_slider .full-size-imgs p.contents_sub_description{
+	padding:0 30px;
+}
+/* 2014/3/6 #news ants : end */
+
+
+/* 20130303 #news ants start */
+#top_slider_movies h3.contents_sub_title,
+#movieTemplate .moview_news_spacer h3.contents_sub_title,
+#media_library .contents_sub_title{
+	font-size:24px;
+}
+#movieTemplate .moview_news_spacer p.contents_sub_description,
+#media_library .contents_sub_description {
+	font-size:18px;
+}
+/* 20130303 #news ants end */
+
+/* 2014/3/4 #spnav ants start */
+.nopc{
+	display:none!important;
+}
+.jsNavigation_sep li{
+	width:auto;
+	float:left;
+}
+.jsNavigation_sep ul{
+	float:left;
+}
+
+.jsNavigation_sep li:first-child{
+	float:left;
+}
+.navigation li.social_navi a{
+	padding:6px 12px 6px 12px;
+	line-height:30px;
+}
+.header_navi_icon {
+	margin-right:10px;
+	vertical-align:top;
+	width:30px;
+}
+.jsNavigation_sep li#our_owning a,/* 2014/7/25 #owning */
+.jsNavigation_sep li:nth-child(2n) span,
+.jsNavigation_sep li:nth-child(2n) a {
+	border:none;
+}
+/* 2014/3/4 #spnav ants end */
+
+/* 2014/4/30 #header ants :start */
+.jsNavigation_sep .sep span{
+	visibility:hidden;
+}
+/* 2014/4/30 #header ants :end */
+
+/* 2014/03/06 */
+#map_btns li > .btn_normal_details > a {
+	min-width:220px;
+}
+
+#map_btns li .box_hidder{
+	height:57px;
+}
+
+/* 2014/03/05 */
+#finan_btn_list li {
+	float:right;
+	margin:0 0 0 1%;
+}
+
+#finan_btn_list li .box_hidder {
+	height:57px;
+}
+/* 2014/3/6 #acc ants : start */
+#accessories_back {
+	margin:0; padding:0;
+	font-size:16px;
+}
+/* 2014/3/6 #acc ants : end */
+
+/* 2014/03/10 */
+/* 2014/11/17 comment out start
+#color_china_blue {
+	margin:25% auto 5px !important;
+}
+   2014/11/17 comment out end */
+
+#main_car_imgs .top_imgs_box_btn {
+	clear:both;
+	margin:60px 0 0;
+}
+
+
+#in_list {
+	border:none;
+}
+
+#in_list li{
+	height:24px;
+	line-height:24px;
+	border-left:1px solid #dadada;
+	border-right:1px solid #dadada;
+}
+
+#in_list li.active {
+	border-top:1px dotted #8b8b8b;
+	border-bottom:1px dotted #8b8b8b;
+	border-left:none;
+	border-right:none;
+}
+
+#in_list li:last-child {
+	border-bottom:1px solid #dadada;
+}
+
+/* 2014/03/13 */
+#get_inside .pos_rel_init{padding: 0;}
+
+/* 2014/04/28 ns */
+.main_car_btn_started_notopen { margin:0; }
+
+#hfc_modal .sand_inner {
+	width:89%;
+}
+
+
+/* 2014/06/23 TCO ants  */
+.tco_dl dt.qr1_dt {
+	width:32%;
+	clear:inherit;
+}
+
+.tco_dl dd.qr1_dd {
+	width:20%;
+	margin:0 2% 10px 1%;
+	float:left;
+}
+
+.tco_dl dt.qr2_dt {
+	width:25%;
+	clear:inherit;
+}
+
+.tco_dl dd.qr2_dd {
+	width:20%;
+	margin:0 0 10px;
+	float:left;
+}
+
+.total_detail .tco_dl dt {
+	width:65%;
+}
+
+.total_detail .tco_dl dt span{
+	display:inline-block;
+	float:left;
+}
+
+.total_detail .tco_dl dt .col5 {
+	width:54%;
+}
+.total_detail .tco_dl dd {
+	width:35%;
+	margin:0 0 10px 65%;
+}
+
+/* 2014/7/25 #owning ants : start */
+#our_models_pulldown_sp,
+#our_buying_pulldown_sp,
+#our_owning_pulldown_sp{
+	display:none!important;
+}
+/* 2014/7/25 #owning ants : end */
+
+.tco_table tbody th,
+.tco_table tbody td {
+	font-size:1em;
+}
+
+#tco_deatil_img {
+	font-size:1.8em;
+}
+
+#tco_deatil_img #go {
+	line-height:1.1em;
+	position:absolute;
+	top:56%;left:8%;
+	font-family:'Datsun';	
+}
+
+/* 2014/10/28 #DatsunVLP2 start*/
+#car_spac_list {
+	width:25%;
+	float:left;
+	margin:0;
+}
+
+.intro-image-container {
+	width:100%;
+	height:auto !important;
+	max-width: 830px !important;
+	margin:-7% -1%  0 !important;
+	float:left;
+}
+
+#intro-container {
+	width: 100% !important;
+	height:470px !important;
+}
+
+#car_spac_color_box {
+	width:10%;
+	top:25px;
+	max-width:76px;
+}
+
+#color_name {
+	max-width:270px;
+	width:10%;
+	margin:-130px 0 0;
+	position:relative;
+	float:right;
+}
+
+#car_spac_color_box li span {
+	padding:7px;
+}
+/* 2014/10/28 #DatsunVLP2 end*/

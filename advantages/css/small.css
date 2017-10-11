@@ -1,0 +1,2797 @@
+
+html { font:16px/1.5 "Helvetica Light","Helvetica Neue Light","Neue Helvetica Light","Arial Light","Arial Std Light",Helvetica,"Helvetica Neue","Neue Helvetica",Arial,Verdana,Geneva,sans-serif; }
+body{
+	color:rgb(0,0,103);
+	-webkit-text-size-adjust:100%;
+}
+img { max-width:100%; }
+
+/* 2013/3/18 #gmap img ants start */
+.gmnoprint img, .gm-style img{
+	max-width:none!important;
+}
+/* 2013/3/18 #gmap img ants end */
+
+/* Override Global Styles */
+blockquote, h1, h2 {
+	font-family:'Datsun',sans-serif;
+}
+p { font-size:14px; }
+
+/* clearfix */
+#header,.separate_side_contents {_height:1px;min-height:1px;overflow:hidden;}
+#header:after,.separate_side_contents:after {height:0;visibility:hidden;content:".";display:block;clear:both;}
+
+/* layout styels */
+
+#header {
+/* 2014/4/28 #header ants start */
+	min-height:50px;
+	min-width:242px;
+	position:absolute;
+	width:100%;
+	z-index:998;
+	overflow:hidden;
+	font:16px/1.5 "Helvetica Light","Helvetica Neue Light","Neue Helvetica Light","Arial Light","Arial Std Light",Helvetica,"Helvetica Neue","Neue Helvetica",Arial,Verdana,Geneva,sans-serif!important;
+/*
+	background:-webkit-gradient(linear,left top,left bottom,from(#1b1635),to(#408cb6));
+	background:-webkit-linear-gradient(left,#1b1635 0,#408cb6 100%);
+	background:-moz-linear-gradient(top,#1b1635,#408cb6);
+	background:-ms-linear-gradient(left,#1b1635 0,#408cb6 100%);
+	background:linear-gradient(to right,#1b1635 0,#408cb6 100%);
+	-webkit-transition:all 300ms ease-in-out;
+	-moz-transition:all 300ms ease-in-out;
+	-ms-transition:all 300ms ease-in-out;
+	transition:all 300ms ease-in-out;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1b1635', endColorstr='#408cb6', GradientType=1);
+*/
+/* 2014/4/28 #header ants end */
+}
+/* 2014/4/10 #dealer ants start */
+#header p{
+	margin:0!important;
+}
+/* 2014/4/10 #dealer ants end */
+#header.header_fixed{
+	position:fixed!important;
+}
+/* 2014/3/4 #spmenu : end */
+
+/* 2014/4/24 #header ants : start */
+#sitelogo {
+	float:left;
+	width:82px;
+	height:50px;
+	margin:0;
+	padding:0;
+}
+#sitelogo a{
+	position:relative;
+	top:0;
+	left:0;
+	display:block;
+	width:82px;
+	height:50px;
+	margin:0;
+	padding:0;
+	background:url("/~/media/Images/DATSUN/Shared/img/common/logo.png") no-repeat 0 0;
+	background-size:82px 50px;
+}
+#sitelogo a img{
+	display:none;
+}
+#catchcopy {
+	float:left;
+	position:relative;
+	width:91px;
+	height:50px;
+	margin:0;
+	padding:0;
+	background:url("/~/media/Images/DATSUN/Shared/img/common/break_through.png") no-repeat 0 0;
+	background-size:91px 50px;
+}
+#catchcopy img{
+	display:none;
+}
+#contents_header{
+	margin:0;
+	border:0px solid transparent;
+}
+/* 2014/4/24 #header ants : end */
+
+#gnavi_wrapper {
+	float:right;
+}
+#gnavi li {
+	float:left;
+	width:50px;
+	height:50px;
+	line-height:50px;
+	border-left:1px solid #839fb6;
+	text-align:center;
+}
+#gnavi li#jsSearchBtn {
+	padding-top:3px;
+	height:47px;
+	line-height:47px;
+}
+#gnavi li#menuBtn {
+	width:60px;
+}
+.navigation {
+	clear:both;
+	display:none;
+	overflow:hidden;
+}
+.navigation_first{
+	border-top:1px solid #4c516c;
+}
+.navigation_second{
+	margin-left:0!important;
+}
+/* 2014/3/4 #spnav nolink ants : start */
+.jsNavigation_sep li.sep span,
+/* 2014/3/4 #spnav nolink ants : end */
+.navigation li a {
+	display:block;
+	padding:12px 15px 12px;
+	border-bottom:1px solid #4c516c;
+	color:#9199a9;
+	text-decoration:none;
+	font-family:'Datsun';
+	font-weight:normal;
+	font-size:12px;
+}
+.navigation li a:hover,.navigation li.active a {
+	color:#fff;
+}
+.right_contents_group {
+	display:none;
+	font-family:'Datsun';
+	font-weight:normal;
+}
+.navigation .arrow { display:none; }
+
+#main_car_imgs {
+    min-height:350px;
+    background:none;
+	position:relative;
+	z-index:1;
+}
+#sns_menu {
+	display:none;
+}
+.contents_widther {
+	width:88%;
+	padding:0 5%;
+	margin:0 auto;
+}
+.contents_spacer {
+	padding:20px 0;
+}
+
+#accessible_price_contents {
+	margin:10px 0 20px;
+	font-size:10px;
+	line-height:1.8;
+}
+#accessible_price_contents .one_contents_spacer {
+	padding:15px;
+	margin:0 7px;
+	background:#eee;
+}
+#accessible_price_contents .one_contents_spacer .accessible_list { position:static; }
+#accessible_price_contents .one_contents_spacer .accessible_list li { float:none; }
+#accessible_price_contents strong { font-size:15px; }
+.one_border_lines {
+	padding:15px 0;
+	border-bottom:1px dashed #b5b5b5;
+}
+.one_border_lines:first-child { padding:0; }
+#accessible_price_contents .price_title { font-size:18px; }
+#accessible_price_contents .price_text {
+	font-size:16px;
+	color:rgb(0,0,103);
+	font-family:'DatsunBold';
+}
+#accessible_price_contents .price_starting {
+	padding-top:3px;
+	line-height:1.2;
+}
+#accessible_price_contents .price_starting strong { font-size:10px; }
+.price_box { margin-bottom:15px; }
+.accessible_list {
+	list-style:square;
+	margin:15px 0 0 15px;
+	color:#c71641;
+}
+.datsun_slider .accessible_list {
+	position:static;
+}
+.datsun_slider .accessible_list li {
+	float:none;
+}
+.accessible_list span { color:#333; }
+
+#get_inside_navigation li {
+	border-bottom:1px solid #e3e3e3;
+	position:relative;
+}
+#get_inside_navigation li a {
+	display:block;
+/* 2014/02/28 レイアウト修正 s */
+/*
+	padding:20px;
+	padding-right:60px;
+	*/
+    padding:20px 15% 20px 5%;
+/* 2014/02/28 レイアウト修正 e */
+	font-family:'DatsunLight';
+	color:rgb(0,0,103);
+	text-decoration:none;
+	font-size:20px;
+}
+
+.arrow {
+	position:absolute;
+	top:34px;
+	right:7%;
+	margin-top:-5px;
+}
+.arrow:after,
+.arrow:before {
+	content:"";
+	display:block;
+	position:absolute;
+}
+.arrow:after {
+	border:8px solid transparent;
+	border-top-color:rgb(0,0,103);
+	top:0;
+	right:0;
+	z-index:1;
+}
+.arrow:before {
+	border:7px solid transparent;
+	border-top-color:#fff;
+	top:0;
+	right:1px;
+	z-index:10;
+}
+.arrow_right {
+	position:absolute;
+	top:50%;
+	right:7%;
+	margin-top:-5px;
+}
+.arrow_right:after,
+.arrow_right:before {
+	content:"";
+	display:block;
+	position:absolute;
+}
+.arrow_right:after {
+	border:8px solid transparent;
+	border-left-color:rgb(0,0,103);
+	top:0;
+	right:0;
+	z-index:1;
+}
+.arrow_right:before {
+	border:6px solid transparent;
+	border-left-color:#fff;
+	top:2px;
+	right:4px;
+	z-index:10;
+}
+.arrow_right.arrow_white,
+.arrow_right.arrow_white:after { border-left-color:#fff; }
+.arrow_right.arrow_white:before  { border-left-color:#001e67; }
+
+.full-size-imgs img { width:100%; }
+
+#on_the_road_imgs {
+	/* 2014/02/28 レイアウト修正 s*/
+	/*margin-top:20px;*/
+	/* 2014/02/28 レイアウト修正 e*/
+	padding-bottom:25px;
+}
+#datsun_official_channel {
+	display:none;
+}
+
+/* 2014/5/1 #sns ants:start */
+#sns_area {
+	background:#f9f9f9;
+	padding:0 20px;
+}
+#sns_area li {
+	border-top:1px dashed #bfbfbf;
+	margin:0; padding:15px 0;
+	_height:1px;min-height:1px;
+}
+#sns_area li:after {
+	height:0;visibility:hidden;content:".";display:block;clear:both;
+}
+#sns_area li:first-child { border-top:0; }
+#sns_area li > img {
+	float:left;
+}
+#sns_area .social_right_area {
+	float:left;
+	margin:0; padding:0;
+	margin-left:10px;
+	line-height:20px;
+}
+#sns_area .social_right_area a{
+	margin:0; padding:0;
+	font-size:10px;
+	color:rgb(0,0,103);
+	text-decoration:none;
+}
+#sns_area .social_right_area a:hover{
+	color:rgb(0,0,53);
+	text-decoration:underline;
+}
+#sns_area .social_name {
+	color:#9b9b9b;
+	font-size:10px;
+	margin:0; padding:0;
+}
+#sns_area .sns_list li.last .social_name{
+	line-height:16px;
+}
+#site_footer {
+	margin:0;
+	padding:20px 30px 20px 30px;
+	background:#005496;
+	color: #fff;
+	text-align: center;
+	overflow:visible;
+	line-height:1;
+}
+#site_footer_nav {
+	margin:0; padding:0;
+	text-align:center;
+}
+#site_footer li {
+	margin:0; padding:0;
+	padding:0 7px;
+	display:inline-block;
+}
+#site_footer li a {
+	margin:0; padding:0;
+	color:#e3e3e3;
+	text-decoration:none;
+	font-size:11px;
+}
+#copyright {
+	margin:0; padding:0;
+	text-align:center;
+	color:#fff;
+	padding-top:20px;
+	font-size:14px;
+	line-height:1;
+}
+/* 2014/5/1 #sns ants:end */
+
+
+/* parts styles */
+.contents_titles,.on_img_titles {
+	font-family:'DatsunLight';
+	color:rgb(0,0,103);
+	font-size:23px;
+}
+.contents_subtitles {
+	font-family:'DatsunLight';
+	color:#001e67;
+	font-size:18px;
+}
+
+.btn_normal_details a {
+	display:block;
+	background:#001e67;
+	color:#fff;
+	text-decoration:none;
+	padding:10px;
+	text-align:center;
+	font-size:10px;
+	font-weight:100;
+}
+.btn_normal_details a strong { font-size:12px; }
+.btn_normal_details a strong { font-weight:normal; }
+.btn_grays a { background:#7e7e7e; }
+
+.on_img_titles {
+	position:absolute;
+	left:8%;
+	top:10%;
+	color:#fff;
+	text-align:left;
+	line-height:1.2;
+}
+.black_titles { color:#333; }
+.border_bottom_box { border-bottom:1px solid #e3e3e3; }
+
+#accessories .datsun_slider { cursor:pointer; }
+.accessories_contents { font-size:10px; }
+
+.separate_side_contents .left_side,
+.separate_side_contents .right_side {
+	float:left;
+	width:50%;
+}
+.separate_side_contents .right_side { float:right; }
+.inline_contents .inline_blocks {
+	display:inline-block;
+	vertical-align:bottom;
+}
+
+.contents_main_title_border {
+	font-size:24px;
+	font-family:'DatsunLight';
+	color:rgb(0,0,103);
+	border-bottom:2px solid #0b5997;
+	margin-bottom:15px;
+}
+.contents_sub_unit {
+	color:rgb(0,0,103);
+	margin-bottom:30px;
+	background:#fff;
+	float:left;
+	width:100%;
+}
+.contents_sub_unit .news_unit_box {
+	width:97.5%;
+	margin:0 1% 0 1.5%;
+}
+.contents_sub_title {
+	font-size:18px;
+	font-family:'Datsun';
+	font-weight:normal;
+	line-height:1.2;
+	margin:14px 0 0;
+}
+.contents_sub_title a,.contents_sub_description a,.contents_sub_description {
+	color:rgb(0,0,103);
+	text-decoration:none;
+}
+.contents_sub_description {
+	font-size:12px;
+	font-family:'Datsun';
+	font-weight:normal;	
+}
+.contents_blockquote {
+	font-size:23px;
+	font-family:'DatsunLight';
+	padding:30px 0 25px;
+	border-bottom:1px solid #0b5997;
+	line-height:1;
+}
+.contents_blockquote:before {
+	content: "“";
+	margin-right:-6px;
+}
+.contents_blockquote:after {
+	content: "”";
+	margin-left:0;
+}
+.contents_blockquote:before,
+.contents_blockquote:after {
+	display:inline-block;
+	font-family:'Datsun';
+	font-weight:normal;
+}
+
+.moview_news_spacer { padding:25px 10px 30px; }
+
+/* 2014/3/6 #news ants : start */
+#modalWrapper.news_slider .moview_news_spacer{
+	padding-left:0; padding-right:0;
+}
+/* 2014/3/6 #news ants : end */
+
+.contents_sub_unit.movie_news .latest_news { padding:0; }
+.contents_sub_unit .latest_news img {
+	font-size:0;
+	line-height:0;
+}
+.contents_sub_unit .contents_sub_description { color:rgb(0,0,103); }
+
+img.pc {
+	display:none;
+}
+.btn_normal_details.more {
+	padding-bottom:30px;
+}
+.news_release {
+	_height:1px;min-height:1px;	
+	margin-bottom:10px;
+}
+.news_release:after {height:0;visibility:hidden;content:".";display:block;clear:both;}
+.news_release dt,
+.news_release dd {
+	float:left;
+	color:rgb(0,0,103); /* 2013/3/5 #news ants */
+	font-size:14px;
+}
+.news_release dd {
+	margin-left:5px;	
+}
+.news_release dt a,
+.news_release dd a {
+	color:rgb(0,0,103);
+	text-decoration:none;
+}
+.media_library {
+	border:1px solid #d3d3d3;
+}
+.media_library_description {
+	width:70%;
+	margin:0 auto;
+	padding:20px 0;
+	color:#00529b;
+}
+.topimage_container {
+	text-align:center;
+	position:relative;
+	overflow:hidden;
+	font-size:0;
+	line-height:0;
+}
+/* 2014/3/6 #ie8 ants start */
+.topimage_title {
+	font-size:14px;
+	font-family:'Datsun';
+	font-weight:normal;
+	line-height:1.3;
+	width:100%;
+	text-align:left;
+	position:absolute;
+	bottom:0;
+	padding:15px 25px;
+	color:#fff;
+	background:rgba(0,0,0,0.4);
+	-webkit-box-sizing:border-box;
+       -moz-box-sizing:border-box;
+         -o-box-sizing:border-box;
+        -ms-box-sizing:border-box;
+            box-sizing:border-box;
+}
+.uaie8bin .topimage_title {
+	background:#000;
+	opacity:0.6;
+	filter: alpha(opacity=60);
+	-ms-filter: "alpha(opacity=60)";
+}
+/* 2014/3/6 #ie8 ants end */
+.tab_mode .img_area {
+	font-size:0;
+	line-height:0;
+}
+
+#top_area_contents {
+	background:#fbfbfb;
+}
+#top_area_contents #sns_area {
+	background:#fff;
+}
+.contents_sub_img {
+	font-size:0;
+	line-height:0;
+}
+
+#media_library_box { margin-bottom:50px; }
+
+
+.standard_text {
+	font-size:14px;
+	line-height:20px;
+	color:#666;
+}
+
+.title_spacer {
+	margin-top:10px;
+	margin-bottom:30px;
+	padding-bottom:12px;
+}
+
+.slideshow_container {
+	overflow:hidden;
+}
+.slideshow_list {
+	position:relative;
+}
+.slideshow_list li {
+	float:left;
+}
+.navigation_menu li {
+	width:40px;
+	height:40px;
+	float:left;
+	margin-left:20px;
+	cursor:pointer;
+}
+.navigation_menu li.active {
+	background-color:blue;
+}
+.modal_wrapper {
+	width:100%;
+	height:100%;
+	background-color:#333;
+	background-color:rgba(0,0,0,0.8);
+	position:absolute;
+	/*position:fixed;*/
+	top:0;
+	left:0;
+	display:none;
+	z-index:999;
+}
+.modal_container {
+	width:100%;
+	height:80%;
+	position:absolute;
+	top:10%;
+	background-color:#fff;
+/* 2014/02/27 #act ants :start */
+	overflow:hidden;
+/* 2014/02/27 #act ants :end */
+}
+.modal_closer {
+	right:5%;
+	top:15%;
+}
+#datsun_slide_top_contents .topSlideAnimation {
+/*	opacity:1!important;*/
+}
+#datsun_slide_top_contents li { position:relative; }
+#datsun_slide_top_contents li a { display:block; }
+#datsun_slide_top_contents .on_car_title,
+#datsun_slide_top_contents .on_car_catchcopy {
+	position:absolute;
+	left:7%;
+	color:rgb(0,0,103);
+	font-family:'Datsun';
+	font-weight:normal;
+/* 2014/3/2 #top pfa ants :start */
+/*	opacity:1!important;*/
+/* 2014/3/2 #top pfa ants :end */
+}
+#datsun_slide_top_contents .on_car_title {
+	top:7%;
+	font-size:25px;
+}
+
+
+/* 2014/5/29 #top pfa hp : start*/
+#datsun_slide_top_contents h2.on_car_title .h2_goplus {
+	width: 320px;
+	height: 111px;
+	display: block;
+	background:url("/~/media/Images/DATSUN/Indonesia/Home/components/Sliders/logo_goplus_sp.png") no-repeat;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+#datsun_slide_top_contents h2.on_car_title .h2_go {
+	width: 320px;
+	height: 111px;
+	display: block;
+	background:url("/~/media/Images/DATSUN/Indonesia/Home/components/Sliders/logo_go_sp.png") no-repeat;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+/* 2014/5/29 #top pfa hp : end */
+
+#datsun_slide_top_contents .on_car_catchcopy {
+	top:28%;
+	line-height:1.2;
+	font-size:18px;
+}
+
+/* 2014/11/11 #DatsunVLP2 Comment out start*/
+/*
+#car_name,#car_sub_title {
+	font-family:'Datsun';
+	font-weight:normal;
+*/
+/* 2014/02/27 レイアウト ants s */ 
+/*	font-size:72px; */
+/*	font-size:3em; */
+/* 2014/02/27 レイアウト ants e */ 
+/*
+	color:rgb(0,0,103);
+	line-height:1.3;
+	position:relative;
+	z-index:10;
+}
+*/
+/* 2014/11/11 #DatsunVLP2 Comment out end*/
+
+#car_sub_title {
+/* 2014/02/27 レイアウト ants s */ 
+/*	font-size:22px;*/
+	font-size:1.4em;
+/* 2014/02/27 レイアウト ants e */ 
+	line-height:1.1;
+}
+
+/* 2014/02/28 レイアウト修正 ants s */
+/*
+#car_spac_list {
+	width:280px;
+	font-size:0;
+	margin-top:10px;
+}
+
+#car_spac_list li {
+	display:inline-block;
+	font-size:12px;
+	color:rgb(0,0,103);
+	padding-top:5px;
+	margin-right:5px;
+	line-height:1.1;
+}
+*/
+
+/* 2014/11/11 #DatsunVLP2 Comment out start*/
+/*
+#car_spac_list {
+	font-size:0;
+*/
+/* 2014/03/06 ants s */
+/*	width:313px;*/
+/*	margin:15px 0 10px;*/
+/*	width:275px;
+	margin:5px 0 10px;
+*/
+	/* 2014/03/06 ants e */
+/*
+}
+*/
+/* 2014/11/11 #DatsunVLP2 Comment out end*/
+
+#car_spac_list li {
+	display:inline-block;
+	font-size:11px;
+	color:rgb(0,0,103);
+	line-height:1.1;
+	width:50%;
+	margin:0;padding:0;
+}
+/* 2014/02/28 レイアウト修正 ants e */
+
+/* 2014/11/11 #DatsunVLP2 Comment out start*/
+/*
+#car_spac_color_box {
+	position:absolute;
+*/
+/* 2014/02/28 レイアウト修正　ants s */
+/*	top:0;
+	right:0;
+*/
+/*
+	right:0px;
+	width:15%;
+*/
+/* 2014/02/28 レイアウト修正　ants e */
+/*	z-index:11;
+}
+*/
+/* 2014/11/11 #DatsunVLP2 Comment out end*/
+
+#car_spac_color_box li {
+/* 2014/02/22 #23 */
+/*	
+	width:50%;
+	line-height:0;
+	font-size:0;	
+	padding:7px;
+*/
+/* 2014/02/22 #23 */
+	text-align:center;
+	/* 2014/03/11 ants s*/
+	/*margin:5px auto;*/
+	margin:10px auto;
+	/* 2014/03/11 ants e*/
+}
+#car_spac_color_box li:first-child {
+	width:100%;
+	border:0;
+	padding:0;
+	
+/* 2014/02/22 */
+/*	margin:10px 0 0 0;*/
+	margin:0;
+/* 2014/02/22 */
+	outline:0;
+}
+#car_spac_color_box li span { cursor:pointer; }
+#car_spac_color_box li span {
+	line-height:0;
+	font-size:0;
+	display:inline;
+	*zoom:1;
+	display:inline-block;
+	width:20px;
+	height:20px;
+}
+#car_spac_color_box li img {
+	line-height:0;
+	font-size:0;
+}
+#car_spac_color_box li.active {
+	border:0;
+	padding:5px;
+}
+
+/* 2014/11/12 #DatsunVLP2 start */
+#car_spac_color_box li span {
+	outline:2px solid #ffffff;
+	padding:3px;
+}
+/* 2014/11/12 #DatsunVLP2 end */
+
+#car_spac_color_box li.active span {
+	outline:2px solid #005496;
+	padding:3px;
+}
+#car_spac_color_box li#color_black { margin-top:15px; }
+
+.latest_news {
+	display:block;
+	text-decoration:none;
+	color:rgb(0,0,103);
+}
+
+#accessories_main_title {
+/* 2014/3/2 #act ants : start */
+	font-size:33px;
+	margin:0 0 40px 0;
+/* 2014/3/2 #act ants : end */
+}
+
+#accessories_contents .contents_main_title_border {
+	font-size:23px;
+}
+#accessories_contents .thumb_inner img { width:100%; }
+
+.sliders {
+	overflow:hidden;
+	width:100%;
+}
+.slide_text_area {
+	padding:20px 15px;
+	border:1px solid #eaeaea;
+	border-top:0 none;
+}
+.slides { width:2000px; }
+.slides li {
+	float:left;
+	width:24.25%;
+	margin-right:1%;
+}
+.slides .img_area {
+	font-size:0;
+	line-height:0;
+}
+#sns_menu {
+	position:absolute;
+	top:25px;
+	right:0;
+	width:100px;
+}
+
+
+/* icon styles */
+#icon_search {
+	width:14px;
+	height:14px;
+	position:absolute;
+	top:50%;
+	margin-top:-7px;
+	right:43px;
+	cursor:pointer;
+}
+#icon_sns {
+	width:26px;
+	height:26px;
+	position:absolute;
+	top:-2px;
+	right:0;
+	cursor:pointer;
+}
+#icon_search img,
+#icon_sns img { vertical-align:top; }
+
+.financial_calculator {
+	max-width:1000px;
+	padding:30px;
+	margin:0 auto;
+}
+.make_your_selection,
+.payments_huh {
+	width:100%;
+}
+.make_your_selection {
+	width:100%;
+	margin-bottom:30px;
+}
+.make_your_selection_title {
+	font-size:24px;
+	font-weight:300;	
+	padding-bottom:28px;
+}
+.make_your_selection_table,
+.payments_huh_table { width:100%; }
+.make_your_selection_table th,
+.make_your_selection_table td {
+	padding:25px 0;
+	border-top:1px dotted #9b9b9b;	
+	border-bottom:1px dotted #9b9b9b;
+}
+.make_your_selection_table th {
+/* 	width:110px; */
+/* 	width:11%; */
+	padding-right:10px;
+}
+.make_your_step {
+	font-size:18px;
+}
+.input_form_huh {
+	color:#9b9b9b;
+	border:1px solid #9b9b9b;
+	min-width:162px;
+	padding:10px 8px;
+	margin-top:9px;
+}
+
+.payments_huh_title {
+	font-size:24px;
+	font-family:"Datsun";	
+	font-weight:bold;
+}
+.payments_huh_title .payments_huh_price {
+	font-size:30px;
+}
+.payments_huh_description {
+	font-size:18px;
+	font-family:"Datsun";
+	font-weight:bold;
+	color:rgb(0,0,103);
+}
+.make_your_selection_contents {
+	font-size:14px;
+	color:#9b9b9b;
+}
+.make_your_selection_contents input[name="downpayment"].amount {
+	margin-left:20px;
+}
+.payments_huh_table {
+	margin-top:19px;
+}
+.payments_huh_table th,
+.payments_huh_table td {
+	padding-top:11px;
+	padding-bottom:18px;
+	border-bottom:1px dotted #c1c1c1;
+}
+.payments_huh_table th {
+	color:#9b9b9b;
+}
+.payments_huh_table td {
+	color:#666;
+	text-align:right;
+}
+.datsun_logo_huh {
+	margin-top:90px;
+	text-align:right;
+}
+
+#hidden_area,#hidden_area2 {
+	display:none;
+	overflow:hidden;
+	margin:0; padding:0;
+	width:100%!important;
+}
+
+.car_model_modal_lists,
+.car_model_modal_lists_thumb { position:relative; }
+.one_car_model_modals {
+	display:none;
+}
+.one_car_model_modals.active { display:block; }
+.car_model_modal_title {
+	background:#939393;
+	font-family:'Datsun';
+	font-weight:normal;
+	font-size:12px;
+	color:#fff;
+	text-align:center;
+	padding:15px;
+	position:relative;
+	min-height:40px;
+	line-height:40px;
+	z-index:100;
+}
+.car_model_main_title {
+	margin:0 auto;
+	width:80%;
+/*	padding-bottom:10px;*/
+}
+.car_model_main_title h3 {
+	font-family:'Datsun';
+	font-weight:normal;
+	/* 2014/03/11 ants fix s*/
+/*	width:50%;*/
+	width:75%;
+	/* 2014/03/11 ants fix e*/
+}
+/* 2014/3/6 #acc ants start */
+.acc .car_model_main_title {
+	padding:0;
+}
+.car_model_modal_title .car_model_left_move,
+.car_model_modal_title .car_model_right_move {
+	display:inline;
+	*zoom:1;
+	display:inline-block;
+	/* 2014/03/11 ants s*/
+/*	padding:5px 15px;
+	width:12px;*/
+	padding:5px 2.5%;
+	width:5%;
+	/* 2014/03/11 ants e */
+	height:20px;
+	vertical-align:top;
+	cursor:pointer;
+	position:relative;
+	z-index:100;
+}
+.car_model_modal_title h3 {
+	display:inline;
+	*zoom:1;
+	display:inline-block;
+	line-height:1.3;
+}
+.car_model_modal_title .close_btn {
+	position:absolute;
+	top:10px;
+	right:15px;
+	cursor:pointer;
+	padding:10px 0;
+	font-size:24px;
+	height:32px;
+	line-height:32px;
+	z-index:100;
+}
+.car_model_modal_title .car_model_left_sns_btn {
+	display:block;
+	position:absolute;
+	top:10px;
+	left:15px;
+	cursor:pointer;
+	padding:10px 0;
+	height:26px;
+	width:26px;
+	z-index:100;
+}
+.car_model_contents_area {
+	color:#666;
+	/* 2014/02/25 # 8 */
+	overflow:hidden;
+	/* 2014/02/25 # 8 */
+}
+.car_model_contents_area img {
+	width:100%;
+}
+.car_model_contents_area .text_main {
+	display:inline-block;
+	padding:5px 20px 0;
+}
+
+.full_images img { width:100%; }
+
+#get_inside_navigation .full_images {
+	margin-top:15px;
+	font-size:0;
+	line-height:0;
+}
+
+.sand_contents {
+	background:#ededed;
+	padding:15px 5%;
+	cursor:pointer;
+}
+.sand_contents .sand_left { width:100%; }
+.sand_contents .sand_left li {
+	float:left;
+	border-bottom:0 none !important;
+}
+.sand_contents .sand_left img {
+	text-align:center;
+	width:100%;
+}
+
+#sp_accessories_banner ul li {
+	float:left;
+	width:100%;
+}
+
+#sp_price>ul>li { float:left; }
+
+/* 2014/02/14 #17949 ants :start */
+
+/* 2014/06/24 owning ants */
+#our_buying_pulldown_sp,#our_buying_pulldown,
+#our_models_pulldown_sp,#our_models_pulldown,#pull_downs,
+#our_owning_pulldown_sp,#our_owning_pulldown,
+#site_footer li#pc_language_selecter,#pc_pull_downs {
+	display:none;
+	position:relative;
+	overflow:hidden;
+}
+#pull_downs {
+	background:#005496;
+	padding-bottom:20px;
+}
+#pull_downs li {
+	display:block;
+	background:#3f88b7;
+	border-top:1px solid #005496;
+}
+#pull_downs li a {
+	display:block;
+	padding:10px;
+	font-size:10px;
+	color:#005496; /* 2014/3/10 #nav ants */
+	text-decoration:none;
+	text-align:center;
+}
+/* 2014/5/1 #sns ants:start */
+#language_selecter {
+	display:block;
+	background:#005496;
+	color:#fff;
+	text-align:center;
+	font-size:10px;
+	padding:15px 0;
+}
+#language_selecter.language {
+	position:relative;
+	display:block;
+	margin:0; padding:20px 15px 15px;
+	cursor:pointer;
+	line-height:1.5;
+}
+/* 2014/5/1 #sns ants:end */
+#language_selecter .arrow {
+	top:30px;
+	right:38%;
+}
+#language_selecter .arrow:before {
+	border-width:4px;
+	border-bottom-color:transparent;
+	border-top-color:#005496; /* 2014/3/10 #nav ants */
+}
+#language_selecter .arrow:after {
+	border-width:5px;
+	border-bottom-color:transparent;
+	border-top-color:#fff;
+}
+
+/* 2014/02/23 #buying ants :start */
+/* 2014/06/24 #owning ants :start */
+#our_buying_pulldown_sp,#our_buying_pulldown,
+#our_models_pulldown_sp,#our_models_pulldown,
+#our_owning_pulldown_sp,#our_owning_pulldown {
+	background:#fff;
+	width:100%;
+	z-index:101;
+	border-bottom:2px solid #005496;
+}
+#our_buying_pulldown_sp li,#our_buying_pulldown li,
+#our_models_pulldown_sp li,#our_models_pulldown li,
+#our_owning_pulldown_sp li,#our_owning_pulldown li  {
+	float:left;
+	font-family:'DatsunLight';
+	padding:30px 0 20px 60px;
+}
+#our_buying_pulldown_sp li,
+#our_models_pulldown_sp li,
+#our_owning_pulldown_sp li {
+	width:50%;
+	padding:0;
+	-webkit-box-sizing:border-box;
+       -moz-box-sizing:border-box;
+         -o-box-sizing:border-box;
+        -ms-box-sizing:border-box;
+            box-sizing:border-box;
+}
+#our_buying_pulldown_sp li,
+#our_owning_pulldown_sp li{
+	float:none;
+	width:100%;
+}
+#our_buying_pulldown_sp li a,#our_buying_pulldown li a,
+#our_models_pulldown_sp li a,#our_models_pulldown li a,
+#our_owning_pulldown_sp li a,#our_owning_pulldown li a {
+	text-decoration:none;
+}
+
+#our_buying_pulldown_sp li a,
+#our_models_pulldown_sp li a,
+#our_owning_pulldown_sp li a { border:0 none; }
+
+/* 2014/02/28 #36 ants :end */
+#our_buying_pulldown_sp li a span,#our_buying_pulldown li a span,#our_owning_pulldown_sp li a span, #our_owning_pulldown li a span{
+	font-size:20px;
+	line-height:25px;
+	display:block;
+	color:rgb(0,0,103);
+	font-weight:300;
+}
+#our_models_pulldown_sp li a span,#our_models_pulldown li a span {
+	font-size:25px;
+	line-height:30px;
+	display:block;
+	color:rgb(0,0,103);
+}
+/* 2014/02/28 #36 ants :end */
+
+#our_buying_pulldown_sp li a span:hover,
+#our_buying_pulldown li a span:hover,
+#our_owning_pulldown_sp li a span:hover,
+#our_owning_pulldown li a span:hover{
+	color:#666!important;
+}
+
+/* 2014/3/4 #spnav ants start */
+
+.jsNavigation{
+	overflow:hidden;
+	margin:0; padding:0;
+}
+#our_models{
+	overflow:hidden;
+}
+.jsNavigation_sep li{
+	width:50%;
+	float:right;
+}
+.jsNavigation_sep li:first-child{
+	float:left;
+}
+.navigation li.social_navi a{
+	padding:6px 12px 6px 12px;
+	line-height:30px;
+}
+.header_navi_icon {
+	margin-right:10px;
+	vertical-align:top;
+	width:30px;
+}
+/*.jsNavigation_sep li#our_owning a,/* 2014/7/25 #owning */
+.jsNavigation_sep li:nth-child(2n) span,
+.jsNavigation_sep li:nth-child(2n) a {
+	border-left:1px solid #4c516c;
+}
+/* 2014/3/4 #spnav ants end */
+
+@media screen and (max-width:480px){
+	#our_models_pulldown_sp li a,#our_models_pulldown li a { text-decoration:none; }
+	#our_models_pulldown_sp li a { border:0 none; }
+	#our_models_pulldown_sp li a span,#our_models_pulldown li a span {
+		font-size:17px;
+	}
+	#our_buying_pulldown_sp li a,#our_buying_pulldown li a { text-decoration:none; }
+	#our_buying_pulldown_sp li a { border:0 none; }
+	#our_buying_pulldown_sp li a span,#our_buying_pulldown li a span {
+		font-size:17px;
+	}
+}
+/* 2014/02/23 #17949 ants :end */
+
+
+.sp_search_unit{
+/* 2014/02/14 #searchbox ants :start */
+	padding:21px 26px 21px 11px;
+/* 2014/02/14 #searchbox ants :end */
+	clear:both;
+	display:none;
+	border-top:1px solid #48455e;
+	position:relative;
+}
+.sp_search_box_input{
+	padding:10px;
+	width:100%;
+	border-radius:0;
+}
+#header .right_contents_group {
+	padding:6px 0;
+}
+
+
+
+/* 2014/02/14 #searchbox ants :start */
+/* search form */
+#cse-search-form {
+	width:100%;
+	margin:0; padding:0;
+    margin:0 auto;
+    position:relative;
+}
+#cse-search-form .cse form.gsc-search-box,
+#cse-search-form form.gsc-search-box {
+  padding:0 5px!important;
+  margin-bottom:0!important;
+}
+#cse-search-form .gsc-control-cse,
+#cse-search-form .gsib_a{
+    margin:0!important;
+    padding:0!important;
+}
+#cse-search-form table.gsc-search-box td,
+#cse-search-form table.gsc-search-box input {
+    vertical-align:middle!important;
+}
+#cse-search-form input[type="text"]{
+	margin:0; padding:0 60px 0  0;
+	height:30px;
+}
+#cse-search-form input[type="text"]:focus {
+    outline:0;
+}
+#cse-search-form #cse-search-form-iw-id1{
+    border:none!important;
+}
+
+#cse-search-form .cse input.gsc-search-button,
+#cse-search-form input.gsc-search-button {
+	border:none;
+	background:url("/~/media/Images/DATSUN/Shared/images/common/icon_search_small.png") no-repeat 0 0;
+	text-indent:-9999px;
+	min-width:15px;
+	width:15px; height:15px;
+}
+/* 2014/02/14 #searchbox ants :end */
+
+
+.top_bg_car_img{
+	width:100%;
+	margin-top:30px;
+	min-height:200px;
+}
+.top_bg_car_img img { display:none; }
+.top_bg_car_img img:first-child { display:inline; }
+.navigation_inside{
+	clear:both;
+	background-color:#dadada;
+	display:none;
+}
+.navigation_inside li.active a {
+    color:#FFFFFF;
+}
+.navigation_inside li a {
+    color:#9199A9;
+    display:block;
+    font-family:'Datsun';
+    font-weight:normal;
+    font-size:14px;
+    padding:12px 0 12px 20px;
+    text-decoration:none;
+    border-top:1px solid #efefef;
+}
+
+
+#accessible_price_contents .one_contents_spacer{
+	color:#343434;
+	padding:20px;
+}
+#accessible_price_contents .price_title{
+	font-size:26px;
+	line-height:0.8;
+}
+#accessible_price_contents .price_text{
+	font-size:17px;
+	line-height:1;
+}
+#accessible_price_contents .price_starting{
+	padding:0;
+	/*margin-top:-12px;*/
+}
+.separate_side_contents .left_side{
+	
+}
+.separate_side_contents .right_side{
+	color:#6a6a6a;
+}
+.accessible_list span{
+	color:#070707;
+}
+#map_title{
+	color:#343434;
+}
+#copyright{
+	color:#e3e3e3;
+	font-size:13px;
+	letter-spacing:0.1em;
+}
+.contents_blockquote{
+	font-size:25px;
+}
+#sns_area{
+	width:88%;
+	padding:0 6%;
+	margin:0 auto;
+}
+.social_btn_unit{
+	margin:0 auto 25px;
+}
+.social_btn_unit img{
+	float:left;
+}
+/* 2014/02/28 レイアウト修正 ants s */
+/*
+#car_spac_list{
+	width:225px;
+}*/
+/* 2014/02/28 レイアウト修正 ants e */
+
+#main_contents {
+	max-width:1600px;
+	margin:0 auto;
+}
+
+#accessories_contents .accessories_inner {
+	border:0;
+	margin:0; padding:10px;
+}
+
+#accessories_contents .thumb_inner {
+	margin:0; padding:0;
+	border:1px solid #eaeaea;
+	box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -ms-box-sizing:border-box; -o-box-sizing:border-box;
+}
+#accessories_contents .sand_left img,
+#accessories_contents .sand_center_left img,
+#accessories_contents .sand_center_right img,
+#accessories_contents .sand_right img {
+	display:block;
+	font-size:0;
+	line-height:0;
+}
+
+#accessories_contents .accessories_inner .contents_titles {
+	font-size:23px !important;
+	-webkit-text-size-adjust:none;
+}
+#accessories_contents .accessories_inner .standard_text {
+	font-size:14px !important;
+	
+}
+
+/* Datsun Slider */
+.datsun_slider,.datsun_slider4,.datsun_slider4_acs,.datsun_slideshow,.datsun_slider_singles {
+	width:100%;
+	position:relative;
+	overflow:hidden;
+}
+.datsun_slider a,.datsun_slider4 a,.datsun_slider4_acs a,.datsun_slideshow a,.datsun_slider_singles a {
+	text-decoration:none;
+	color:rgb(0,0,103);
+}
+.datsun_slider ul,.datsun_slider4 ul,.datsun_slider4_acs ul,.datsun_slideshow ul,.datsun_slider_singles ul {
+	position:absolute;
+	z-index:100;
+}
+.arrowsNavigation { width:100%; }
+.datsun_slider ul li,.datsun_slider4 ul li,.datsun_slider4_acs ul li,.datsun_slideshow ul li,.datsun_slider_singles ul li {
+	float:left;
+}
+.datsun_slider ul li img,.datsun_slider4 ul li img,
+.datsun_slider4_acs ul li img,.datsun_slideshow ul li img,
+.datsun_slider_singles ul li img {
+	width:100%;
+}
+
+.datsun_slider .dotNavigation,.datsun_slider4 .dotNavigation,
+.datsun_slider4_acs .dotNavigation,.datsun_slideshow .dotNavigation,
+.datsun_slider_singles .dotNavigation {
+	position:absolute;
+	height:14px;
+	margin:8px auto 10px;
+}
+/* 2014/4/8 ants start */
+.bullet-pagination li a,.datsun_slider .dotNavigation li a,.datsun_slider4 .dotNavigation li a,.datsun_slider4_acs .dotNavigation li a,.datsun_slideshow .dotNavigation li a,.datsun_slider_singles .dotJavigation li a { display:block; }
+.bullet-pagination li.active,.datsun_slider .dotNavigation li.active,.datsun_slider4 .dotNavigation li.active,.datsun_slider4_acs .dotNavigation li.active,.datsun_slideshow .dotNavigation li.active,.datsun_slider_singles .dotNavigation li.active { background-position:-12px 0; }
+@media screen and (-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx) {
+	.bullet-pagination li.active,.datsun_slider .dotNavigation li.active,.datsun_slider4 .dotNavigation li.active,.datsun_slider4_acs .dotNavigation li.active,.datsun_slideshow .dotNavigation li.active,.datsun_slider_singles .dotNavigation li.active { background-position:0 0; }
+}
+/* 2014/4/8 ants end */
+.datsun_slider .thumb_inner,
+.datsun_slider_singles .thumb_inner {
+	width:96%;
+	margin:0 2%;
+}
+
+#movieTemplate,#media_library,#top_slider_movies { padding:30px; }
+#movieTemplate .moview_news_spacer { padding:0; }
+
+/* 20130303 #news ants start */
+#top_slider_movies h3.contents_sub_title,
+#movieTemplate .moview_news_spacer h3.contents_sub_title,
+#media_library .contents_sub_title{
+	margin-bottom:0;
+}
+#movieTemplate .moview_news_spacer p.contents_sub_description,
+#media_library .contents_sub_description {
+	font-size:14px;
+}
+/* 20130303 #news ants end */
+
+.car_model_modals_thumbnavigation {
+	width:94%;
+	padding:10px 3% 5px;
+	background:#ededed;
+	position:relative;
+	z-index:2;
+}
+.car_model_modals_thumbnavigation li {
+	float:left;
+	width:60px;
+	margin-right:3px;
+	filter:alpha(opacity=50);
+	-moz-opacity:.5;
+	opacity:.5;
+}
+.car_model_modals_thumbnavigation li.active {
+	filter:alpha(opacity=100);
+	-moz-opacity:1;
+	opacity:1;
+}
+.car_model_modals_thumbnavigation li a {
+	display:block;
+}
+.prev_arrow_thumb,
+.next_arrow_thumb {
+	position:absolute;
+	top:50%;
+	margin-top:-30px;
+}
+.pop_sns_menu {
+	display:none;
+	background:#939393;
+	position:absolute;
+	top:60px;
+	left:-10px;
+	width:108px;
+	padding:20px 10px 20px 20px;
+}
+.pop_sns_menu li { float:left; }
+
+.accessories_list_slider .sand_left,
+.accessories_list_slider .sand_center,
+.accessories_list_slider .sand_right,
+.datsun_slider4 .sand_left,
+.datsun_slider4 .sand_center_left,
+.datsun_slider4 .sand_right,
+.datsun_slider4 .sand_center_right,
+.datsun_slider4_acs .sand_left,
+.datsun_slider4_acs .sand_center_left,
+.datsun_slider4_acs .sand_right,
+.datsun_slider4_acs .sand_center_right { float:left; }
+.accessories_list_slider .sand_left img,
+.accessories_list_slider .sand_center img,
+.accessories_list_slider .sand_right img,
+.datsun_slider4 .thumb_modals_left img,
+.datsun_slider4 .sand_left img,
+.datsun_slider4 .sand_center_left img,
+.datsun_slider4 .sand_right img,
+.datsun_slider4 .sand_center_right img { width:100%; }
+
+#pc_price .one_contnets,
+#pc_price .rest_one_contnets { float:left; }
+
+.datsun_slider_firstContents,
+.datsun_slider_finalContents {
+	position:absolute;
+	top:0;
+}
+.datsun_slider_firstContents { right:-50%; }
+.datsun_slider_finalContents { left:-50%; }
+
+.toggle_only li {
+	width:50%;
+	float:left;
+}
+.toggle_only li:nth-child(2n) a { border-left:1px solid #eaebec; }
+.toggle_only li a {
+	color:#8d8d8d;
+	background:#d5d6d8;
+}
+.navigation .toggle_only li a { border-bottom:1px solid #eaebec; }
+.navigation .toggle_only li.active a,.navigation .toggle_only li.active a:hover { color:#333; }
+#our_models_navigation { display:none; }
+
+
+/* 2014/3/5 #acc ants : start */
+#accessories_contents {
+	margin-top:-20px!important;
+}
+#accessories_back {
+	text-align:right;
+	margin:0 0 20px 0; padding:0;
+	font-size:12px;
+}
+#accessories_back a {
+	color:#555;
+}
+/* 2014/3/5 #acc ants : end */
+
+.social_header_icon_img{
+	float:left;
+	line-height:0;
+	width:44px;
+	height:44px;
+	margin-right:10px;
+}
+/* 2014/03/11 ants s*/
+.social_header_icon_img a{
+	display:block;
+}
+/* 2014/03/11 ants e*/
+
+#car_model_modal_thumb {
+	position:relative;
+	top:0;
+	left:0;
+}
+
+.pos_ab { position:absolute; }
+.main_car_area_btns_active,.modal_window_wrapper { display:none; }
+
+.main_car_area_btns_active a { margin-top:10px; }
+
+#accessories_contents .thumb_inner {
+	cursor:pointer;
+}
+
+.datsun_list { float:left; }
+.datsun_outer {
+	width:98%;
+	margin:0 1%;
+}
+
+.hidden_area { display:none; }
+
+#with_datsun {
+	margin:40px auto 10px;
+	/* 2014/02/28 レイアウト修正 s */
+	/*width:88%;*/
+	width:100%;
+	/* 2014/02/28 レイアウト修正 e*/
+}
+#experience_title { margin-bottom:10px; }
+
+#main_sections {
+	position:relative;
+	z-index:1;
+	/* レイアウト修正 */
+	overflow:hidden;
+	/* レイアウト修正 */
+	/* 2014/3/2 gnav残る start */
+	padding-top:50px;
+	/* 2014/3/2 gnav残る end */
+}
+
+#get_inside_player{
+	text-align:center;
+	height:260px;
+	overflow:hidden;
+	margin:0 0 15px;
+}
+#get_inside_player img{
+	width:auto;
+	max-width:none;
+	height:260px;
+}
+
+#map_btns li { margin-bottom:10px; }
+
+.box_hidder.top_imgs_box_btn { margin-top:20px; }
+
+.car_model_separate_left {
+	font-size:0;
+	line-height:0;
+	overflow:hidden;
+}
+.car_model_separate_left img {
+	width:100%;
+	position:relative;
+	z-index:1;
+}
+
+
+
+/* !important styles */
+.pos_rel_init { position:relative !important;}
+.tac{text-align:center;}
+
+.mb10 { margin-bottom:10px !important; }
+.mb20 { margin-bottom:20px !important; }
+
+.fr { float:right !important; }
+.tab_mode { display:none !important; }
+.pc_mode { display:none !important; }
+.sp_mode { display:block !important; }
+
+
+/* 2014/02/20 0017783:USP  */
+.separate_right .left_side,
+.separate_left .right_side {
+	width:40%;
+}
+
+.separate_right .right_side,
+.separate_left .left_side {
+	width:55%;
+}
+
+.separate_side_contents {
+	border-top:1px solid #e3e3e3;
+}
+
+#pc_price .separate_side_contents {
+	border:none;
+}
+.separate_side_contents .img_area img {
+	width:100%;
+}
+
+/* 2014/02/20 #7*/
+.sand_contents{
+	margin:0 0 5%;
+}
+
+/* 2014/02/22 #7 */
+#color_name {
+	width:100%;
+	margin:0; padding:20px 0;
+	border-top:1px #8b8b8b dotted;
+	text-align:center;
+	color:#001e67;
+}
+
+/* 2014/04/07 russia非表示設定　HP*/
+#color_name span{
+	display:none;
+}
+/* 2014/02/22 #23 */
+/* 2014/02/28 レイアウト修正　ants s */
+
+/* 2014/11/11 #DatsunVLP2 Comment out start*/
+/*
+#grade_box {
+	position:absolute;
+	left:0;
+	width:25%;
+	z-index:1001;
+}
+*/
+/* 2014/11/11 #DatsunVLP2 Comment out end*/
+
+#grade_ex_box {
+	width:100%;
+	margin:0 auto 10px;
+	position:absolute;
+	left:0;
+	text-align:center;
+	z-index:1001;
+}
+
+#grade_ex_box p,
+#grade_ex_box ul{
+	float:left;
+	
+}
+
+#grade_box .grade_title {
+	color:#666666;
+	font-size:73%;
+	line-height:15px;
+	margin:0;
+	width:5em;
+	text-align:left;
+	font-weight:bold;
+}
+
+#grade_ex_box .grade_title {
+	color:#666666;
+	margin:5px 1% 0 24%;
+	width:20%;
+	font-weight:bold;
+	text-align:right;
+}
+
+/* 2014/11/11 #DatsunVLP2 Comment out start*/
+/*
+.grade_lists {
+	height:30px;
+	min-width:105px;
+	width:30%;
+	margin:0; padding:0;
+	border:1px solid #e3e3e3;
+	overflow:hidden;
+	color:#001e67;
+}
+*/
+/* 2014/11/11 #DatsunVLP2 Comment out end*/
+
+.grade_lists li {
+	height:26px;
+	line-height:26px;
+	padding:2px 10px;
+	text-align:center;
+	background:#f7f7f7;
+	position:relative;
+}
+
+.grade_lists li a {
+	color:#001e67;
+	text-decoration:none;
+}
+
+.grade_lists li.active {
+	/* 2014/03/12 ants s */
+	/*background:#fff;*/
+	background:transparent;
+	/* 2014/03/12 ants e */
+}
+
+.grade_lists .arrow {
+	top:40%;
+	margin:0;
+}
+
+
+.grade_lists li.level_2 {
+	border-top:1px #dadada solid;
+	border-bottom:1px #dadada solid;
+	font-weight:bold;
+}
+
+/* 2014/11/11 #DatsunVLP2 Comment out start*/
+/*
+#car_spac_color_box2 {
+	* 2014/03/17　カラーを4色に *
+	*width:185px; 5色時*
+	width:150px;
+	* 2014/03/17　カラーを4色に *
+	margin:0 auto 10px;
+	clear:both;
+}
+*/
+/* 2014/11/11 #DatsunVLP2 Comment out end*/
+
+#car_spac_color_box2 li {
+	max-width:27px;
+	/* カラーバッジ複数対応 2014/04/02 start */
+	/*width:18%;*/
+	/* カラーバッジ複数対応 2014/04/02 end */
+	margin:0 5px;padding:0;
+	float:left;
+	text-align:center;
+}
+
+.car_model_separate_right {
+	margin:50px 0 0;
+	padding:0 0 20px;
+	overflow-y:auto;
+}
+
+
+/* 2014/02/24 レイアウト修正　*/
+#financialCalculator .vlp-finance-overlay {
+	width:98%;
+	margin:0;padding:5% 1%;
+}
+
+.vlp-finance-overlay .makeYourSelection,
+.vlp-finance-overlay .result {
+	width:98%;margin:0;padding:0 1%;
+}
+
+#financialCalculator .makeYourSelection .wrapper {
+	padding:0;
+	border:none;
+}
+
+.vlp-finance-overlay .makeYourSelection .wrapper > div {
+	padding:0;
+}
+
+.vlp-finance-overlay .make_your_selection_title {
+	font-size:24px;
+	margin:0 0 20px;padding:0;
+	font-family:'DatsunLight';
+}
+
+
+.step_box.first_box {
+	border-top:1px dotted #c1c1c1;
+}
+
+.vlp-finance-overlay .result .wrapper {
+	border-top:none;
+}
+
+.vlp-finance-overlay .result {
+	border-top:2px solid #999999;
+}
+
+.vlp-finance-overlay .downpaymentContainer .downpaymentToggle fieldset.radios {
+	line-height:0;	
+}
+
+.step_box dt{ 
+	width:100%;
+	margin:0; padding:1% 0 0;
+}
+
+.vlp-finance-overlay label span {
+	font-size:14px;
+	font-family:'DatsunLight';
+	font-weight:bold;
+}
+
+.step_box dd {
+	margin:0; padding:1% 0 3%;
+	color:#7b7b7b;
+}
+
+.vlp-finance-overlay .dropDown, .vlp-finance-overlay .inputContainer,
+.vlp-finance-overlay .downpaymentContainer .downpaymentToggle {
+	margin:10px 0;
+}
+
+.vlp-finance-overlay .inputContainer input {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.vlp-finance-overlay .make_your_selection_title,
+.vlp-finance-overlay .result .repayments .repaymentsLabel,
+.vlp-finance-overlay .result .repayments #resultRepayments,
+.vlp-finance-overlay label span  {
+	color:#005496;
+}
+
+.vlp-finance-overlay .result .resultCurrency {
+	font-size:80%;
+}
+
+.vlp-finance-overlay .result ul li strong {
+	color:#7b7b7b;
+}
+
+#dealer-locator .form fieldset legend#pin {
+	font-family:'DatsunLight';
+	color:rgb(0,0,103);
+}
+
+#site_footer_nav a{
+	color:#fff!important;
+}
+
+
+
+/* 2014/02/28 #ns :start */
+.btn_normal_details a{
+	color:#fff;
+}
+.btn_normal_details a:hover{
+	color:#fff;
+	background:rgb(0,0,53);
+}
+
+/* 2014/05/14 #forms HP :start */
+
+	#contactinfo.tdrid input {
+	height: 23px !important;
+	width: 215px;!important;
+}
+	#contactinfo.tdrid select {
+	height: 23px !important;
+	width: 221px !important;
+}
+	#contactinfo.tdrid .overlay {
+	background-position: right 9px !important;
+	height: 23px !important;
+	line-height: 23px !important;
+	width: 190px;
+}
+	#contactinfo.tdrid .l_btnStyle01{
+	height: 30px !important;
+	width: 80px !important;
+}
+
+/* 2014/05/14 #forms HP :end */
+
+/* 2014/02/28 #forms ants :start */
+#en_forms select{width:183px !important;height:23px !important;font-size:11px;color:gray;font-weight:400}
+#en_forms select:focus{outline:none;box-shadow:none}
+#en_forms input:focus{outline:none;box-shadow:none}
+#en_forms .input_radio{width:auto;height:auto;border:none;-webkit-appearance:radio !important}
+#en_forms .dropDown{width:183px}
+#en_forms .overlay{height:23px !important;line-height:23px !important;background-position:right 9px !important}
+#en_forms .l_content h1.grid_11{display:block;float:none;width:auto;height:32px;border-bottom:1px dotted #c1c1c1}
+#en_forms .l_content em{font-style:normal;clear:both;}
+#en_forms .l_conBox{margin:40px;color:#666;}
+#en_forms .l_conBox h2 em{color:rgb(204,9,47);}
+#en_forms .l_radio{margin:0 0 30px 10px}
+#en_forms .l_radio label{float:left;margin-right:15px}
+#en_forms .l_radio input{margin-right:6px}
+#en_forms .l_conBox li{height:22px;padding:6px 0}
+#en_forms .l_conBox li label{float:left;width:30%;line-height:22px}
+#en_forms .l_conBox li em{color:rgb(204,9,47);}
+#en_forms .l_conBox li p,.l_conBox li .dropDownContainer{float:left;width:30%;margin:0}
+#en_forms .l_conBox li input.phonel{width:40px;margin-right:4px}
+#en_forms .l_conBox li input.phoner{width:123px}
+#en_forms .l_conBox li.tips label{width:100%}
+#en_forms .l_conBox li.txt{margin-bottom:0;margin-top:10px;}
+#en_forms .l_conBox li.txt1{margin-bottom:0px;margin-top:22px}
+#en_forms .l_conBox li.btn{margin-top:10px}
+#en_forms .l_btnStyle01{font-family:"DatsunLight";width:70px;height:30px;border:none !important;background:none;background-color:rgb(0,0,103);font-size:12px;text-rendering:optimizeLegibility;color:#fff !important;text-indent:0}
+#en_forms .l_btnStyle01:hover {background:none repeat scroll 0% 0% rgb(0,0,53) !important;color:#fff !important;}
+#en_forms .l_btnStyle02{font-family:"DatsunLight";width:70px;height:30px;border:none !important;background:none;font-size:12px;text-rendering:optimizeLegibility;color:#fff;text-indent:0}
+#en_forms #disclaimer_new{height:auto!important;}
+#en_forms #selectBrochureForm .addSecond{overflow:hidden;}
+#en_forms #contactinfo{margin-top:30px; margin:0;}
+#en_forms ul.carSelector li .car-title{font-family:"DatsunLight";}
+#en_forms .container h2,
+#en_forms .container h3 {color:#666;}
+#en_forms .container h1{
+	font-size:33px;
+	color:rgb(0,0,103);
+	border-bottom:2px solid #0b5997;
+	padding:80px 8px 15px 8px;
+	margin:0 40px 15px 40px;
+}
+
+#dealer-locator .btn:hover {
+	background:rgb(0,0,53) !important; 
+}
+
+@media only screen and (max-width:640px){
+	#en_forms .container {padding:20px 8px 0 8px;}
+	#en_forms .container h1{font-size:24px;margin-right:0;margin-left:0;}
+	#en_forms #selectBrochureForm{margin-bottom:20px;}
+	#en_forms #main .l_content h1.grid_11{height:auto;font-size:20px}
+	#en_forms #main .l_conBox h2{font-size:18px;margin:0}
+	#en_forms .l_conBox{margin:0 0 15px 0}
+	#en_forms .l_conBox h3{padding:0 8px;}
+	#en_forms .l_radio{margin-left:0}
+	#en_forms .l_radio label{width:50%;margin-right:0}
+	#en_forms .l_conBox li label{width:40%}
+	#en_forms .l_conBox li p{width:60%}
+	#en_forms .l_conBox li .iptText input{height:20px;width:94%;max-width:177px}
+	#en_forms .l_conBox li input.phonel{width:24%;max-width:40px}
+	#en_forms .l_conBox li input.phoner{width:64%;max-width:123px}
+	#en_forms .l_conBox li .dropDownContainer{width:60%}
+	#en_forms .l_conBox li .dropDownContainer .dropDown{width:98%;max-width:183px}
+	#en_forms .l_conBox li.txt{height:auto}
+	#en_forms .l_conBox li.txt label,.l_conBox li.txt p{width:auto;display:block;float:none}
+	#en_forms .l_conBox li.btn{text-align:center}
+	#en_forms .l_conBox li.btn p{float:none;width:auto;display:inline-block;margin:0 10px}
+	#en_forms .container, #vlp-versions header h2, #vlp-versions header .price-range, .vlp-features header, .vlp-features .feature-item .collapsible, .vlp-features-overlay .article-container header, .vlp-features-overlay article p, .vlp-features-overlay .sidebar .item strong, .vlp-features-overlay .sidebar .item p, #vlp-hero header, #vlp-hero .colour-picker strong, #vlp-hero .stats, .vlp-next-steps {width:auto;margin:0px 0px !important;}
+}
+#en_forms #thankyoupage div.thanks,#testDriveForm div.thanks{font-size:11px;line-height:18px}
+#en_forms #thankyoupage div.thanks p,#testDriveForm div.thanks p{margin-top:0}
+#en_forms #thankyoupage div.thanks .confirmation,#testDriveForm div.thanks .confirmation{border-bottom:1px dotted #ccc;margin-bottom:20px;padding-bottom:20px}
+#en_forms #thankyoupage div.thanks .confirmation p strong,#testDriveForm div.thanks .confirmation p strong{display:block;font-weight:bold}
+#en_forms #thankyoupage div.thanks .confirmation p strong,#testDriveForm div.thanks .confirmation p strong{margin-bottom:20px}
+#en_forms #thankyoupage div.thanks .confirmation h4,#testDriveForm div.thanks .confirmation h4{font-weight:bold}
+#en_forms #thankyoupage div.thanks .confirmation strong,#testDriveForm div.thanks .confirmation strong{display:block;padding-bottom:10px}
+#en_forms #thankyoupage div.thanks .confirmation address,#testDriveForm div.thanks .confirmation address{font-style:normal;word-wrap:break-word}
+#en_forms #thankyoupage div.thanks .confirmation address span,#testDriveForm div.thanks .confirmation address span{display:block}
+#en_forms #thankyoupage div.thanks #whatsNext li,#testDriveForm div.thanks #whatsNext li{margin-bottom:20px}
+#en_forms #thankyoupage div.thanks #whatsNext li img,#testDriveForm div.thanks #whatsNext li img{width:100%}
+#en_forms #thankyoupage div.thanks #whatsNext li strong,#thankyoupage div.thanks #whatsNext li span,#testDriveForm div.thanks #whatsNext li strong,#testDriveForm div.thanks #whatsNext li span{display:block;}
+#en_forms #thankyoupage div.thanks #whatsNext li strong,#testDriveForm div.thanks #whatsNext li strong{color:black;font-family:"DatsunLight";font-size:15px;font-weight:normal;line-height:1em;padding-bottom:2px;color:#4c4c4c}
+#en_forms #thankyoupage div.thanks #whatsNext li span,#testDriveForm div.thanks #whatsNext li span{color:#8a8a8a;font-size:12px;line-height:13px;font-family:"DatsunLight",Verdana,Geneva,sans-serif}
+
+#en_forms #testDriveForm .thanks{overflow:hidden;border-bottom:1px dotted #ccc;padding-bottom:20px}
+#en_forms #testDriveForm .carModels .addSecond{margin-top:0}
+#en_forms #thankyoupage .dropdown,#testDriveForm .dropdown{margin:1px}
+#en_forms #thankyoupage .dropDownContainer,#testDriveForm .dropDownContainer{width:183px;float:left}
+#en_forms #thankyoupage .dropDownContainer .overlay,#testDriveForm .dropDownContainer .overlay{background-position:right 9px;height:23px;line-height:23px}
+#en_forms #thankyoupage .dropDownContainer .dropDown select,#testDriveForm .dropDownContainer .dropDown select{height:23px;line-height:24px}
+#en_forms #thankyoupage .dealerListing .dropDownContainer,#testDriveForm .dealerListing .dropDownContainer{width:auto;min-width:183px}
+#en_forms #thankyoupage div.thanks .confirmation,#testDriveForm div.thanks .confirmation{width:32.02614379%;float:left;border-bottom:none;margin-bottom:0;padding-top:0;margin-right:50px}
+#en_forms #thankyoupage div.thanks .confirmation h4,#testDriveForm div.thanks .confirmation h4{margin-left:0}
+#en_forms #thankyoupage div.thanks #whatsNext,#testDriveForm div.thanks #whatsNext{float:left;width:57.02614379%;margin-left:0.64%;border-left:4px solid color:rgb(0,0,103);padding-left:9px}
+#en_forms #thankyoupage div.thanks #whatsNext li,#testDriveForm div.thanks #whatsNext li{float:left;width:48.69281046%;margin-left:0.64%;margin-right:0.64%}
+#en_forms #thankyoupage div.thanks #whatsNext li strong,#testDriveForm div.thanks #whatsNext li strong{font-size:15px}
+#en_forms #thankyoupage div.thanks #whatsNext li:nth-child(3),#testDriveForm div.thanks #whatsNext li:nth-child(3){clear:left}
+#en_forms #thankyoupage div.thanks #whatsNext li:nth-child(3),#thankyoupage div.thanks #whatsNext li:nth-child(4),#testDriveForm div.thanks #whatsNext li:nth-child(3),#testDriveForm div.thanks #whatsNext li:nth-child(4){margin-bottom:0}
+
+#thankyoupage div.thanks .confirmation,#testDriveForm div.thanks .confirmation{width:23.69281%}
+#thankyoupage div.thanks #whatsNext,#testDriveForm div.thanks #whatsNext{width:65.35947712%;padding-left:12px}
+#thankyoupage div.thanks #whatsNext li,#testDriveForm div.thanks #whatsNext li{width:23.69281%;margin-bottom:0}
+#thankyoupage div.thanks #whatsNext li:nth-child(3),#thankyoupage div.thanks #whatsNext li:nth-child(4),#testDriveForm div.thanks #whatsNext li:nth-child(3),#testDriveForm div.thanks #whatsNext li:nth-child(4){clear:none}
+#en_forms .l_content li{background:none !important;padding-left:0px !important;}
+#en_forms ul.carSelector .carSelect.disabled {display:none;}
+#en_forms .tout{color:rgb(153, 153, 153);display:block;font-family:"DatsunLight";font-size:20px;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:400;letter-spacing:-1px;line-height:20px;text-rendering:optimizeLegibility;-moz-font-feature-settings:normal;-moz-font-language-override:normal;}
+#en_forms .h2special{font-family:"DatsunLight";border-bottom-color:rgb(0, 0, 0);border-bottom-style:none;border-bottom-width:0px;border-image-outset:0 0 0 0;border-image-repeat:stretch stretch;border-image-slice:100% 100% 100% 100%;border-image-source:none;border-image-width:1 1 1 1;border-left-color:rgb(0, 0, 0);border-left-style:none;border-left-width:0px;border-right-color:rgb(0, 0, 0);border-right-style:none;border-right-width:0px;border-top-color:rgb(0, 0, 0);border-top-style:none;border-top-width:0px;color:rgb(0, 0, 0);display:block;font-family:"DatsunLight";font-size:90px;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:400;letter-spacing:-4px;line-height:80px;margin-bottom:0px;margin-left:0px;margin-right:0px;margin-top:0px;padding-bottom:0px;padding-left:0px;padding-right:5px;padding-top:0px;text-rendering:optimizeLegibility;width:413.567px;-moz-border-bottom-colors:none;-moz-border-left-colors:none;-moz-border-right-colors:none;-moz-border-top-colors:none;-moz-font-feature-settings:normal;-moz-font-language-override:normal;}
+#en_forms .price{color:rgb(0,0,103);font-family:"DatsunLight";
+#en_forms font-size:22px;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:400;letter-spacing:-1px;line-height:30px;
+#en_forms text-rendering:optimizeLegibility;-moz-font-feature-settings:normal;-moz-font-language-override:normal;}
+#en_forms .starting-price{color:rgb(52, 52, 52);float:left;font-family:"DatsunLight";font-size:13px;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:400;letter-spacing:-1px;line-height:11px;margin-left:5px;text-rendering:optimizeLegibility;-moz-font-feature-settings:normal;-moz-font-language-override:normal;}
+#en_forms .stats.icons {border-top-color:rgb(138, 138, 138);border-top-style:none;border-top-width:0px;clear:both;color:rgb(138, 138, 138);font-family:Verdana,Geneva,sans-serif;font-size:11px;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:400;left:0px;line-height:18.7px;margin-bottom:0px;margin-left:0px;margin-right:0px;margin-top:180px;/*max-width:180px;*/opacity:1;overflow:hidden;overflow-x:hidden;overflow-y:hidden;padding-top:0px;position:absolute;text-rendering:optimizeLegibility;top:0px;width:180px;z-index:2;-moz-font-feature-settings:normal;-moz-font-language-override:normal;}
+#en_forms .price{font-size:3rem;line-height:30px;line-height:3rem;}
+#en_forms .starting-price{font-size:13px;font-size:1.3rem;line-height:11px;line-height:1.1rem;}
+#en_forms .hero-content{position:relative;background:url("../../../../../Images/DATSUN/Shared/images/vlp/hero-stage.jpg") no-repeat center 100%;background-size:100% 167px;}
+#en_forms .stats{position:absolute;z-index:2;top:0;left:0;width:130px;margin:0;margin-top:180px;padding-top:0;border-top:none;-moz-opacity:0;-webkit-opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=${IEOpacity})";filter:alpha(opacity=0);opacity:0}
+#en_forms .stats ul{width:auto;}
+#en_forms .stats li{float:none;display:block;border-right:none;border-bottom:1px dashed #999999;padding-right:0;padding-top:10px;padding-bottom:10px;margin-right:0;height:auto;margin-bottom:0;width:auto;}
+#en_forms .stats li:first-child{border-top:1px dashed #999999;}
+#en_forms .stats .small{font-size:11px;font-size:1.1rem;line-height:11px;line-height:1.1rem;}
+#en_forms .stats .medium{font-size:15px;font-size:1.5rem;line-height:15px;line-height:1.5rem;display:inline-block;}
+#en_forms .stats .large{font-size:30px;font-size:3rem;line-height:30px;line-height:3rem;display:inline-block;}
+#en_forms .stats.icons,.stats.noIcons{-moz-opacity:1;-webkit-opacity:1;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=${IEOpacity})";filter:alpha(opacity=100);opacity:1;}
+#en_forms .stats.noIcons{width:20%;max-width:180px;margin-top:190px;}
+#en_forms .stats.noIcons ul{width:auto;}
+#en_forms .stats.noIcons li{padding-left:0;padding-top:5px;padding-bottom:5px}
+#en_forms .stats.noIcons li i{display:none}
+#en_forms .stats.noIcons li .small,.stats.noIcons li .medium,.stats.noIcons li .large{font-size:12px;font-size:1.2rem;line-height:16px;line-height:1.6rem;letter-spacing:0;display:inline}
+#en_forms .richContentBlock ol,.richContentBlock ul{padding-left:0!important;}
+#en_forms .hero-image-container{background:none;margin-left:55px;margin-right:55px}
+#en_forms .hero-image-container .hero-image{position:relative;top:40px;max-width:630px;margin:0 auto}
+#en_forms .stats.icons i{background-image:url("../../../../Images/DATSUN/Shared/dl/images/vlp/stats-icons.png");background-repeat:no-repeat;display:block;width:26px;height:26px}
+#en_forms .stats.icons .bhp i{background-position:-5px -5px}
+#en_forms .stats.icons .mpg i{background-position:-113px -5px}
+#en_forms .stats.icons .zeroToSixty i{background-position:-77px -5px}
+#en_forms .stats.icons .topSpeed i{background-position:-5px -41px}
+#en_forms .stats.icons .torque i{background-position:-5px -113px}
+#en_forms .stats.icons .roadTax i{background-position:-41px -41px}
+#en_forms .stats.icons .emissions i{background-position:-5px -77px}
+#en_forms .stats.icons .drive i{background-position:-41px -5px}
+#en_forms .stats.icons .engineSize i{background-position:-77px -77px}
+#en_forms .stats.icons .bootCapacity i{background-position:-113px -77px}
+#en_forms .stats.icons .noOfSeats i{background-position:-77px -41px}
+#en_forms .stats.icons .awards i{background-position:-41px -113px}
+#en_forms .stats.icons i{display:none}
+#en_forms .stats.icons ul{width:auto;height:auto}
+#en_forms .stats li:first-child {border-top:1px dashed rgb(153, 153, 153);}
+#en_forms .stats.icons li{border-bottom-color:rgb(153, 153, 153);border-bottom-style:dashed;border-bottom-width:1px;border-right-color:rgb(138, 138, 138);border-right-style:none;border-right-width:0px;color:rgb(138, 138, 138);display:block;float:none;font-family:Verdana,Geneva,sans-serif;font-size:11px;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:400;line-height:18.7px;list-style-image:none;list-style-position:outside;list-style-type:none;margin-bottom:0px;margin-right:0px;padding-bottom:10px;padding-left:30px;padding-right:8px;padding-top:10px;position:relative;text-rendering:optimizeLegibility;-moz-box-sizing:border-box;-moz-font-feature-settings:normal;-moz-font-language-override:normal;}
+#en_forms .stats .small{color:rgb(138, 138, 138);display:block;font-family:"DatsunLight";font-size:11px;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:400;line-height:11px;list-style-image:none;list-style-position:outside;list-style-type:none;text-rendering:optimizeLegibility;-moz-font-feature-settings:normal;-moz-font-language-override:normal;} 
+#en_forms .addSecond {margin-left:0px !important;}
+
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2){
+	#en_forms .stats.icons i{background-image:url("../../../../../Images/DATSUN/Shared/images/vlp/statsicons2x.png");background-repeat:no-repeat;background-size:124px}
+	#en_forms .stats.icons .bhp i{background-position:-2px -2px}
+	#en_forms .stats.icons .mpg i{background-position:-95px -2px}
+	#en_forms .stats.icons .zeroToSixty i{background-position:-64px -2px}
+	#en_forms .stats.icons .topSpeed i{background-position:-2px -33px}
+	#en_forms .stats.icons .torque i{background-position:-2px -95px}
+	#en_forms .stats.icons .roadTax i{background-position:-33px -33px}
+	#en_forms .stats.icons .emissions i{background-position:-2px -64px}
+	#en_forms .stats.icons .drive i{background-position:-33px -2px}
+	#en_forms .stats.icons .engineSize i{background-position:-64px -64px}
+	#en_forms .stats.icons .bootCapacity i{background-position:-95px -64px}
+	#en_forms .stats.icons .noOfSeats i{background-position:-64px -33px}
+	#en_forms .stats.icons .awards i{background-position:-33px -95px}
+}
+
+@media all and (min-width:769px){
+	#en_forms .contactinfosp001{width:38.2%;float:right;}
+	#en_forms .contactinfosp001 li label{width:48%}
+	#en_forms .emsp001{max-width:100% !important;margin-bottom:35px;margin-top:20px;}
+	#en_forms .selectBrochureFormsp001{width:61.8%;float:left;}
+	#en_forms .selectBrochureFormsp001 h2{margin-top:0px !important;}
+	#en_forms .selectBrochureFormsp001 .icons{width:26%}
+	#en_forms .selectBrochureFormsp001 .hero-image-container{margin-left:150px;margin-right:0px;}
+	#en_forms .selectBrochureFormsp001 .hero-image{top:90px;}
+	#en_forms .contactinfosp001 li{height:27px;}
+	#en_forms #selectBrochureForm .addSecond,#selectBrochureForm .chooseDealer,#testDriveForm .addSecond,#testDriveForm .chooseDealer{margin:30px 0 0 3px;}
+}
+@media all and (max-width:1024px){
+	#en_forms .selectBrochureFormsp001 .hero-image-container{margin-left:100px;margin-right:0px;}
+	#en_forms .selectBrochureFormsp001 .hero-image{top:120px;}
+}
+/*ie8*/
+@media \0screen\,screen\9 {
+	#en_forms .contactinfosp001{width:38.2%;float:right;}
+	#en_forms .contactinfosp001 li label{width:48%}
+	#en_forms .emsp001{max-width:100% !important;margin-bottom:35px;margin-top:20px;}
+	#en_forms .selectBrochureFormsp001{width:61.8%;float:left;}
+	#en_forms .selectBrochureFormsp001 h2{margin-top:0px !important;}
+	#en_forms .selectBrochureFormsp001 .icons{width:28%}
+	#en_forms .selectBrochureFormsp001 .hero-image-container{margin-left:120px;margin-right:0px;}
+	#en_forms .selectBrochureFormsp001 .hero-image{top:113px;}
+	#en_forms .contactinfosp001 li{height:27px;}
+}
+/*ie8*/
+@media screen and (max-width:768px){
+	#en_forms .hero-image-container{margin-left:130px !important;}
+	#en_forms .hero-image{top:100px !important;}
+	#en_forms .txt{max-width:60% !important;}
+}
+@media screen and (max-width:640px){
+	#en_forms .specialhead{position:relative !important;}
+	#en_forms .h2special{font-size:69px;line-height:60.797px;}
+	#en_forms .tout{font-size:1.8rem;line-height:1.8rem;}
+	#en_forms .hero-image-container{margin:0!important;}
+	#en_forms .hero-image-container .hero-image{top:0px !important;left:0px}
+	#en_forms .stats.icons{margin:0 0 20px 0; padding:0 8px;position:relative !important;width:100%;max-width:100%;}
+	#en_forms .stats li{height:40px;float:left !important;border-top:1px dashed rgb(153, 153, 153);width:50% !important;max-width:50% !important;padding-right:0px !important;}
+	#en_forms .txt{max-width:100% !important;margin-bottom:0px !important;}
+	#en_forms .addSecond{text-align:center;margin-bottom:10px !important;}
+	#en_forms #contactinfo{margin:20px 8px 0 8px; }
+	#en_forms #selectBrochureForm{margin:0 8px; }
+	#en_forms #main_sections h1 {padding:0 8px 16px 8px;}
+}
+/* 2014/02/28 #forms ants :end */
+
+#financialCalculator_modal {
+	margin:0 0 10px;
+}
+
+#get_inside_subimages {
+	/* grade追加 2014/03/10 ants */
+	margin: 0 0 20px;
+	/* grade追加 2014/03/10 ants */
+	padding:0 0 30px;
+}
+
+#h2_accessories {
+	margin:30px 0 20px;
+}
+
+#hfc_modal {
+	background:#fff;
+	margin:0;
+	padding:0;
+}
+
+#hfc_modal .sand_left,
+#hfc_modal .sand_center,
+#hfc_modal .sand_right {
+	float:left;
+	max-width:418px;
+	margin:0;
+	padding:0;
+}
+/* 2014/03/05 # 50 LV3が2つのやつ作る */
+.car_model_separate_contents {
+	display:none;
+}
+
+.car_model_separate_contents.active {
+	display:block;
+}
+
+/* 2014/03/06 */
+#car_spac_list li strong {
+	font-weight:normal;
+}
+
+/* 2014/3/6 #dealerinfo ants start */
+#dealer-information{
+	padding:50px 0!important;
+}
+#dealer-information h1{
+	color: rgb(0,0,103)!important;
+	font-size:33px;
+}
+#dealer-information h1,
+#dealer-information h2,
+#dealer-information h3,
+#dealer-information .car-title{
+	font-family: 'DatsunLight',Verdana,Geneva,sans-serif
+}
+/* 2014/3/6 #dealerinfo ants end */
+
+.car_model_main_title.clearfix h3 {
+	color:#fff;
+}
+
+/* 2014/3/10 #gcs ants start */
+#main_sections .gs-no-results-result .gs-snippet,
+.gs-error-result .gs-snippet {
+    margin: 5px 0;
+    padding: 0;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+}
+/* 2014/3/10 #gcs ants end */
+
+/* 2014/03/13 レイアウト修正 */
+#get_inside .pos_rel_init{padding: 0 0 45px;}
+
+
+/* 2014/06/23 TCO ants  */
+.font_datsun_l { font-family: 'DatsunLight'; }
+
+#tco_box {
+	margin:40px 0 0;
+}
+
+#tco {
+	width: 98%;
+	margin:30px 0;
+	padding: 0;
+	font-family:'Datsun';
+}
+
+#tco h1 {
+	font-size:35px;
+	margin: 0 0 30px;
+}
+
+#tco_slider {
+	margin:30px 0 0;padding:0;
+	background:#fff;
+}
+
+#tco_slider .thumb_inner {
+	text-align:center;
+	margin:0 2% 10px;
+}
+
+#tco_slider .thumb_inner span {
+	font-size:30px;
+}
+
+.tco_lead {
+	margin:20px 0 30px; padding: 0 1%;
+}
+
+.tco_lead_top {
+	margin:20px 0 50px;
+}
+
+#tco_deatil_img {
+	position:relative;
+	color:#212121;
+	font-size:1em;
+}
+
+#tco_deatil_img img {
+	margin: 0 auto;
+}
+
+#tco_deatil_img #go {
+	line-height:1.1em;
+	position:absolute;
+	top:28%;
+	width:100%;
+	font-family:'Datsun';	
+	text-align:center;
+}
+
+#tco_deatil_img #ondo {
+	line-height:1.1em;
+	position:absolute;
+	top:28%;
+	width:100%;
+	font-family:'Datsun';	
+	text-align:center;
+}
+
+#tco_deatil_img #goplus {
+	line-height:1.1em;
+	position:absolute;
+	top:28%;
+	width:100%;
+	font-family:'Datsun';	
+	text-align:center;
+}
+
+#tco h2 {
+	font-size:87%;
+	margin: 30px 0;padding:0 1%;
+}
+
+.tco_dl {
+	color:#666;
+	font-size:11px;
+	font-family:'DatsunBold';
+	padding:0 1%;
+}
+
+.tco_dl dt{
+	float:left;
+	clear:both;
+	width:60%;
+	height:32px;
+	line-height:32px;
+	margin:0 0 10px;
+	font-size:.7em;
+}
+.tco_dl dd {
+	margin:0 0 10px 60%;
+	height:32px;
+	line-height:32px;
+	color:rgb(0,0,103);
+	text-align:right;
+	font-size:.7em;
+}
+.qr2_dd span {
+	font-size:1.2em;
+	
+}
+.yearcost {
+	font-size:1.4em;
+}
+
+.tco_table {
+	width:100%;
+	color:#000000;
+	border-bottom:5px #c1c1c1 solid;
+	margin: 0 0 10px;
+	font-size:7px;
+}
+
+.th_km {
+	width:19%;
+	padding:0 1% 0 0;
+}
+
+.th_pc{
+	width:38%;
+	padding:0 1%;
+}
+.th_pr {
+	width:39%;
+	padding:0 0 0 1%;	
+}
+
+.tco_table thead th span{
+	display:inline-block;
+	border-bottom:5px #c1c1c1 solid;
+	padding:0 0 0 3%;	
+	-ms-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.th_km span,
+.th_pc span {
+	width:98%;
+	margin:0 1% 0 0;
+} 
+
+.th_pr span {
+	width:100%;
+}
+
+.tco_table tbody tr,
+.tco_table tbody tr.no-border td {
+	border-bottom:1px #c1c1c1 solid;
+}
+
+.tco_table tbody tr.no-border {
+	border-bottom:none;
+}
+
+.tco_table tbody th {
+	padding:10px 0 10px 1%;
+}
+.tco_table tbody td {
+	padding:10px 0 10px 2%;
+}
+
+.tco_table tbody td.nopad {
+	padding:0;
+}
+
+.tco_table tbody th {
+	font-family:'DatsunBold';
+}
+
+.tbl_col4 {
+	width:35%;
+	float:left;
+	display:inline-block;
+}
+
+.tbl_col2_r {
+	display:inline-block;
+	text-align:right;
+}
+
+.tbl_col2 {
+	display:inline-block;
+}
+
+.tr_child {
+	display:none;
+	background:#f3f3f3;
+}
+
+.tr_child .tco_table {
+	border:none;
+	margin:0;
+}
+
+.nopad .tco_table tbody td {
+	padding:10px 0 10px 3% !important;
+}
+
+.tco_table tr.active {
+	background:#f3f3f3;
+}
+
+
+.tr_toggle {
+	background:url('/~/media/Images/DATSUN/Shared/images/models/tco_toggle.png') 0 0 no-repeat;
+	width:20px;
+	height:12px;
+	margin:0 10px 0 0;
+	display:inline-block;
+}
+
+.tr_toggle.active {
+	background-position:0 -12px;	
+}
+
+.total_detail p {
+	color:#000;
+	padding: 0 1%;
+	font-family:'DatsunBold';
+	font-size:11px;
+}
+.total_detail dt,
+.total_detail dd{
+	color:#000;
+}
+
+#tco_detail_list {
+	margin:0 0 20px;	
+}
+
+#tco_detail_list li{
+	font-size:10px;
+	color:#000;
+}
+
+#tco .btn_normal_details {
+	text-align:left;
+	display:inline-block;
+}
+
+#tco .btn_normal_details a {
+	width:auto;
+	display:inline;
+}
+
+.tco_box {
+	margin:0 0 40px; padding:0 0 40px;
+	border-bottom:1px solid #e0e0e0;
+}
+
+.service_detail_btn {
+	display:inline-block;
+	margin:10px 0;
+	font-size:60%;
+}
+
+.service_detail {
+	display:none;
+	margin:10px 0;
+	color:#666666;
+	font-size:60%;
+}
+
+.service_detail ul {
+	padding:0 1%;
+}
+
+.tco_back {
+	font-size:12px;
+}
+
+.tco_back a{
+	color:#555;
+	text-decoration: underline;
+}
+
+.font_datsunbold {
+	font-family:'DatsunBold';
+}
+
+
+
+/* 2014/8/22 #countdown start */
+#countdown #cd_sp_bg,
+#countdown #cd_pc_bg,
+#countdown .cntSeparator{
+	display:none;
+}
+/* no zoom */
+#countdown.nozoom{
+	position:relative;
+	margin:0 auto 30px auto; padding:0;
+	overflow:hidden;
+}
+#countdown.nozoom #cd_sp_bg{
+	position:relative;
+	width:100%;
+}
+#countdown.nozoom #cd_pc_bg{
+	position:relative;
+}
+#countdown.nozoom .digits{
+	position:absolute;
+	top:0; left:0;
+	width:100%; 
+}
+#countdown.nozoom .cntDigit{
+	position:relative;
+	margin-top:19%;
+	overflow:hidden;
+	display:block;
+}
+#countdown.nozoom .cntDigit img{
+	display:block;
+	position:relative;
+	top:0; left:0;
+	width:100%; height:auto;
+	max-width:100%;
+	overflow:hidden;
+}
+@media screen and (min-width:678px){
+	/* medium, large */
+	#countdown.nozoom #cd_pc_bg{
+		width:100%;
+	}
+	#countdown.nozoom .digits{
+		position:absolute;
+		top:0; left:0;
+		width:50%; 
+	}
+	#countdown.nozoom .cntDigit{
+		margin-top:32%;
+	}
+}
+
+/* zoom */
+#countdown.zoom{
+	position:relative;
+	top:0; left:0;
+	margin:0 auto 30px auto; padding:0;
+	width:100%;
+}
+#countdown.zoom #cd_sp_bg{
+	position:relative;
+	width:100%;
+	max-width:100%;
+}
+#countdown.zoom #cd_pc_bg{
+	position:relative;
+	max-width:100%;
+	width:100%; 
+}
+#countdown.zoom .digits{
+	position:absolute;
+	top:0; left:99px;
+	width:430px; height:252px;
+	background:url("/~/media/Images/DATSUN/Global/Home/components/Countdown/cd_sp_box.png") no-repeat 0 0;
+}
+#countdown.zoom .cntDigit{
+	display:block;
+	position:relative;
+	top:120px; left:0;
+	width:42px; height:100px;
+	overflow:hidden;
+	float:left;
+}
+#countdown.zoom .cntDigit#cnt_0{
+	margin-left:43px;
+}
+#countdown.zoom .cntDigit#cnt_5,
+#countdown.zoom .cntDigit#cnt_3,
+#countdown.zoom .cntDigit#cnt_1{
+	margin-right:4px;
+}
+#countdown.zoom .cntDigit img{
+	display:block;
+	position:relative;
+	top:0; left:0;
+	width:100%; height:auto;
+	max-width:100%;
+}
+
+@media screen and (min-width:678px){
+	/* medium, large */
+	#countdown.zoom{
+		margin-bottom:30px;
+	}
+	#countdown.zoom .digits{
+		left:99px;
+		width:430px; height:392px;
+		background-image:url("/~/media/Images/DATSUN/Global/Home/components/Countdown/cd_pc_box.png");
+	}
+	#countdown.zoom .cntDigit{
+		top:238px;
+		width:42px; height:100px;
+	}
+	#countdown.zoom .cntDigit#cnt_0{
+		margin-left:38px;
+	}
+	#countdown.zoom .cntDigit#cnt_7,
+	#countdown.zoom .cntDigit#cnt_5,
+	#countdown.zoom .cntDigit#cnt_3,
+	#countdown.zoom .cntDigit#cnt_1{
+		margin-right:5px;
+	}
+}
+/* 2014/8/22 #countdown end */
+
+/* 2014/10/28 #DatsunVLP2 start*/
+#car_name {
+	font-family:'Datsun';
+	font-weight:normal;
+	font-size:3em; 
+	color:rgb(0,0,103);
+	line-height:1.3;
+	width:80%;
+}
+
+#car_sub_title {
+	font-family:'Datsun';
+	font-weight:normal;
+	font-size:1.1em; 
+	color:rgb(0,0,103);
+	line-height:1.3;
+	width:80%;
+}
+
+#car_spac_list {
+	font-size:0;
+	width:100%;
+	margin:5px 0 10px;
+}
+
+#car_spac_color_box {
+	position:absolute;
+	top:0; right:0;
+	width:20%;
+}
+
+#car_spac_color_box2 {
+	width:100%;
+	margin:0 auto 10px;
+	clear:both;
+}
+
+#grade_box {
+	position:absolute;
+	left:0;
+	width:30%;
+	z-index:1001;
+}
+
+.grade_lists {
+	height:30px;
+	min-width:105px;
+	width:100%;
+	margin:0; padding:0;
+	border:1px solid #e3e3e3;
+	overflow:hidden;
+	color:#001e67;
+}
+
+.intro-image-container {
+	width: 100% !important;
+	min-height: 211px !important;
+	overflow: hidden;
+	float: left;
+}
+
+#intro-container {
+	width: 100% !important;
+}
+/* 2014/10/28 #DatsunVLP2 end*/
+

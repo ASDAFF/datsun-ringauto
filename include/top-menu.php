@@ -96,8 +96,8 @@
                         <li><a href="/center/">CTK CENTER</a></li>
                         <li><a href="/people/">Наш коллектив</a></li>
                         <li><a href="/news/">Новости</a></li>
-                        <li><a href="/about/reviews/">Благодарности</a></li>
-                        <li><a href="/about/advantages/">О бренде</a></li>
+                        <li><a href="/reviews/">Благодарности</a></li>
+                        <li><a href="/advantages/">О бренде</a></li>
                     </ul>
 
                 </li>

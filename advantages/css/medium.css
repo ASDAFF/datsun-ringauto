@@ -1,0 +1,850 @@
+@charset "utf-8";
+
+/* clearfix */
+#accessible_price_contents,.sand_contents,.sand_column_once,.sand_column_twice,.sand_column_three,.sand_column_forth,#map_layout,.car_model_separate_contents {_height:1px;min-height:1px;}
+#accessible_price_contents:after,.sand_contents:after,.sand_column_once:after,.sand_column_twice:after,.sand_column_three:after,.sand_column_forth:after,#map_layout:after,.car_model_separate_contents:after {height:0;visibility:hidden;content:".";display:block;clear:both;}
+
+/* layout styels */
+#accessible_price_contents {
+	margin-right:-1%;
+	position:relative;
+	overflow:hidden;
+}
+#accessible_price_contents .one_contnets { width:49%; }
+.rest_one_contnets { float:left; }
+
+#get_inside_contents {
+	border-top:1px solid #e3e3e3;
+}
+
+.sand_contents {
+	background:#ededed;
+/* 2014/03/01 #6 s */
+/*	padding:50px 0;*/
+	padding:3.5% 0;
+/* 2014/03/01 #6 e */
+}
+.sand_inner {
+	width:90%;
+	width:90%;
+	margin:0 auto;
+}
+#accessories_contents .sand_inner {
+	width:100%;
+}
+.sand_inner .contents_titles {
+	font-size:24px;
+}
+
+.text_area { padding:20px 7% 0; }
+.left_side .text_area {padding-left:0; }
+.right_side .text_area { padding-right:0; }
+
+.right_side.img_area { text-align:right; }
+/*media screen and (min-width:850px) {
+	.text_area { padding-top:50px; }
+}*/
+.text_area .contents_titles {
+/*	2014/02/27 レイアウト ants s */
+/*
+	padding-bottom:15px;
+*/
+	margin:0 0 25px;
+/*	2014/02/27 レイアウト ants e */
+}
+
+.sand_column_once .sand_left {
+	float:left;
+	width:49% !important;
+/* 2014/03/01 #5 s */
+	max-width:633px;
+/* 2014/03/01 #5 e */
+}
+.sand_column_once .sand_left img { width:100%; }
+.sand_column_once .sand_right {
+	float:right;
+	width:49%;
+	padding-left:1%;
+}
+.sand_column_twice .sand_left {
+	float:left;
+	width:49% !important;
+/* 2014/03/01 #5  s */
+	max-width:633px;
+/* 2014/03/01 #5  e */
+}
+.sand_column_twice .sand_left img { width:auto; }
+.sand_column_twice .sand_right {
+	float:right;
+	width:49%;
+/* 2014/03/01 #5 s */
+	max-width:633px;
+/* 2014/03/01 #5  e */
+}
+.sand_column_three .sand_left {
+	float:left;
+	width:32%;
+/* 2014/03/01 #5  s */
+	max-width:418px;
+/* 2014/03/01 #5  e */
+	margin-right:2%;
+}
+.sand_column_three .sand_left img { width:auto; }
+.sand_column_three .sand_center {
+	float:left;
+	width:32%;
+/* 2014/03/01 #5  s */
+	max-width:418px;
+/* 2014/03/01 #5  e */
+	margin-right:2%;
+}
+.sand_column_three .sand_right {
+	float:left;
+	width:32%; 
+/* 2014/03/01 #5  s */
+	max-width:418px;
+/* 2014/03/01 #5  e */
+}
+.sand_column_forth .sand_left,
+.sand_column_forth .sand_center_left {
+	float:left;
+	width:24% !important;
+}
+.sand_column_forth .sand_left img { width:auto; }
+.sand_column_forth .sand_center_left { margin-left:1.333%; }
+.sand_column_forth .sand_right,
+.sand_column_forth .sand_center_right {
+	float:right;
+	width:24%;
+}
+.sand_column_forth .sand_center_right { margin-right:1.333%; }
+
+#map_left {
+	float:left;
+	width:67%;
+}
+#map_right {
+	float:right;
+	width:30%;
+}
+#map_title {
+	font-size:20px;
+	border-bottom:1px solid #d3d3d3;
+	padding:5px 10px;
+	margin-bottom:10px;
+}
+.map_text {
+	padding:5px 10px;
+	font-size:12px;
+	color:#666;
+}
+
+#top_news_area {
+	overflow:hidden;
+	position:relative;
+}
+.contents_sub_unit {
+	width:50%;
+}
+.contents_sub_unit .news_unit_box {
+	width:96%;
+	margin:0 2%;
+}
+.contents_sub_unit.news .latest_news {
+	padding:40px;
+	border:1px solid #eaeaea;
+}
+.contents_sub_img {
+	border:1px solid #eaeaea;
+}
+
+#spotlight {
+	overflow:hidden;
+	position:relative;
+}
+#spotlight .contents_sub_unit {
+	width:49%;
+	margin-right:0;
+}
+#spotlight .contents_sub_unit:first-child { margin-right:2%;}
+
+/* 2014/11/11 #DatsunVLP2 comment out start*/
+/*#car_spac_list {*/
+/*レイアウト修正 2014/02/26 start*/
+/*
+	width:220px;
+	border-top:1px dotted #8b8b8b;
+	width:25%;
+*/
+/*レイアウト修正 2014/02/26 end*/
+/*
+	margin-top:40px;
+	position:relative;
+	z-index:2;
+}
+*/
+/*
+#car_spac_list li {
+	border-bottom:1px dotted #8b8b8b;
+	margin-right:0;
+	display:block;
+	font-size:12px;
+*/
+/* 2014/02/27 レイアウト ants s */ 
+/*	padding:12px 7px;
+	width:80%;
+	padding:12px 3%;
+*/
+/* 2014/02/27 レイアウト ants e */ 	
+/*}
+*/
+/* 2014/11/11 #DatsunVLP2 comment out end*/
+
+
+/* 2014/02/27 レイアウト ants s */ 
+
+#car_spac_list li:first-child { border-top:1px dotted #8b8b8b;}
+
+/* 2014/02/27 レイアウト ants e*/ 
+
+/* 2014/11/11 #DatsunVLP2 comment out start*/
+/*
+#car_spac_color_box {*/
+/* 2014/02/22 #23 */
+/*	
+	right:-1%;
+	width:auto;
+	margin-top:30px;
+	top:50px;
+*/
+/*
+	top:5%;
+	width:18%;
+*/
+/* 2014/02/22 #23 */
+/*
+}
+#car_spac_color_box li:first-child { margin-bottom:20px; }
+*/
+/* 2014/11/11 #DatsunVLP2 comment out end*/
+
+#color_black span,#color_gray span,#color_yellow span,#color_blue span {
+	width:30px;
+	height:30px;
+}
+
+.top_bg_car_img {
+	float:left;
+	text-align:center;
+	position:relative;
+	margin-top:-100px;
+	z-index:1;
+	padding-left:60px;
+	height:400px;
+}
+#main_car_imgs {
+	min-height:680px;
+	padding-top:50px;
+	position:relative;
+}
+
+/*.car_model_contents_area img {
+	float:left;
+	padding:0 30px 0 0;
+	max-width:70%;
+	line-height:0;
+	font-size:0;
+}*/
+.car_model_contents_area img {
+	width:100%;
+}
+.car_model_contents_area .text_main { 
+/* 2014/02/25 #5 */
+/*	padding:20px 20px 20px;*/
+	padding:0;
+	max-height:285px;
+/* 2014/02/25 #5 */}
+
+/* parts styles */
+.contents_titles { font-size:28px; }
+
+.main_car_btn_started { margin:5px 0; }
+.main_car_btn_started_notopen { margin:5px 0; }
+.btn_normal_details a {
+	padding:15px 3%;
+	font-size:16px;
+	display:inline-block;
+	width:94%;
+}
+.btn_normal_details a strong { font-size:16px; }
+
+img.sp {
+	display:none;
+}
+img.pc {
+	display:inline;
+}
+
+#sns_area li{
+	width:100%;
+	padding:0;
+	margin:0 0 25px;
+}
+.social_btn_unit{
+	width:170px;
+	margin:0;
+	padding:25px 0 0;
+}
+
+.box_hidder .btn_spacer { margin:0; }
+
+.contents_sub_unit.movie_news .latest_news { border:1px solid #eaeaea; }
+
+.thumb_modals .thumb_modals_left,
+.thumb_modals .sand_center_left,
+.thumb_modals .sand_right,
+.thumb_modals .sand_center_right { float:left; }
+.accessories_list_slider .sand_left,
+.accessories_list_slider .sand_center,
+.accessories_list_slider .sand_right { float:left; }
+.thumb_inner { padding:10px; }
+
+#catchcopy {
+	font-size:14px;
+/* 2014/3/2 #site_logo ants :start */
+	margin:0;
+	padding:0 0 0 13px;
+	line-height:50px
+/* 2014/3/2 #site_logo ants :end */
+}
+
+.modal_container {
+	width:90%;
+	left:5%;
+}
+.modal_closer {
+	right:8%;
+	top:13%;
+}
+
+/* 2014/3/2 #top pfa ants :start */
+#datsun_slide_top_contents .topSlideAnimation {
+}
+/* 2014/3/2 #top pfa ants :end */
+#datsun_slide_top_contents .on_car_title {
+/* 2014/3/2 #top pfa ants :start */
+	top:20%;
+	/*font-size:55px;*/
+	font-size:42px;
+/* 2014/3/2 #top pfa ants :end */
+}
+#datsun_slide_top_contents .on_car_catchcopy {
+	top:50%;
+	/*font-size:30px;*/
+	font-size:24px;
+/* 2014/3/2 #top pfa ants :start */
+/* 2014/3/2 #top pfa ants :end */
+}
+
+.topimage_title {
+	font-size:24px;
+	line-height:1.1;
+	padding:35px 55px;
+}
+
+.datsun_slider .dotNavigation,.datsun_slider4 .dotNavigation,.datsun_slideshow .dotNavigation {
+	margin:20px auto 10px;
+}
+
+#accessible_price_contents .one_contents_spacer{
+	padding:40px 30px;
+}
+
+.car_model_modals_thumbnavigation li {
+	width:100px;
+}
+.prev_arrow_thumb, .next_arrow_thumb {
+	top:0;
+}
+
+.car_model_modal_title .car_model_left_move, .car_model_modal_title .car_model_right_move {
+	margin-top:-2px;
+	padding:0 15px;
+}
+.car_model_modal_title h3 { padding-top:5px; }
+
+#car_model_modal_thumb { padding-bottom:140px; }
+.car_model_modals_thumbnavigation {
+	padding:20px 3%;
+}
+
+#pull_downs li a,
+#language_selecter,
+#site_footer li a { font-size:12px; }
+
+.datsun_slider .thumb_inner {
+	width:auto;
+	margin:0;
+}
+
+#modalWrapper .prev_arrow_thumb {
+	z-index:999;
+	left:5%;
+}
+#modalWrapper .next_arrow_thumb {
+	z-index:999;
+	right:5%;
+}
+.title_spacer { font-size:26px; }
+
+.car_model_main_title { padding-bottom:0; }
+.car_model_modal_title .car_model_left_move,
+.car_model_modal_title .car_model_right_move { vertical-align:middle; }
+
+.separate_side_contents.separate_left { padding-left:5%; }
+.separate_side_contents.separate_right { padding-right:5% }
+
+#car_spac_color_box li span {
+	width:27px;
+	height:27px;
+}
+
+.news_release dt,
+.news_release dd { font-size:16px; }
+
+.modal_wrapper {
+	position:fixed;
+}
+
+#get_inside_player{
+	text-align:center;
+	/* 2014/03/01 レイアウト修正 s */
+/*
+	margin-left:5%;
+	margin-right:5%;
+*/
+	margin:0 5% 50px;
+	padding: 0 0 20px;
+	/* 2014/03/01 レイアウト修正 e */
+	height:553px;
+}
+#get_inside_player img{
+	width:auto;
+	max-width:none;
+	height:553px;
+}
+
+.car_model_separate_left {
+/* 2014/02/21 #5 */
+	min-width:325px;
+	max-width:700px;
+	/* min-height:380px;*/
+/* 2014/02/21 #5 */
+	width:67%;
+	float:left;
+}
+.car_model_separate_right {
+	float:right;
+/* 2014/02/21 #8 */
+	overflow:auto;
+	width:31%;
+	padding:20px 1%;
+	font-size:14px;
+	max-height:285px;
+	margin:0;
+/* 2014/02/21 #8 */
+}
+
+.sp_mode { display:none !important; }
+.pc_mode { display:none !important; }
+.tab_mode { display:block !important; }
+
+/* 2014/02/22 #7 */
+#color_name {
+	margin:0;
+	clear:both;
+}
+
+/* 2014/04/07 russia非表示設定　HP*/
+#color_name span{
+	display:none;
+}
+/* 2014/02/22 #22 */
+
+#grade_ex_box {
+	width:70%;
+	margin:0 15% 10px;
+/* 2014/02/27　レイアウト s*/
+/*
+	right:4%;
+	padding:0 20px 0 0;
+	
+	width:227px;
+	right:6%;
+	left:inherit;
+*/
+	bottom:0;
+	width:100%;
+	margin:0 auto 10px;
+	padding:0;
+/* 2014/02/27　レイアウト e*/
+	
+	z-index:101;
+}
+
+#grade_ex_box p {
+	height:1.4em;
+/* 2014/02/27　レイアウト s*/
+/*	float:none;*/
+margin:10px 0 0 40%;
+/* 2014/02/27　レイアウト e*/
+}
+
+#ex_list {
+	float:none;
+	margin:0 auto;
+/* 2014/02/27　レイアウト s*/
+	width:200px;
+/* 2014/02/27　レイアウト e*/
+}
+
+.grade_title {
+	text-align:center;
+}
+
+.vlp-finance-overlay .makeYourSelection {
+	float:left;
+}
+
+.vlp-finance-overlay .inputContainer input {
+	width:97%;
+}
+
+.vlp-finance-overlay .result {
+	border-top:none;
+	border-left:3px solid #9b9b9b;
+}
+
+.vlp-finance-overlay .makeYourSelection .wrapper {
+	padding:15px 0 15px 30px;
+}
+
+/* 2014/02/27　レイアウト */
+.car_model_separate_contents{
+	display:none;
+}
+
+.car_model_separate_contents.active {
+	display:block;
+}
+
+#price {
+	padding:45px 0 0;
+}
+
+#price h2{
+	margin:0 0 30px;
+}
+
+#features  {
+	margin:0; /*margin:60px 0 0;*/ /* 20140403 add */
+}
+
+.contents_spacer {
+	padding:45px 0;
+}
+
+#pos_rel_init {
+	margin:0 0 45px;
+}
+/* 2014/02/27 レイアウト ants*/ 
+#car_name {
+	font-size:72px;
+}
+
+/* 2014/11/11 #DatsunVLP2 comment out start*/
+/*
+#car_sub_title {
+	font-size:36px;
+	width:10em;	
+}
+*/
+/* 2014/11/11 #DatsunVLP2 comment out end*/
+
+.sand_inner h3 {
+	margin:20px 0 10px;
+}
+
+#dealer-locator {
+	padding:0;
+}
+
+#dealer-locator .form fieldset legend#pin {
+	font-size:33px;
+}
+
+#financialCalculator_modal {
+	margin:0;
+}
+
+#financialCalculator .vlp-finance-overlay {
+	width:86%;
+	margin:0;padding:3% 7%;
+}
+
+.vlp-finance-overlay .makeYourSelection {
+	width:40%;
+	margin:0 6% 0 0;padding:0; 
+}
+
+.vlp-finance-overlay .result {
+	width:50%;
+	margin:0; padding:0 0 0 4%;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+.downpaymentContainer.step_box dt {
+	height:99px;
+	line-height:99px;
+}
+
+.step_box dt{ 
+	width:30%;
+	line-height:75px;
+	margin:0; padding:3% 0 0;
+	float:left;
+	clear:both;
+}
+
+.step_box dd {
+	margin:0 0 0 30%; padding:3% 0 5%;
+	color:#7b7b7b;
+}
+
+#grade_box .grade_title {
+	font-size:90%;
+	margin:5px auto 0;
+	width:5em;
+	text-align:center;
+}
+
+.grade_lists {
+	width:auto;
+}
+
+.grade_lists li {
+	text-align:center;
+}
+/* 2014/3/2 #act ants : start */
+#accessories_contents .thumb_inner {
+	margin:0 10px;
+}
+#modalWrapper .full-size-imgs img {
+	height:438px; max-width:100%;
+}
+/* 2014/3/2 #act ants : end */
+
+/* 2014/03/06 */
+#car_spac_list li strong {
+	font-weight:700;
+}
+
+/* 20140403 add */
+#get_inside {
+	padding:0 0 30px 0;
+}
+
+/* 2014/03/13 レイアウト修正 */
+#get_inside .pos_rel_init{padding: 0 0 20px;}
+
+#get_inside .contents_widther  {
+	padding-bottom:30px;
+}
+
+
+
+/* 2014/04/24 TCO ants  */
+.tco_list {
+	width:100%;
+}
+
+.tco_list li {
+	width:32%;
+	margin: 0 2% 0 0;
+	float:left;
+	text-align:center;
+}
+
+.tco_list li.last-child {
+	margin:0;
+}
+
+.tco_list li a {
+	color:inherit;
+}
+
+.tco_list li span {
+	font-size:36px;
+}
+
+#tco_box {
+	margin:100px 0;
+}
+
+#tco {
+	width: 88%;
+	margin: 30px 0;
+	padding: 0 5%;
+}
+
+#tco h1 {
+	margin: 0 0 30px;
+}
+
+#tco h2 {
+	font-size:1.6em;
+}
+
+.tco_dl,
+.tco_dl dd,
+.tco_dl dt {
+	font-size:16px;
+}
+
+#tco .dropDownContainer {
+	width:100%;
+	max-width:292px;
+	float:right;
+}
+
+.tco_lead {
+	font-size:16px;
+}
+
+.tco_table {
+	font-size:100%;
+}
+
+.tco_table tbody th,
+.tco_table tbody td {
+	font-size:.7em;
+}
+
+.tbl_col2 {
+	width:30%;
+	float:left;
+	display:inline-block;
+}
+.tbl_col4 {
+	width:35%;
+	float:left;
+	display:inline-block;
+}
+
+.tbl_col2_r {
+	width:30%;
+	float:left;
+	display:inline-block;
+	text-align:right;
+}
+
+.tbl_col4_r {
+	width:35%;
+	float:left;
+	display:inline-block;
+	text-align:right;
+}
+
+.th_km,
+.th_pc,
+.th_pr {
+	width:33%;
+	margin:0;
+}
+
+#tco_detail_list {
+	margin:0 0 50px;
+}
+
+#tco_detail_list li{
+	font-size:100%;
+}
+
+
+.total_detail p { 
+	font-size:16px;
+}
+
+#tco_deatil_img {
+	font-size:1.2em;
+}
+
+#tco_deatil_img #go {
+	top:56%;left:8%;
+	width:auto;
+	text-align:left;
+}
+
+#tco_deatil_img #ondo {
+	top:43%;left:5%;
+	width:auto;
+	text-align:left;
+}
+
+#tco_deatil_img #goplus {
+	top:49%;left:7%;
+	width:auto;
+	text-align:left;
+}
+
+.tco_back {
+	font-size:16px;
+}
+
+.service_detail,
+.service_detail_btn {
+	font-size:14px;
+}
+
+/* 2014/10/27 #DatsunVLP2 start*/
+
+#car_spac_color_box {
+	top:66px;
+	width:18%;
+}
+
+
+#car_sub_title {
+	width:10em;	font-size:36px;
+	margin: 0 0 40px;
+	position:relative;
+	z-index:2;
+}
+
+#car_spac_list {
+	width:25%;
+	position:relative;
+	float:left;
+	z-index:2;
+}
+
+#car_spac_list li {
+	border-bottom:1px dotted #8b8b8b;
+	margin-right:0;
+	display:block;
+	font-size:12px;
+	width:94%;
+	padding:12px 3%;
+}
+
+.intro-image-container {
+	width: 66% !important;
+	margin:-10% -25% 0 0 !important;
+}
+
+#intro-container {
+	width: 100% !important;
+}
+/* 2014/10/27 #DatsunVLP2 end*/
+

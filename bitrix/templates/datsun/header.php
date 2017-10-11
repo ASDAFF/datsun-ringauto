@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="/bitrix/templates/datsun/css/ie-lte8.css" />
     <![endif]-->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="<?=SITE_TEMPLATE_PATH?>/js/jquery.min.js"></script>
     <script src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.8.3.js"></script>
 
 
