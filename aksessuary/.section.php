@@ -1,0 +1,6 @@
+<?
+$sSectionName = "aksessuary";
+$arDirProperties = Array(
+
+);
+?>

@@ -68,7 +68,7 @@
                         <li><a href="/repair/">Ремонт</a></li>
                         <li><a href="/warranty/">Гарантия</a></li>
                         <li><a href="/accessories/">Запчасти</a></li>
-                        <li><a href="/maintenance/aksessuary/">Aксессуары</a></li>
+                        <li><a href="/aksessuary/">Aксессуары</a></li>
                         <li><a href="/maintenance/o-servise/o-servise.php">О сервисе</a></li>
                     </ul>
 
