@@ -1,0 +1,6 @@
+<?
+$sSectionName = "shares";
+$arDirProperties = Array(
+
+);
+?>
