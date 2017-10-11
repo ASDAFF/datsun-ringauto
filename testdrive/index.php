@@ -11,18 +11,16 @@ $APPLICATION->SetTitle("testdrive");
 
             <div class="news-banner"> <img alt="clocks.png" src="http://datsun-spb.ru/upload/medialibrary/437/test_drive.jpg" title="clocks.png" class="news-banner-img"  />
                 <div class="news-banner-menu">
-                    <div class="banner-menu">
-                        <a href="/cars/in_stock/" class=" car">Автомобили в наличии</a>
-                        <a href="#signUpForATestDrive" class="form-fancybox rul">Записаться на тест-драйв</a>
-                        <a href="#calculateLoan" class="form-fancybox percent">Рассчитать кредит</a>
-                        <a href="#handOverInOffset" class="form-fancybox zachet">Сдать а/м в зачет</a>
-                        <a href="#writingToService" class="form-fancybox service">Записаться на сервис</a>
-                        <a href="#getConsult" class="form-fancybox consult">Получить консультацию</a>
-                        <div class="clear"></div>
-                    </div>
-                    <!-- popups forms -->
-
-                    <!-- END popups forms -->
+                    <?$APPLICATION->IncludeComponent(
+                        "bitrix:main.include",
+                        "",
+                        Array(
+                            "AREA_FILE_SHOW" => "file",
+                            "AREA_FILE_SUFFIX" => "inc",
+                            "EDIT_TEMPLATE" => "",
+                            "PATH" => "/include/news-banner-menu.php"
+                        )
+                    );?>
                 </div>
             </div>
 

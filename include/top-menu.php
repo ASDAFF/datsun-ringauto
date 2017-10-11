@@ -52,7 +52,7 @@
                     <ul>
                         <li><a href="/offers/">Спецпредложения</a></li>
                         <li><a href="/shares/">Акции</a></li>
-                        <li><a href="/specials/corp_sales/">Корпоративным клиентам</a></li>
+                        <li><a href="/corp-sales/">Корпоративным клиентам</a></li>
                     </ul>
 
                 </li>

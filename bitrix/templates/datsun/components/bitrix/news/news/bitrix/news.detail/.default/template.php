@@ -37,27 +37,16 @@ $this->setFrameMode(true);
 		<div class="news-banner">
 			<img class="news-banner-img" src="<?=$arResult["DETAIL_PICTURE"]["SRC"]?>">
 			<div class="news-banner-menu">
-
-				<div class="banner-menu">
-					<a href="#" class=" car">Автомобили в наличии</a>
-
-					<a href="#signUpForATestDrive" class="form-fancybox rul">Записаться на тест-драйв</a>
-
-					<a href="#calculateLoan" class="form-fancybox percent">Рассчитать кредит</a>
-
-					<a href="#handOverInOffset" class="form-fancybox zachet">Сдать а/м в зачет</a>
-
-					<a href="#writingToService" class="form-fancybox service">Записаться на сервис</a>
-
-					<a href="#getConsult" class="form-fancybox consult">Получить консультацию</a>
-
-					<div class="clear"></div>
-				</div>
-				<!-- popups forms -->
-				<!--noindex-->
-
-				<!--/noindex-->
-				<!-- END popups forms -->
+				<?$APPLICATION->IncludeComponent(
+					"bitrix:main.include",
+					"",
+					Array(
+						"AREA_FILE_SHOW" => "file",
+						"AREA_FILE_SUFFIX" => "inc",
+						"EDIT_TEMPLATE" => "",
+						"PATH" => "/include/news-banner-menu.php"
+					)
+				);?>
 			</div>
 		</div>
 		<div class="news-cont">
