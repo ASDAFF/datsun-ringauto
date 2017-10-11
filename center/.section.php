@@ -1,0 +1,6 @@
+<?
+$sSectionName = "center";
+$arDirProperties = Array(
+
+);
+?>

@@ -93,9 +93,9 @@
                     </a>
 
                     <ul>
-                        <li><a href="/about/center/">CTK CENTER</a></li>
-                        <li><a href="/about/people/">Наш коллектив</a></li>
-                        <li><a href="/about/news/">Новости</a></li>
+                        <li><a href="/center/">CTK CENTER</a></li>
+                        <li><a href="/people/">Наш коллектив</a></li>
+                        <li><a href="/news/">Новости</a></li>
                         <li><a href="/about/reviews/">Благодарности</a></li>
                         <li><a href="/about/advantages/">О бренде</a></li>
                     </ul>
@@ -106,7 +106,6 @@
 
             </ul>
         </nav>
-
 
     </div>
     <div class="header-submenu"></div>
