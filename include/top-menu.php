@@ -80,10 +80,9 @@
                     </a>
 
                     <ul>
-
-                        <li><a href="/services/credit/">Кредит и Страхование</a></li>
-                        <li><a href="/services/trade-in/">TRADE-IN</a></li>
-                        <li><a href="/services/assistance/">Datsun Assistance</a></li>
+                        <li><a href="/credit/">Кредит и Страхование</a></li>
+                        <li><a href="/trade-in/">TRADE-IN</a></li>
+                        <li><a href="/assistance/">Datsun Assistance</a></li>
                     </ul>
 
                 </li>
