@@ -64,7 +64,7 @@
 
                     <ul>
 
-                        <li><a href="/maintenance/teh_service/">Техническое обслуживание</a></li>
+                        <li><a href="/teh-service/">Техническое обслуживание</a></li>
                         <li><a href="/maintenance/repair/">Ремонт</a></li>
                         <li><a href="/maintenance/warranty/">Гарантия</a></li>
                         <li><a href="/maintenance/accessories/">Запчасти</a></li>
