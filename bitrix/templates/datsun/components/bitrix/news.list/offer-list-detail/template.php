@@ -13,7 +13,7 @@
 $this->setFrameMode(true);
 ?>
 <div class="news">
-	<div class="first-title"><?=$arResult["NAME"]?></div>
+
 	<!-- news slider -->
 
 	<div class="offers-slider">

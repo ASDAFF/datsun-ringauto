@@ -117,6 +117,25 @@ $(document).ready(function($) {
             }
         }
     });
+    $('.offer-bxslider').bxSlider({
+        minSlides: 1,
+        maxSlides: 4,
+        adaptiveHeight:true,
+        slideWidth: 350,
+        slideMargin: 0,
+        controls: true,
+        auto: true,
+        captions: false,
+        pager:false
+    });
+    $(".offer-bxslider .news-item-fancy").attr("rel", "album").fancybox({
+        wrapCSS : "news-item-fancybox",
+        helpers: {
+            overlay: {
+                locked: false
+            }
+        }
+    });
     function closeNav () {
         if ($(window).width() <= 992) {
             $('#header-main nav').removeClass('open_nav');

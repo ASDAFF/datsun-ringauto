@@ -119,7 +119,7 @@ $APPLICATION->SetTitle("offers");
             "PARENT_SECTION_CODE" => "",	// Код раздела
             "PREVIEW_TRUNCATE_LEN" => "",	// Максимальная длина анонса для вывода (только для типа текст)
             "PROPERTY_CODE" => array(	// Свойства
-                0 => "SALE",
+                0 => "CREDIT",
                 1 => "NEW_PRICE",
                 2 => "",
             ),
