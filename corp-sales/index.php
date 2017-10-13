@@ -85,36 +85,21 @@ $APPLICATION->SetTitle("corp_sales");
                 </div>
 
                 <div class="form-fancybox-modal third-block backform">
-                    <h3>ОСТАВИТЬ ЗАЯВКУ</h3>
+                    <h3>ЗАКАЗ ОБРАТНОГО ЗВОНКА</h3>
 
-                    <!-- <p>Остались вопросы? Оставьте Ваши контакты, мы перезвоним и сделаем индивидуальный расчет на самых выгодных условиях!</p> -->
-                    <form name="SIMPLE_FORM_17" action="/specials/corp_sales/" method="POST" enctype="multipart/form-data">
-                        <input type="hidden" name="sessid" id="sessid_5" value="899e2d55be5839172815485cd64fee9c" />
-                        <input type="hidden" name="WEB_FORM_ID" value="17" />
-                        <label>
-                            <div class="label"><p>Имя<span class="required">*</span></p></div>
-                            <input type="text"  class="inputtext"  name="form_text_72" value="" size="0" / required>			</label>
-                        <label>
-                            <div class="label"><p>Телефон<span class="required">*</span></p></div>
-                            <input type="text"  class="inputtext"  name="form_text_73" value="" size="0" / required>			</label>
-                        <label>
-                            <div class="label"><p>Комментарий</p></div>
-                            <textarea name="form_textarea_74" cols="40" rows="5"  class="inputtextarea" ></textarea>			</label>
-                        <label><table><tbody><tr><td><input type="text" name="name" value=""></td></tr></tbody></table></label>
-                        <div class="form-bottom">
-
-                            <div class="form-i">
-                                <input class="zapis_check" type="checkbox" name="zapis_check" value=""/>
-                                <span class="agreement">Я даю свое согласие на обработку персональных данных, с <a href="/upload/personal.docx">условиями обработки персональных данных</a> ознакомлен</span>
-                            </div>
-
-
-                            <input class="btn" type="submit" name="web_form_submit" value="Отправить" />
-                            <div><p><span class="required">*</span>Поля, обязательные для заполнения</p></div>
-                        </div>
-                        <div class="clear"></div>
-
-                    </form>
+                    <?$APPLICATION->IncludeComponent(
+                        "nbrains:main.feedback",
+                        "",
+                        Array(
+                            "EMAIL_TO" => "info@bitrix.ru",
+                            "EVENT_MESSAGE_ID" => array(),
+                            "IBLOCK_ID" => "17",
+                            "IBLOCK_TYPE" => "feedback",
+                            "OK_TEXT" => "Спасибо, ваше сообщение принято.",
+                            "PROPERTY_CODE" => array("FIO","PHONE","COMMENT","RULE"),
+                            "USE_CAPTCHA" => "N"
+                        )
+                    );?>
                 </div>
 
                 <div class="clear"></div>

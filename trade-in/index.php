@@ -41,39 +41,19 @@ $APPLICATION->SetTitle("trade-in");
                 <div class="news-line1">
                 </div>
                 <div class="form-fancybox-modal testdr-form">
-                    <form name="SIMPLE_FORM_7" action="/services/trade-in/" method="POST" enctype="multipart/form-data"><input type="hidden" name="sessid" id="sessid_5" value="899e2d55be5839172815485cd64fee9c" /><input type="hidden" name="WEB_FORM_ID" value="7" />
-                        <label>
-                            <div class="label"><p>Фамилия, Имя<span class="required">*</span></p></div>
-                            <input type="text"  class="inputtext"  name="form_text_29" value="" size="0" / required>			</label>
-                        <label>
-                            <div class="label"><p>Телефон<span class="required">*</span></p></div>
-                            <input type="text"  class="inputtext"  name="form_text_30" value="" size="0" / required>			</label>
-                        <label>
-                            <div class="label"><p>Модель</p></div>
-                            <select class="my_select_box" selected name="form_dropdown_SIMPLE_QUESTION_481" id="form_dropdown_SIMPLE_QUESTION_481"><option selected value="31">on-DO</option><option value="32">mi-DO</option></select>			</label>
-                        <label>
-                            <div class="label"><p>Автомобиль в зачет</p></div>
-                            <input type="text"  class="inputtext"  name="form_text_33" value="" size="0" />			</label>
-                        <label>
-                            <div class="label"><p>Комментарий</p></div>
-                            <textarea name="form_textarea_34" cols="40" rows="5"  class="inputtextarea" ></textarea>			</label>
-                        <label><table><tbody><tr><td><input type="text" name="name" value=""></td></tr></tbody></table></label>
-                        <div class="form-bottom">
-
-                            <div class="form-i">
-                                <input class="zapis_check" type="checkbox" name="zapis_check" value=""/>
-                                <span class="agreement">Я даю свое согласие на обработку персональных данных, с <a href="/upload/personal.docx">условиями обработки персональных данных</a> ознакомлен</span>
-                            </div>
-
-
-                            <input class="btn" type="submit" name="web_form_submit" value="Отправить" />
-                            <div><p><span class="required">*</span>Поля, обязательные для заполнения</p></div>
-                        </div>
-                        <div class="clear"></div>
-
-
-
-                    </form>
+                    <?$APPLICATION->IncludeComponent(
+                        "nbrains:main.feedback",
+                        "",
+                        Array(
+                            "EMAIL_TO" => "info@bitrix.ru",
+                            "EVENT_MESSAGE_ID" => array(),
+                            "IBLOCK_ID" => "15",
+                            "IBLOCK_TYPE" => "feedback",
+                            "OK_TEXT" => "Спасибо, ваше сообщение принято.",
+                            "PROPERTY_CODE" => array("FIO","PHONE","MODEL","CAR","COMMENT","RULE"),
+                            "USE_CAPTCHA" => "N"
+                        )
+                    );?>
                 </div>
 
 

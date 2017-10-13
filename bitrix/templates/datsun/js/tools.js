@@ -124,7 +124,7 @@
         });
 		$(".datsun-super-table iframe .form-bottom .btn").click(function(){
 			alert("aaaaa");
-		})
+		});
         // новости
         $('.news-slider').owlCarousel({
             items : 3,
@@ -402,130 +402,19 @@
 		/*галочки в формах + цели НАЧАЛО***************************************************************************/
 
 
-
-
-
-
-
-
-        $('form[name="SIMPLE_FORM_2"]').submit(function(e){
+        $('form').submit(function(e){
 
             if($(this).find('input.zapis_check').length > 0){
                 if($(this).find('input.zapis_check').prop('checked') == true){
-
                     $(this).find('input.zapis_check').removeClass('not_check');
                     return true;
-
                 } else{
-
                     $(this).find('input.zapis_check').addClass('not_check');
                     return false;
                 }
             }
         });
 
-        $('form[name="SIMPLE_FORM_4"]').submit(function(e){
-
-            if($(this).find('input.zapis_check').length > 0){
-                if($(this).find('input.zapis_check').prop('checked') == true){
-
-                    $(this).find('input.zapis_check').removeClass('not_check');
-                    return true;
-
-                } else{
-
-                    $(this).find('input.zapis_check').addClass('not_check');
-                    return false;
-                }
-            }
-        });
-
-        $('form[name="SIMPLE_FORM_5"]').submit(function(e){
-
-            if($(this).find('input.zapis_check').length > 0){
-                if($(this).find('input.zapis_check').prop('checked') == true){
-
-                    $(this).find('input.zapis_check').removeClass('not_check');
-
-                    return true;
-
-                } else{
-
-                    $(this).find('input.zapis_check').addClass('not_check');
-                    return false;
-                }
-            }
-        });
-
-
-
-
-        $('form[name="SIMPLE_FORM_6"]').submit(function(e){
-            if($(this).find('input.zapis_check').length > 0){
-                if($(this).find('input.zapis_check').prop('checked') == true){
-
-                    $(this).find('input.zapis_check').removeClass('not_check');
-                    return true;
-
-                } else{
-
-                    $(this).find('input.zapis_check').addClass('not_check');
-                    return false;
-                }
-            }
-        });
-
-
-
-        $('form[name="SIMPLE_FORM_7"]').submit(function(e){
-
-            if($(this).find('input.zapis_check').length > 0){
-                if($(this).find('input.zapis_check').prop('checked') == true){
-
-                    $(this).find('input.zapis_check').removeClass('not_check');
-
-                    return true;
-
-                } else{
-
-                    $(this).find('input.zapis_check').addClass('not_check');
-                    return false;
-                }
-            }
-        });
-
-
-        $('form[name="SIMPLE_FORM_15"]').submit(function(e){
-
-            if($(this).find('input.zapis_check').length > 0){
-                if($(this).find('input.zapis_check').prop('checked') == true){
-
-                    $(this).find('input.zapis_check').removeClass('not_check');
-                    return true;
-
-                } else{
-
-                    $(this).find('input.zapis_check').addClass('not_check');
-                    return false;
-                }
-            }
-        });
-
-        $('form[name="SIMPLE_FORM_12"]').submit(function(e){
-
-            if($(this).find('input.zapis_check').length > 0){
-                if($(this).find('input.zapis_check').prop('checked') == true){
-
-                    $(this).find('input.zapis_check').removeClass('not_check');
-                    return true;
-
-                } else{
-
-                    $(this).find('input.zapis_check').addClass('not_check');
-                    return false;
-                }
-            }
-        });
 		/*галочки в формах + цели - КОНЕЦ***************************************************************************/
 
     });

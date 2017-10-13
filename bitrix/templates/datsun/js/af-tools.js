@@ -61,33 +61,14 @@ $(document).ready(function($) {
             '09:00', '10:00', '11:00', '12:00', '13:00', '14:00',
             '15:00', '16:00', '17:00', '18:00', '19:00', '20:00'
         ];
-    $('input[name="date"]').datetimepicker({allowTimes: aTimes});
-    $('input[name="date"]').mask("9999/99/99 99:99");////
-    $('form[name="SIMPLE_FORM_4"] input[name="form_text_14"]').datetimepicker({allowTimes: aTimes});
-    $('form[name="SIMPLE_FORM_4"] input[name="form_text_14"]').mask("9999/99/99 99:99");////
-    $('form[name="SIMPLE_FORM_6"] input[name="form_text_27"]').datetimepicker({allowTimes: aTimes});
-    $('form[name="SIMPLE_FORM_6"] input[name="form_text_27"]').mask("9999/99/99 99:99");////
-    $('form[name="SIMPLE_FORM_10"] input[name="form_text_46"]').datetimepicker({allowTimes: aTimes});
-    $('form[name="SIMPLE_FORM_10"] input[name="form_text_46"]').mask("9999/99/99 99:99");////
-    $('form[name="SIMPLE_FORM_11"] input[name="form_text_52"]').datetimepicker({allowTimes: aTimes});
-    $('form[name="SIMPLE_FORM_11"] input[name="form_text_52"]').mask("9999/99/99 99:99");////
-    // 
-    $('input[name="phone"]').mask("+7 (999) 999-99-99");
-    $('form[name="SIMPLE_FORM_2"] input[name="form_text_5"]').mask("+7 (999) 999-99-99");////
-    $('form[name="SIMPLE_FORM_4"] input[name="form_text_11"]').mask("+7 (999) 999-99-99");////
-    $('form[name="SIMPLE_FORM_5"] input[name="form_text_17"]').mask("+7 (999) 999-99-99");////
-    $('form[name="SIMPLE_FORM_6"] input[name="form_text_24"]').mask("+7 (999) 999-99-99");////
-    $('form[name="SIMPLE_FORM_7"] input[name="form_text_30"]').mask("+7 (999) 999-99-99");////
-    $('form[name="SIMPLE_FORM_8"] input[name="form_text_36"]').mask("+7 (999) 999-99-99");////
-    $('form[name="SIMPLE_FORM_9"] input[name="form_text_40"]').mask("+7 (999) 999-99-99");////
-    $('form[name="SIMPLE_FORM_10"] input[name="form_text_43"]').mask("+7 (999) 999-99-99");////
-    $('form[name="SIMPLE_FORM_11"] input[name="form_text_49"]').mask("+7 (999) 999-99-99");////
-    $('form[name="SIMPLE_FORM_13"] input[name="form_text_56"]').mask("+7 (999) 999-99-99");////
-    $('form[name="SIMPLE_FORM_16"] input[name="form_text_71"]').mask("+7 (999) 999-99-99");////
-    $('form[name="SIMPLE_FORM_17"] input[name="form_text_73"]').mask("+7 (999) 999-99-99");////
-	$('input[name="number"]').mask("+7 (999) 999-99-99");
-	$('input[name="PROPERTY[75][0]"]').mask("+7 (999) 999-99-99");
+    $('input[name="DATE"]').datetimepicker({allowTimes: aTimes});
+    $('input[name="DATE"]').mask("9999/99/99 99:99");////
+    //
+
+    $('input[name="PHONE"]').mask("+7 (999) 999-99-99");
+
     $('select').on('chosen:ready', function(e, chosen) {
+        $('#offers-messages').hide();
         $('#writingToService').hide();
         $('#writingToServiceOnService').hide();
         $('#calculateLoan').hide();

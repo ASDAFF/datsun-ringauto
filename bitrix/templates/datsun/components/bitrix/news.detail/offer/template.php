@@ -38,7 +38,7 @@ $this->setFrameMode(true);
     <div class="content">
         <div class="exlusive-offer">
             <span>ЭТО ЭКСКЛЮЗИВНОЕ ПРЕДЛОЖЕНИЕ, ЗАБРОНИРУЙТЕ СКИДКУ ПРЯМО СЕЙЧАС</span>
-            <a href="" class="ex-btn btn-blue">ОСТАВИТЬ ЗАЯВКУ</a>
+            <a href="#offers-messages" class="ex-btn btn-blue form-fancybox" id="">ОСТАВИТЬ ЗАЯВКУ</a>
         </div>
     </div>
 
@@ -102,7 +102,7 @@ $this->setFrameMode(true);
                 <div class="add-test">
                     <div class="offer-title blue">Записаться на тест драйв</div>
                     <p>и забронировать эксклюзивную цену</p>
-                    <a href="" class="offer-btn-test">ОСТАВИТЬ ЗАЯВКУ</a>
+                    <a href="#offers-messages" class="offer-btn-test form-fancybox" id="">ОСТАВИТЬ ЗАЯВКУ</a>
                 </div>
             </div>
 
@@ -319,7 +319,7 @@ $this->setFrameMode(true);
     <div class="content">
         <div class="exlusive-offer">
             <span>ВОСПОЛЬЗУЙТЕСЬ УНИКАЛЬНЫМ ЦЕНОВЫМ ПРЕДЛОЖЕНИЕМ И ОСТАВТЬЕ ЗАЯВКУ НА ТЕСТ ДРАЙВ</span>
-            <a href="" class="ex-btn btn-blue">ОСТАВИТЬ ЗАЯВКУ</a>
+            <a href="#offers-messages" class="ex-btn btn-blue form-fancybox" id="">ОСТАВИТЬ ЗАЯВКУ</a>
         </div>
     </div>
 

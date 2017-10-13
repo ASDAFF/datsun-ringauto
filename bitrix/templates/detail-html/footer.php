@@ -252,111 +252,55 @@
 <div id="handOverInOffset" class="popup-form">
     <div class="title">Сдать автомобиль в зачет</div>
 
-    <form name="SIMPLE_FORM_7" action="/on-do/" method="POST" enctype="multipart/form-data"><input type="hidden" name="sessid" id="sessid_3" value="35328a620dee4260e952fa5514697c39" /><input type="hidden" name="WEB_FORM_ID" value="7" />
-        <label>
-            <div class="label"><p>Фамилия, Имя<span class="required">*</span></p></div>
-            <input type="text"  class="inputtext"  name="form_text_29" value="" size="0" / required>			</label>
-        <label>
-            <div class="label"><p>Телефон<span class="required">*</span></p></div>
-            <input type="text"  class="inputtext"  name="form_text_30" value="" size="0" / required>			</label>
-        <label>
-            <div class="label"><p>Модель</p></div>
-            <select class="my_select_box" selected name="form_dropdown_SIMPLE_QUESTION_481" id="form_dropdown_SIMPLE_QUESTION_481"><option selected value="31">on-DO</option><option value="32">mi-DO</option></select>			</label>
-        <label>
-            <div class="label"><p>Автомобиль в зачет</p></div>
-            <input type="text"  class="inputtext"  name="form_text_33" value="" size="0" />			</label>
-        <label>
-            <div class="label"><p>Комментарий</p></div>
-            <textarea name="form_textarea_34" cols="40" rows="5"  class="inputtextarea" ></textarea>			</label>
-        <label><table><tbody><tr><td><input type="text" name="name" value=""></td></tr></tbody></table></label>
-        <div class="requiredText"><span class="required">*</span>Поля, обязательные для заполнения</div>
-        <div class="form-i">
-            <input class="zapis_check" type="checkbox" name="zapis_check" value=""/>
-            <span class="agreement">Я даю свое согласие на обработку персональных данных, с <a href="/upload/personal.docx">условиями обработки персональных данных</a> ознакомлен</span>
-        </div>
-
-
-        <div class="submitButton">
-            <input class="btn" type="submit" name="web_form_submit" value="Отправить" />
-        </div>
-        <div class="clear"></div>
-
-
-
-    </form>			</div>
+    <?$APPLICATION->IncludeComponent(
+        "nbrains:main.feedback",
+        "",
+        Array(
+            "EMAIL_TO" => "info@bitrix.ru",
+            "EVENT_MESSAGE_ID" => array(),
+            "IBLOCK_ID" => "15",
+            "IBLOCK_TYPE" => "feedback",
+            "OK_TEXT" => "Спасибо, ваше сообщение принято.",
+            "PROPERTY_CODE" => array("FIO","PHONE","MODEL","CAR","COMMENT","RULE"),
+            "USE_CAPTCHA" => "N"
+        )
+    );?>
+</div>
 <div id="calculateLoan" class="popup-form">
     <div class="title">Рассчитать кредит</div>
 
-    <form name="SIMPLE_FORM_5" action="/on-do/" method="POST" enctype="multipart/form-data"><input type="hidden" name="sessid" id="sessid_4" value="35328a620dee4260e952fa5514697c39" /><input type="hidden" name="WEB_FORM_ID" value="5" />
-        <label>
-            <div class="label"><p>Фамилия, Имя<span class="required">*</span></p></div>
-            <input type="text"  class="inputtext"  name="form_text_16" value="" size="0" / required>			</label>
-        <label>
-            <div class="label"><p>Телефон<span class="required">*</span></p></div>
-            <input type="text"  class="inputtext"  name="form_text_17" value="" size="0" / required>			</label>
-        <label>
-            <div class="label"><p>Модель</p></div>
-            <select class="my_select_box" selected name="form_dropdown_SIMPLE_QUESTION_111" id="form_dropdown_SIMPLE_QUESTION_111"><option selected value="18">on-DO</option><option value="19">mi-DO</option></select>			</label>
-        <label>
-            <div class="label"><p>Первый взнос (руб.)</p></div>
-            <input type="text"  class="inputtext"  name="form_text_20" value="" size="0" />			</label>
-        <label>
-            <div class="label"><p>Удобный платеж (руб.)</p></div>
-            <input type="text"  class="inputtext"  name="form_text_21" value="" size="0" />			</label>
-        <label>
-            <div class="label"><p>Комментарий</p></div>
-            <textarea name="form_textarea_22" cols="40" rows="5"  class="inputtextarea" ></textarea>			</label>
-        <label><table><tbody><tr><td><input type="text" name="name" value=""></td></tr></tbody></table></label>
-        <div class="requiredText"><span class="required">*</span>Поля, обязательные для заполнения</div>
-        <div class="form-i">
-            <input class="zapis_check" type="checkbox" name="zapis_check" value=""/>
-            <span class="agreement">Я даю свое согласие на обработку персональных данных, с <a href="/upload/personal.docx">условиями обработки персональных данных</a> ознакомлен</span>
-        </div>
-
-
-        <div class="submitButton">
-            <input class="btn" type="submit" name="web_form_submit" value="Отправить" />
-        </div>
-        <div class="clear"></div>
-
-
-
-    </form>			</div>
+    <?$APPLICATION->IncludeComponent(
+        "nbrains:main.feedback",
+        "",
+        Array(
+            "EMAIL_TO" => "info@bitrix.ru",
+            "EVENT_MESSAGE_ID" => array(),
+            "IBLOCK_ID" => "14",
+            "IBLOCK_TYPE" => "feedback",
+            "OK_TEXT" => "Спасибо, ваше сообщение принято.",
+            "PROPERTY_CODE" => array("FIO","PHONE","MODEL","FIRST_ADD","COMFORT_PAY","COMMENT","RULE"),
+            "USE_CAPTCHA" => "N"
+        )
+    );?>
+</div>
 <div id="signUpForATestDrive" class="popup-form">
     <div class="title">Записаться на тест-драйв</div>
 
-    <form name="SIMPLE_FORM_6" action="/on-do/" method="POST" enctype="multipart/form-data"><input type="hidden" name="sessid" id="sessid_5" value="35328a620dee4260e952fa5514697c39" /><input type="hidden" name="WEB_FORM_ID" value="6" />
-        <label>
-            <div class="label"><p>Фамилия, Имя<span class="required">*</span></p></div>
-            <input type="text"  class="inputtext"  name="form_text_23" value="" size="0" / required>			</label>
-        <label>
-            <div class="label"><p>Телефон<span class="required">*</span></p></div>
-            <input type="text"  class="inputtext"  name="form_text_24" value="" size="0" / required>			</label>
-        <label>
-            <div class="label"><p>Модель</p></div>
-            <select class="my_select_box" selected name="form_dropdown_SIMPLE_QUESTION_567" id="form_dropdown_SIMPLE_QUESTION_567"><option selected value="25">on-DO</option><option value="26">mi-DO</option></select>			</label>
-        <label>
-            <div class="label"><p>Удобная дата</p></div>
-            <input type="text"  class="inputtext"  name="form_text_27" value="" size="0" />			</label>
-        <label>
-            <div class="label"><p>Комментарий</p></div>
-            <textarea name="form_textarea_28" cols="40" rows="5"  class="inputtextarea" ></textarea>			</label>
-        <label><table><tbody><tr><td><input type="text" name="name" value=""></td></tr></tbody></table></label>
-        <div class="requiredText"><span class="required">*</span>Поля, обязательные для заполнения</div>
-        <div class="form-i">
-            <input class="zapis_check" type="checkbox" name="zapis_check" value=""/>
-            <span class="agreement">Я даю свое согласие на обработку персональных данных, с <a href="/upload/personal.docx">условиями обработки персональных данных</a> ознакомлен</span>
-        </div>
+    <?$APPLICATION->IncludeComponent(
+        "nbrains:main.feedback",
+        "",
+        Array(
+            "EMAIL_TO" => "info@bitrix.ru",
+            "EVENT_MESSAGE_ID" => array(),
+            "IBLOCK_ID" => "13",
+            "IBLOCK_TYPE" => "feedback",
+            "OK_TEXT" => "Спасибо, ваше сообщение принято.",
+            "PROPERTY_CODE" => array("FIO","PHONE","MODEL","DATE","COMMENT","RULE"),
+            "USE_CAPTCHA" => "N"
+        )
+    );?>
 
-
-        <div class="submitButton">
-            <input class="btn" type="submit" name="web_form_submit" value="Отправить" />
-        </div>
-        <div class="clear"></div>
-
-
-
-    </form>			</div>
+</div>
 
 </div>
 <!-- MODALS BEGIN-->
