@@ -115,7 +115,9 @@
         "",
         Array(
             "EMAIL_TO" => "info@bitrix.ru",
-            "EVENT_MESSAGE_ID" => array(),
+            "EVENT_MESSAGE_ID" => array(
+                0 => "11",
+            ),
             "IBLOCK_ID" => "12",
             "IBLOCK_TYPE" => "feedback",
             "OK_TEXT" => "Спасибо, ваше сообщение принято.",
@@ -133,7 +135,9 @@
         "",
         Array(
             "EMAIL_TO" => "info@bitrix.ru",
-            "EVENT_MESSAGE_ID" => array(),
+            "EVENT_MESSAGE_ID" => array(
+                0 => "11",
+            ),
             "IBLOCK_ID" => "12",
             "IBLOCK_TYPE" => "feedback",
             "OK_TEXT" => "Спасибо, ваше сообщение принято.",
@@ -153,7 +157,9 @@
         "",
         Array(
             "EMAIL_TO" => "info@bitrix.ru",
-            "EVENT_MESSAGE_ID" => array(),
+            "EVENT_MESSAGE_ID" => array(
+                0 => "15",
+            ),
             "IBLOCK_ID" => "14",
             "IBLOCK_TYPE" => "feedback",
             "OK_TEXT" => "Спасибо, ваше сообщение принято.",
@@ -190,7 +196,9 @@
         "",
         Array(
             "EMAIL_TO" => "info@bitrix.ru",
-            "EVENT_MESSAGE_ID" => array(),
+            "EVENT_MESSAGE_ID" => array(
+                0 => "9",
+            ),
             "IBLOCK_ID" => "13",
             "IBLOCK_TYPE" => "feedback",
             "OK_TEXT" => "Спасибо, ваше сообщение принято.",
@@ -209,7 +217,9 @@
         "",
         Array(
             "EMAIL_TO" => "info@bitrix.ru",
-            "EVENT_MESSAGE_ID" => array(),
+            "EVENT_MESSAGE_ID" => array(
+                0 => "16",
+            ),
             "IBLOCK_ID" => "15",
             "IBLOCK_TYPE" => "feedback",
             "OK_TEXT" => "Спасибо, ваше сообщение принято.",
@@ -228,7 +238,9 @@
         "",
         Array(
             "EMAIL_TO" => "info@bitrix.ru",
-            "EVENT_MESSAGE_ID" => array(),
+            "EVENT_MESSAGE_ID" => array(
+                0 => "14",
+            ),
             "IBLOCK_ID" => "16",
             "IBLOCK_TYPE" => "feedback",
             "OK_TEXT" => "Спасибо, ваше сообщение принято.",
@@ -249,7 +261,9 @@
         "",
         Array(
             "EMAIL_TO" => "info@bitrix.ru",
-            "EVENT_MESSAGE_ID" => array(),
+            "EVENT_MESSAGE_ID" => array(
+                0 => "12",
+            ),
             "IBLOCK_ID" => "18",
             "IBLOCK_TYPE" => "feedback",
             "OK_TEXT" => "Спасибо, ваше сообщение принято.",
@@ -270,7 +284,9 @@
         "",
         Array(
             "EMAIL_TO" => "info@bitrix.ru",
-            "EVENT_MESSAGE_ID" => array(),
+            "EVENT_MESSAGE_ID" => array(
+                0 => "10",
+            ),
             "IBLOCK_ID" => "19",
             "IBLOCK_TYPE" => "feedback",
             "OK_TEXT" => "Спасибо, ваше сообщение принято.",
@@ -290,7 +306,9 @@
         "",
         Array(
             "EMAIL_TO" => "info@bitrix.ru",
-            "EVENT_MESSAGE_ID" => array(),
+            "EVENT_MESSAGE_ID" => array(
+                0 => "13",
+            ),
             "IBLOCK_ID" => "21",
             "IBLOCK_TYPE" => "feedback",
             "OK_TEXT" => "Спасибо, ваше сообщение принято.",

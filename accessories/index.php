@@ -67,7 +67,9 @@ $APPLICATION->SetTitle("accessories");
                         "",
                         Array(
                             "EMAIL_TO" => "info@bitrix.ru",
-                            "EVENT_MESSAGE_ID" => array(),
+                            "EVENT_MESSAGE_ID" => array(
+                                0 => "17",
+                            ),
                             "IBLOCK_ID" => "20",
                             "IBLOCK_TYPE" => "feedback",
                             "OK_TEXT" => "Спасибо, ваше сообщение принято.",
