@@ -99,7 +99,7 @@
 			© 2014-2017 ООО "Глобал Системз", Официальный дилер Datsun в Воронеже. Информация, указанная на настоящем интернет-сайте, носит исключительно информационный характер и ни при каких условиях не является публичной офертой (ст. 437 ГК РФ). <a href="/upload/conf_politic.docx" style="color:#fff">Политика конфиденциальности</a>. <a href="/upload/personal.docx" style="color:#fff">Согласие на обработку персональных данных</a>.<br><br>
             <a class="to_sitemap" href="/sitemap/">Карта сайта</a>
             <img width="39" src="<?=SITE_TEMPLATE_PATH?>/images/logo-footer@2x.png" alt="">
-            <a class="artfactor" href="#">Создание сайта</a>
+            <a class="artfactor" href="#"></a>
             <span id="bx-composite-banner"></span>
         </div>
 
@@ -177,7 +177,9 @@
         "",
         Array(
             "EMAIL_TO" => "info@bitrix.ru",
-            "EVENT_MESSAGE_ID" => array(),
+            "EVENT_MESSAGE_ID" => array(
+                0 => "15",
+            ),
             "IBLOCK_ID" => "14",
             "IBLOCK_TYPE" => "feedback",
             "OK_TEXT" => "Спасибо, ваше сообщение принято.",

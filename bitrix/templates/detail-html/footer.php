@@ -244,7 +244,9 @@
 
         <div class="clear"></div>
 
-        <div class="copyright">© 2014-2017 ООО "Глобал Системз", Официальный дилер Datsun в Воронеже. Информация, указанная на настоящем интернет-сайте, носит исключительно информационный характер и ни при каких условиях не является публичной офертой (ст. 437 ГК РФ). Политика конфиденциальности.<br><br><img width="39" src="images/logo-footer@2x.png" alt=""><a class="artfactor" href="http://www.artfactor.ru">Создание сайта — дизайн–студия «АртФактор»</a></div>
+        <div class="copyright">© 2014-2017 ООО "Глобал Системз", Официальный дилер Datsun в Воронеже. Информация, указанная на настоящем интернет-сайте, носит исключительно информационный характер и ни при каких условиях не является публичной офертой (ст. 437 ГК РФ). Политика конфиденциальности.<br><br><img width="39" src="images/logo-footer@2x.png" alt="">
+            <a class="artfactor" href="#"></a>
+        </div>
 
     </div>
 </footer>
@@ -257,7 +259,9 @@
         "",
         Array(
             "EMAIL_TO" => "info@bitrix.ru",
-            "EVENT_MESSAGE_ID" => array(),
+            "EVENT_MESSAGE_ID" => array(
+                0 => "16",
+            ),
             "IBLOCK_ID" => "15",
             "IBLOCK_TYPE" => "feedback",
             "OK_TEXT" => "Спасибо, ваше сообщение принято.",
@@ -274,7 +278,9 @@
         "",
         Array(
             "EMAIL_TO" => "info@bitrix.ru",
-            "EVENT_MESSAGE_ID" => array(),
+            "EVENT_MESSAGE_ID" => array(
+                0 => "15",
+            ),
             "IBLOCK_ID" => "14",
             "IBLOCK_TYPE" => "feedback",
             "OK_TEXT" => "Спасибо, ваше сообщение принято.",
@@ -291,7 +297,9 @@
         "",
         Array(
             "EMAIL_TO" => "info@bitrix.ru",
-            "EVENT_MESSAGE_ID" => array(),
+            "EVENT_MESSAGE_ID" => array(
+                0 => "9",
+            ),
             "IBLOCK_ID" => "13",
             "IBLOCK_TYPE" => "feedback",
             "OK_TEXT" => "Спасибо, ваше сообщение принято.",
