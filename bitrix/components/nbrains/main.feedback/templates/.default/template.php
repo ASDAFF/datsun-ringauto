@@ -44,11 +44,7 @@ if(strlen($arResult["OK_MESSAGE"]) > 0)
 				<?if($field['USER_TYPE'] != "HTML"):?>
 				<label>
 					<div class="label">
-						<p><?=$field["NAME"]?>
-							<?if($field["IS_REQUIRED"] == "Y"):?>
-							<span class="required">*</span>
-							<?endif;?>
-						</p>
+						<p><?=$field["NAME"]?><?if($field["IS_REQUIRED"] == "Y"):?><span class="required">*</span><?endif;?></p>
 					</div>
 					<input type="text"  class="inputtext"  name="<?=$field['CODE']?>" value="<?=$arResult[$field['CODE']]?>" size="0" <?if($field["IS_REQUIRED"] == "Y"):?>required<?endif;?>/>
 				</label>
