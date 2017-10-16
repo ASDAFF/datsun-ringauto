@@ -32,6 +32,7 @@ $this->setFrameMode(true);
 );?>
 <br />
 <?endif?>
+
 <?if($arParams["USE_FILTER"]=="Y"):?>
 <?$APPLICATION->IncludeComponent(
 	"bitrix:catalog.filter",
@@ -52,6 +53,7 @@ $this->setFrameMode(true);
 ?>
 <br />
 <?endif?>
+
 <?$APPLICATION->IncludeComponent(
 	"bitrix:news.list",
 	"",
@@ -99,7 +101,7 @@ $this->setFrameMode(true);
 		"ACTIVE_DATE_FORMAT" => $arParams["LIST_ACTIVE_DATE_FORMAT"],
 		"USE_PERMISSIONS" => $arParams["USE_PERMISSIONS"],
 		"GROUP_PERMISSIONS" => $arParams["GROUP_PERMISSIONS"],
-		"FILTER_NAME" => $arParams["FILTER_NAME"],
+		"FILTER_NAME" => "newsFilter",
 		"HIDE_LINK_WHEN_NO_DETAIL" => $arParams["HIDE_LINK_WHEN_NO_DETAIL"],
 		"CHECK_DATES" => $arParams["CHECK_DATES"],
 	),

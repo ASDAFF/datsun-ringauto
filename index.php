@@ -34,7 +34,7 @@ $APPLICATION->SetTitle("Datsun");
 			2 => "DETAIL_PICTURE",
 			3 => "",
 		),
-		"FILTER_NAME" => "",
+		"FILTER_NAME" => "sliderFilter",
 		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
 		"IBLOCK_ID" => "5",
 		"IBLOCK_TYPE" => "sliders",
@@ -173,7 +173,7 @@ $APPLICATION->SetTitle("Datsun");
             3 => "DATE_ACTIVE_FROM",
             4 => "",
         ),
-        "FILTER_NAME" => "",	// Фильтр
+        "FILTER_NAME" => "newsFilter",	// Фильтр
         "HIDE_LINK_WHEN_NO_DETAIL" => "N",	// Скрывать ссылку, если нет детального описания
         "IBLOCK_ID" => "1",	// Код информационного блока
         "IBLOCK_TYPE" => "news",	// Тип информационного блока (используется только для проверки)

@@ -37,7 +37,7 @@ $APPLICATION->SetTitle("Новости");
 		"DETAIL_PAGER_TITLE" => "Страница",
 		"DETAIL_PROPERTY_CODE" => array(
 			0 => "",
-			1 => "",
+			1 => "SITES",
 		),
 		"DETAIL_SET_CANONICAL_URL" => "N",
 		"DISPLAY_BOTTOM_PAGER" => "Y",
@@ -58,7 +58,7 @@ $APPLICATION->SetTitle("Новости");
 		),
 		"LIST_PROPERTY_CODE" => array(
 			0 => "",
-			1 => "",
+			1 => "SITES",
 		),
 		"MESSAGE_404" => "",
 		"META_DESCRIPTION" => "-",
@@ -87,6 +87,15 @@ $APPLICATION->SetTitle("Новости");
 		"STRICT_SECTION_CHECK" => "N",
 		"USE_CATEGORIES" => "N",
 		"USE_FILTER" => "N",
+		"FILTER_NAME" => "newsFilter",
+		"FILTER_PROPERTY_CODE" => array(
+			0 => "SITES",
+			1 => ""
+		),
+		"FILTER_FIELD_CODE" => array(
+			0 => "",
+			1 => "",
+		),
 		"USE_PERMISSIONS" => "N",
 		"USE_RATING" => "N",
 		"USE_RSS" => "N",
