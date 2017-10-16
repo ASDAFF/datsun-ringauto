@@ -3839,7 +3839,7 @@ footer {width:100%; margin-top:-144px; height:144px; position:relative; backgrou
 .page-1160 footer {margin-top:-168px; height:168px}
 .page-1240 footer {margin-top:-180px; height:180px}
 .page-1320 footer {margin-top:-192px; height:192px}
-.page-1400 footer {margin-top:-201px; height:201px}
+.page-1400 footer {margin-top:-201px;}
 
 .footer-inner {max-width:1400px; margin:0 auto}
 
@@ -4021,7 +4021,7 @@ footer {
     -moz-box-sizing: border-box;
 }
 footer {
-    height: 370px !important;
+    height: 445px !important;
 }
 .page-1400 .footer-menu {
     padding: 3em 0 0 3.5em;
