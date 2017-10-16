@@ -322,7 +322,7 @@ $this->setFrameMode(true);
 
     <div class="content">
         <div class="exlusive-offer">
-            <span>ВОСПОЛЬЗУЙТЕСЬ УНИКАЛЬНЫМ ЦЕНОВЫМ ПРЕДЛОЖЕНИЕМ И ОСТАВТЬЕ ЗАЯВКУ НА ТЕСТ ДРАЙВ</span>
+            <span>ВОСПОЛЬЗУЙТЕСЬ УНИКАЛЬНЫМ ЦЕНОВЫМ ПРЕДЛОЖЕНИЕМ И ОСТАВЬТЕ ЗАЯВКУ НА ТЕСТ-ДРАЙВ</span>
             <a href="#offers-messages" class="ex-btn btn-blue form-fancybox" id="">ОСТАВИТЬ ЗАЯВКУ</a>
         </div>
     </div>
