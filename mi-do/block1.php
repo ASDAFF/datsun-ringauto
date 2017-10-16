@@ -23,7 +23,7 @@
                     <a class="item form-fancybox" href="#signUpForATestDrive">Записаться на тест-драйв</a>
                     <a class="item form-fancybox" href="#handOverInOffset">Сдать а/м в зачет</a>
                     <a class="item form-fancybox" href="#calculateLoan">Рассчитать кредит</a>
-                    <a class="item red" href="/cars/in_stock/?arrFilter_77=2739797979&arrFilter_79=&set_filter=НАЙТИ" onClick="ga('send', 'pageview', {'page': 'button-click','title': 'Нажатие на кнопку'});">Автомобили в наличии</a>
+                    <a class="item red" href="/offers/" onClick="ga('send', 'pageview', {'page': 'button-click','title': 'Нажатие на кнопку'});">Автомобили в наличии</a>
                 </div>
                 <!--<div class="price-from" style="margin:10px 0 0;font-size:11px;line-height:14px;color:#fff;">*Цена указана с учетом выгоды по программе утилизации</div>-->
             </div>
