@@ -8,7 +8,7 @@ $APPLICATION->SetTitle("center");
 
     <div class="content">
         <div class="news-detail">
-            <h1>CTK CENTER</h1>
+            <h1>Ринг Авто Север</h1>
             <div class="news-date">
             </div>
             <!-- <div class="news-line"></div> -->

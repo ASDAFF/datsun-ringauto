@@ -23,7 +23,7 @@
                     <a href="/offers/" class="root-item">Спецпредложения</a>
                     <ul>
                         <li><a href="/shares/">Акции</a></li>
-                        <li><a href="/corp_sales/">Корпоративным клиентам</a></li>
+                        <li><a href="/corp-sales/">Корпоративным клиентам</a></li>
                     </ul>
                 </li>
 
