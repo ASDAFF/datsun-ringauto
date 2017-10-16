@@ -250,6 +250,30 @@
 
     </div>
 </footer>
+
+<?
+$feedback = array();
+if(SITE_ID == "s1"){
+    $feedback = array(
+        0 => 15,
+        1 => 14,
+        2 => 13
+    );
+}elseif(SITE_ID == "s2"){
+    $feedback = array(
+        0 => 51,
+        1 => 49,
+        2 => 38
+    );
+}else{
+    $feedback = array(
+        0 => 52,
+        1 => 50,
+        2 => 39
+    );
+}
+
+?>
 <!-- slider modals -->
 <div id="handOverInOffset" class="popup-form">
     <div class="title">Сдать автомобиль в зачет</div>
@@ -262,7 +286,7 @@
             "EVENT_MESSAGE_ID" => array(
                 0 => "16",
             ),
-            "IBLOCK_ID" => "15",
+            "IBLOCK_ID" => $feedback[0],
             "IBLOCK_TYPE" => "feedback",
             "OK_TEXT" => "Спасибо, ваше сообщение принято.",
             "PROPERTY_CODE" => array("FIO","PHONE","MODEL","CAR","COMMENT","RULE"),
@@ -281,7 +305,7 @@
             "EVENT_MESSAGE_ID" => array(
                 0 => "15",
             ),
-            "IBLOCK_ID" => "14",
+            "IBLOCK_ID" => $feedback[1],
             "IBLOCK_TYPE" => "feedback",
             "OK_TEXT" => "Спасибо, ваше сообщение принято.",
             "PROPERTY_CODE" => array("FIO","PHONE","MODEL","FIRST_ADD","COMFORT_PAY","COMMENT","RULE"),
@@ -300,7 +324,7 @@
             "EVENT_MESSAGE_ID" => array(
                 0 => "9",
             ),
-            "IBLOCK_ID" => "13",
+            "IBLOCK_ID" => $feedback[2],
             "IBLOCK_TYPE" => "feedback",
             "OK_TEXT" => "Спасибо, ваше сообщение принято.",
             "PROPERTY_CODE" => array("FIO","PHONE","MODEL","DATE","COMMENT","RULE"),

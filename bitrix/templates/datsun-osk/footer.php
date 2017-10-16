@@ -118,7 +118,7 @@
             "EVENT_MESSAGE_ID" => array(
                 0 => "11",
             ),
-            "IBLOCK_ID" => "12",
+            "IBLOCK_ID" => "43",
             "IBLOCK_TYPE" => "feedback",
             "OK_TEXT" => "Спасибо, ваше сообщение принято.",
             "PROPERTY_CODE" => array("FIO","PHONE","MODEL","DATE","COMMENT","RULE"),
@@ -138,7 +138,7 @@
             "EVENT_MESSAGE_ID" => array(
                 0 => "11",
             ),
-            "IBLOCK_ID" => "12",
+            "IBLOCK_ID" => "43",
             "IBLOCK_TYPE" => "feedback",
             "OK_TEXT" => "Спасибо, ваше сообщение принято.",
             "PROPERTY_CODE" => array("FIO","PHONE","MODEL","DATE","COMMENT","RULE"),
@@ -160,7 +160,7 @@
             "EVENT_MESSAGE_ID" => array(
                 0 => "15",
             ),
-            "IBLOCK_ID" => "14",
+            "IBLOCK_ID" => "50",
             "IBLOCK_TYPE" => "feedback",
             "OK_TEXT" => "Спасибо, ваше сообщение принято.",
             "PROPERTY_CODE" => array("FIO","PHONE","MODEL","FIRST_ADD","COMFORT_PAY","COMMENT","RULE"),
@@ -180,7 +180,7 @@
             "EVENT_MESSAGE_ID" => array(
                 0 => "15",
             ),
-            "IBLOCK_ID" => "14",
+            "IBLOCK_ID" => "50",
             "IBLOCK_TYPE" => "feedback",
             "OK_TEXT" => "Спасибо, ваше сообщение принято.",
             "PROPERTY_CODE" => array("FIO","PHONE","MODEL","FIRST_ADD","COMFORT_PAY","COMMENT","RULE"),
@@ -201,7 +201,7 @@
             "EVENT_MESSAGE_ID" => array(
                 0 => "9",
             ),
-            "IBLOCK_ID" => "13",
+            "IBLOCK_ID" => "39",
             "IBLOCK_TYPE" => "feedback",
             "OK_TEXT" => "Спасибо, ваше сообщение принято.",
             "PROPERTY_CODE" => array("FIO","PHONE","MODEL","DATE","COMMENT","RULE"),
@@ -222,7 +222,7 @@
             "EVENT_MESSAGE_ID" => array(
                 0 => "16",
             ),
-            "IBLOCK_ID" => "15",
+            "IBLOCK_ID" => "52",
             "IBLOCK_TYPE" => "feedback",
             "OK_TEXT" => "Спасибо, ваше сообщение принято.",
             "PROPERTY_CODE" => array("FIO","PHONE","MODEL","CAR","COMMENT","RULE"),
@@ -243,7 +243,7 @@
             "EVENT_MESSAGE_ID" => array(
                 0 => "14",
             ),
-            "IBLOCK_ID" => "16",
+            "IBLOCK_ID" => "48",
             "IBLOCK_TYPE" => "feedback",
             "OK_TEXT" => "Спасибо, ваше сообщение принято.",
             "PROPERTY_CODE" => array("FIO","PHONE","COMMENT","RULE"),
@@ -266,7 +266,7 @@
             "EVENT_MESSAGE_ID" => array(
                 0 => "12",
             ),
-            "IBLOCK_ID" => "18",
+            "IBLOCK_ID" => "45",
             "IBLOCK_TYPE" => "feedback",
             "OK_TEXT" => "Спасибо, ваше сообщение принято.",
             "PROPERTY_CODE" => array("FIO","PHONE","MODEL","DATE","COMMENT","RULE"),
@@ -289,7 +289,7 @@
             "EVENT_MESSAGE_ID" => array(
                 0 => "10",
             ),
-            "IBLOCK_ID" => "19",
+            "IBLOCK_ID" => "41",
             "IBLOCK_TYPE" => "feedback",
             "OK_TEXT" => "Спасибо, ваше сообщение принято.",
             "PROPERTY_CODE" => array("FIO","PHONE","MODEL","DATE","COMMENT","RULE"),
@@ -311,7 +311,7 @@
             "EVENT_MESSAGE_ID" => array(
                 0 => "13",
             ),
-            "IBLOCK_ID" => "21",
+            "IBLOCK_ID" => "33",
             "IBLOCK_TYPE" => "feedback",
             "OK_TEXT" => "Спасибо, ваше сообщение принято.",
             "PROPERTY_CODE" => array("FIO","PHONE","DATE","COMMENT","RULE"),
