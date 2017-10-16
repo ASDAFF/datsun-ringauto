@@ -223,7 +223,7 @@ $APPLICATION->SetTitle("Datsun");
                 <div class="advantages-video">
                     <div class="advantages item">
                         <div class="first-title">преимущества datsun</div>
-                        <a href="/about/advantages/" > <img src="http://datsun-spb.ru/files/advantages.jpg"  /> </a>
+                        <a href="/advantages/" > <img src="http://datsun-spb.ru/files/advantages.jpg"  /> </a>
                     </div>
 
                     <div class="video item">
