@@ -14,46 +14,46 @@
                     <ul>
                         <li><a href="/on-do/">Datsun on-DO</a></li>
                         <li><a href="/mi-do/">Datsun mi-DO</a></li>
-                        <li><a href="/cars/in_stock/">Автомобили в наличии</a></li>
-                        <li><a href="/cars/testdrive/">Тест-драйв</a></li>
+                        <li><a href="/offers/">Автомобили в наличии</a></li>
+                        <li><a href="/testdrive/">Тест-драйв</a></li>
                     </ul>
                 </li>
 
                 <li>
-                    <a href="/specials/" class="root-item">Спецпредложения</a>
+                    <a href="/offers/" class="root-item">Спецпредложения</a>
                     <ul>
-                        <li><a href="/specials/shares/">Акции</a></li>
-                        <li><a href="/specials/corp_sales/">Корпоративным клиентам</a></li>
+                        <li><a href="/shares/">Акции</a></li>
+                        <li><a href="/corp_sales/">Корпоративным клиентам</a></li>
                     </ul>
                 </li>
 
                 <li>
                     <a href="/maintenance/" class="root-item">Сервис</a>
                     <ul>
-                        <li><a href="/maintenance/teh_service/">Техническое обслуживание</a></li>
-                        <li><a href="/maintenance/repair/">Ремонт</a></li>
-                        <li><a href="/maintenance/warranty/">Гарантия</a></li>
-                        <li><a href="/maintenance/accessories/">Запчасти</a></li>
-                        <li><a href="/maintenance/aksessuary/">Aксессуары</a></li>
-                        <li><a href="/maintenance/o-servise/o-servise.php">О сервисе</a></li>
+                        <li><a href="/teh_service/">Техническое обслуживание</a></li>
+                        <li><a href="/repair/">Ремонт</a></li>
+                        <li><a href="/warranty/">Гарантия</a></li>
+                        <li><a href="/accessories/">Запчасти</a></li>
+                        <li><a href="/aksessuary/">Aксессуары</a></li>
+                        <li><a href="/o-servise/">О сервисе</a></li>
                     </ul>
                 </li>
 
                 <li><a href="/services/" class="root-item">Услуги</a>
                     <ul>
-                        <li><a href="/services/credit/">Кредит и Страхование</a></li>
-                        <li><a href="/services/trade-in/">TRADE-IN</a></li>
-                        <li><a href="/services/assistance/">Datsun Assistance</a></li>
+                        <li><a href="/credit/">Кредит и Страхование</a></li>
+                        <li><a href="/trade-in/">TRADE-IN</a></li>
+                        <li><a href="/assistance/">Datsun Assistance</a></li>
                     </ul>
                 </li>
 
                 <li><a href="/about/" class="root-item">О компании</a>
                     <ul>
-                        <li><a href="/about/center/">Ринг Авто Север</a></li>
-                        <li><a href="/about/people/">Наш коллектив</a></li>
-                        <li><a href="/about/news/">Новости</a></li>
-                        <li><a href="/about/reviews/">Благодарности</a></li>
-                        <li><a href="/about/advantages/">О бренде</a></li>
+                        <li><a href="/center/">Ринг Авто Север</a></li>
+                        <li><a href="/people/">Наш коллектив</a></li>
+                        <li><a href="/news/">Новости</a></li>
+                        <li><a href="/reviews/">Благодарности</a></li>
+                        <li><a href="/advantages/">О бренде</a></li>
                     </ul>
                 </li>
                 <li><a href="/contacts/" class="root-item">Контакты</a></li>
