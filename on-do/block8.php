@@ -27,7 +27,7 @@
             <div class="col-md-4 col-lg-4"></div>
             <div class="col-md-4 col-lg-4"></div>
             <div class="col-xs-12 col-md-4 col-lg-4">
-                <a href="on-DO_specification.pdf" target="_blank" class="download-btn-alt win-btn">Подробнее</a>
+                <a href="./files/on-DO_specification.pdf" target="_blank" class="download-btn-alt win-btn">Подробнее</a>
             </div>
         </div>
     </div>
