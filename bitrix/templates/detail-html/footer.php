@@ -31,7 +31,7 @@
 
 
 
-                <li><a href="/cars/" class="root-item">Автомобили</a>
+                <li><a href="#" class="root-item">Автомобили</a>
                     <ul>
 
 
@@ -55,7 +55,7 @@
 
 
 
-                        <li><a href="/cars/in_stock/">Автомобили в наличии</a></li>
+                        <li><a href="/in_stock/">Автомобили в наличии</a></li>
 
 
 
@@ -63,31 +63,7 @@
 
 
 
-                        <li><a href="/cars/testdrive/">Тест-драйв</a></li>
-
-
-
-
-
-                    </ul></li>
-
-                <li><a href="/specials/" class="root-item">Спецпредложения</a>
-                    <ul>
-
-
-
-
-
-
-                        <li><a href="/specials/shares/">Акции</a></li>
-
-
-
-
-
-
-
-                        <li><a href="/specials/corp_sales/">Корпоративным клиентам</a></li>
+                        <li><a href="/testdrive/">Тест-драйв</a></li>
 
 
 
@@ -95,7 +71,7 @@
 
                     </ul></li>
 
-                <li><a href="/maintenance/" class="root-item">Сервис</a>
+                <li><a href="/offers/" class="root-item">Спецпредложения</a>
                     <ul>
 
 
@@ -103,7 +79,7 @@
 
 
 
-                        <li><a href="/maintenance/teh_service/">Техническое обслуживание</a></li>
+                        <li><a href="/shares/">Акции</a></li>
 
 
 
@@ -111,39 +87,7 @@
 
 
 
-                        <li><a href="/maintenance/repair/">Ремонт</a></li>
-
-
-
-
-
-
-
-                        <li><a href="/maintenance/warranty/">Гарантия</a></li>
-
-
-
-
-
-
-
-                        <li><a href="/maintenance/accessories/">Запчасти</a></li>
-
-
-
-
-
-
-
-                        <li><a href="/maintenance/aksessuary/">Aксессуары</a></li>
-
-
-
-
-
-
-
-                        <li><a href="/maintenance/o-servise/o-servise.php">О сервисе</a></li>
+                        <li><a href="/corp-sales/">Корпоративным клиентам</a></li>
 
 
 
@@ -151,7 +95,7 @@
 
                     </ul></li>
 
-                <li><a href="/services/" class="root-item">Услуги</a>
+                <li><a href="#" class="root-item">Сервис</a>
                     <ul>
 
 
@@ -159,7 +103,7 @@
 
 
 
-                        <li><a href="/services/credit/">Кредит и Страхование</a></li>
+                        <li><a href="/teh_service/">Техническое обслуживание</a></li>
 
 
 
@@ -167,7 +111,7 @@
 
 
 
-                        <li><a href="/services/trade-in/">TRADE-IN</a></li>
+                        <li><a href="/repair/">Ремонт</a></li>
 
 
 
@@ -175,7 +119,31 @@
 
 
 
-                        <li><a href="/services/assistance/">Datsun Assistance</a></li>
+                        <li><a href="/warranty/">Гарантия</a></li>
+
+
+
+
+
+
+
+                        <li><a href="/accessories/">Запчасти</a></li>
+
+
+
+
+
+
+
+                        <li><a href="/aksessuary/">Aксессуары</a></li>
+
+
+
+
+
+
+
+                        <li><a href="/o-servise/">О сервисе</a></li>
 
 
 
@@ -183,7 +151,7 @@
 
                     </ul></li>
 
-                <li><a href="/about/" class="root-item">О компании</a>
+                <li><a href="#" class="root-item">Услуги</a>
                     <ul>
 
 
@@ -191,7 +159,7 @@
 
 
 
-                        <li><a href="/about/center/">CTK CENTER</a></li>
+                        <li><a href="/credit/">Кредит и Страхование</a></li>
 
 
 
@@ -199,7 +167,7 @@
 
 
 
-                        <li><a href="/about/people/">Наш коллектив</a></li>
+                        <li><a href="/trade-in/">TRADE-IN</a></li>
 
 
 
@@ -207,7 +175,23 @@
 
 
 
-                        <li><a href="/about/news/">Новости</a></li>
+                        <li><a href="/assistance/">Datsun Assistance</a></li>
+
+
+
+
+
+                    </ul></li>
+
+                <li><a href="/center/" class="root-item">О компании</a>
+                    <ul>
+
+
+
+
+
+
+                        <li><a href="/center/">Ринг Авто Север</a></li>
 
 
 
@@ -215,7 +199,7 @@
 
 
 
-                        <li><a href="/about/reviews/">Благодарности</a></li>
+                        <li><a href="/people/">Наш коллектив</a></li>
 
 
 
@@ -223,7 +207,23 @@
 
 
 
-                        <li><a href="/about/advantages/">О бренде</a></li>
+                        <li><a href="/news/">Новости</a></li>
+
+
+
+
+
+
+
+                        <li><a href="/reviews/">Благодарности</a></li>
+
+
+
+
+
+
+
+                        <li><a href="/advantages/">О бренде</a></li>
 
 
 
@@ -244,7 +244,7 @@
 
         <div class="clear"></div>
 
-        <div class="copyright">© 2016 CTK CENTER — официальный дилер Datsun в Санкт-Петербурге. Информация, указанная на настоящем интернет-сайте, носит исключительно информационный характер и ни при каких условиях не является публичной офертой (ст. 437 ГК РФ). Политика конфиденциальности.<br><br><img width="39" src="images/logo-footer@2x.png" alt=""><a class="artfactor" href="http://www.artfactor.ru">Создание сайта — дизайн–студия «АртФактор»</a></div>
+        <div class="copyright">© 2014-2017 ООО "Глобал Системз", Официальный дилер Datsun в Воронеже. Информация, указанная на настоящем интернет-сайте, носит исключительно информационный характер и ни при каких условиях не является публичной офертой (ст. 437 ГК РФ). Политика конфиденциальности.<br><br><img width="39" src="images/logo-footer@2x.png" alt=""><a class="artfactor" href="http://www.artfactor.ru">Создание сайта — дизайн–студия «АртФактор»</a></div>
 
     </div>
 </footer>

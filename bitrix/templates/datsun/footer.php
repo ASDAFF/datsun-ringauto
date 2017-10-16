@@ -10,7 +10,7 @@
         <div class="footer-menu">
             <ul id="horizontal-multilevel-menu">
 
-                <li><a href="/cars/" class="root-item">Автомобили</a>
+                <li><a href="#" class="root-item">Автомобили</a>
                     <ul>
                         <li><a href="/on-do/">Datsun on-DO</a></li>
                         <li><a href="/mi-do/">Datsun mi-DO</a></li>
@@ -20,7 +20,7 @@
                 </li>
 
                 <li>
-                    <a href="/offers/" class="root-item">Спецпредложения</a>
+                    <a href="#" class="root-item">Спецпредложения</a>
                     <ul>
                         <li><a href="/shares/">Акции</a></li>
                         <li><a href="/corp-sales/">Корпоративным клиентам</a></li>
@@ -28,7 +28,7 @@
                 </li>
 
                 <li>
-                    <a href="/maintenance/" class="root-item">Сервис</a>
+                    <a href="#" class="root-item">Сервис</a>
                     <ul>
                         <li><a href="/teh_service/">Техническое обслуживание</a></li>
                         <li><a href="/repair/">Ремонт</a></li>
@@ -39,7 +39,7 @@
                     </ul>
                 </li>
 
-                <li><a href="/services/" class="root-item">Услуги</a>
+                <li><a href="#" class="root-item">Услуги</a>
                     <ul>
                         <li><a href="/credit/">Кредит и Страхование</a></li>
                         <li><a href="/trade-in/">TRADE-IN</a></li>
@@ -47,7 +47,7 @@
                     </ul>
                 </li>
 
-                <li><a href="/about/" class="root-item">О компании</a>
+                <li><a href="/center" class="root-item">О компании</a>
                     <ul>
                         <li><a href="/center/">Ринг Авто Север</a></li>
                         <li><a href="/people/">Наш коллектив</a></li>
