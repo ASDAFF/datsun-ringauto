@@ -9,8 +9,7 @@ $APPLICATION->SetTitle("o-servise");
             <h1>О сервисе</h1>
             <div class="news-date"></div>
             <div class="news-cont">
-                <div id="datsun_frame_container"></div>
-                <script id="datsun_frame" src="http://datsun-spb.datsun-dealers.palmer-hargreaves.ru/datsun-frame/datsun-frame-load.js?url=http://datsun-spb.datsun-dealers.palmer-hargreaves.ru"></script>
+                <iframe src="http://datsun-ringauto.datsun-dealers.palmer-hargreaves.ru/" width="100%" height="1000" frameBorder="0"></iframe>
             </div>
         </div>
 
