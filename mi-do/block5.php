@@ -24,7 +24,7 @@
             <div class="col-md-6 col-sm-6">
                 <div class="screen-couple-right wow fadeInRightBig">
                     <img class="screen above" src="images/screen_couple_above.jpg" alt="" height="" width="" />
-                    <a href="/cars/in_stock/?arrFilter_77=2739797979&arrFilter_79=&set_filter=НАЙТИ" class="download-btn-alt win-btn" onClick="ga('send', 'pageview', {'page': 'button-click','title': 'Нажатие на кнопку'});" data-toggle="modal" >Автомобили в наличии</a>
+                    <a href="/offers/" class="download-btn-alt win-btn" onClick="ga('send', 'pageview', {'page': 'button-click','title': 'Нажатие на кнопку'});" data-toggle="modal" >Автомобили в наличии</a>
                 </div>
             </div>
         </div>
