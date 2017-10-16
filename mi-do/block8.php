@@ -27,7 +27,7 @@
             <div class="col-md-4 col-lg-4"></div>
             <div class="col-md-4 col-lg-4"></div>
             <div class="col-xs-4 col-md-4 col-lg-4">
-                <a href="mi-DO_specification.pdf" target="_blank" class="download-btn-alt win-btn">Подробнее</a>
+                <a href="./files/mi-DO_specification.pdf" target="_blank" class="download-btn-alt win-btn">Подробнее</a>
             </div>
         </div>
     </div>
