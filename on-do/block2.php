@@ -62,7 +62,7 @@
                     </li>
                 </ul>
                 <div class="download-btn-block">
-                    <a href="/cars/in_stock/datsun-on-do-access/" class="download-btn-alt win-btn" onClick="ga('send', 'pageview', {'page': 'button-click','title': 'Нажатие на кнопку'});" data-toggle="modal">Забронировать</a>
+                    <a href="/offers/" class="download-btn-alt win-btn" onClick="ga('send', 'pageview', {'page': 'button-click','title': 'Нажатие на кнопку'});" data-toggle="modal">Забронировать</a>
                 </div>
             </li>
             <li class="silver wow flipInY" data-wow-delay="0.2s">
@@ -124,7 +124,7 @@
                     </li>
                 </ul>
                 <div class="download-btn-block">
-                    <a href="/cars/in_stock/datsun-on-do-trust/" class="download-btn-alt win-btn" onClick="ga('send', 'pageview', {'page': 'button-click','title': 'Нажатие на кнопку'});" data-toggle="modal" >Забронировать</a>
+                    <a href="/offers/" class="download-btn-alt win-btn" onClick="ga('send', 'pageview', {'page': 'button-click','title': 'Нажатие на кнопку'});" data-toggle="modal" >Забронировать</a>
                 </div>
             </li>
             <li class="gold wow flipInY" data-wow-delay="0.4s">
@@ -182,7 +182,7 @@
                     </li>
                 </ul>
                 <div class="download-btn-block">
-                    <a href="/cars/in_stock/datsun-on-do-dream/" class="download-btn-alt win-btn" onClick="ga('send', 'pageview', {'page': 'button-click','title': 'Нажатие на кнопку'});" data-toggle="modal" >Забронировать</a>
+                    <a href="/offers/" class="download-btn-alt win-btn" onClick="ga('send', 'pageview', {'page': 'button-click','title': 'Нажатие на кнопку'});" data-toggle="modal" >Забронировать</a>
                 </div>
             </li>
         </ul>

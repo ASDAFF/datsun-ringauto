@@ -49,7 +49,7 @@
 
                 <li><a href="/about/" class="root-item">О компании</a>
                     <ul>
-                        <li><a href="/about/center/">CTK CENTER</a></li>
+                        <li><a href="/about/center/">Ринг Авто Север</a></li>
                         <li><a href="/about/people/">Наш коллектив</a></li>
                         <li><a href="/about/news/">Новости</a></li>
                         <li><a href="/about/reviews/">Благодарности</a></li>

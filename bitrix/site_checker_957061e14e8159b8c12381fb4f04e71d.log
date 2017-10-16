@@ -1,18 +1,18 @@
-2017-Oct-15 11:50:26 Наличие необходимых модулей php (check_php_modules): Ok
+2017-Oct-16 11:50:45 Наличие необходимых модулей php (check_php_modules): Ok
 Все необходимые модули установлены
-2017-Oct-15 11:50:26 Обязательные параметры PHP (check_php_settings): Ok
+2017-Oct-16 11:50:45 Обязательные параметры PHP (check_php_settings): Ok
 Настройки правильные
-2017-Oct-15 11:50:26 Модули веб-сервера (check_security): Ok
+2017-Oct-16 11:50:45 Модули веб-сервера (check_security): Ok
 Конфликтов не выявлено
-2017-Oct-15 11:50:26 Значения переменных сервера (check_server_vars): Ok
+2017-Oct-16 11:50:45 Значения переменных сервера (check_server_vars): Ok
 Корректные
-2017-Oct-15 11:50:26 Сохранение сессии (check_session): Ok
+2017-Oct-16 11:50:45 Сохранение сессии (check_session): Ok
 50% done
-2017-Oct-15 11:50:26 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
+2017-Oct-16 11:50:45 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
 Правильные. Сайт работает в UTF кодировке
-2017-Oct-15 11:50:26 Служебные скрипты в корне сайта (check_install_scripts): Ok
+2017-Oct-16 11:50:45 Служебные скрипты в корне сайта (check_install_scripts): Ok
 Отсутствуют
-2017-Oct-15 11:50:26 Работа с сокетами (check_socket): Fail
+2017-Oct-16 11:50:45 Работа с сокетами (check_socket): Fail
 Connection to www.datsun-ringauto.ru:80	Success
 == Request ==
 GET /bitrix/admin/site_checker.php?test_type=socket_test&unique_id=95a17e68c9154993570770b6dbb11ca9 HTTP/1.1
@@ -24,12 +24,12 @@ HTTP/1.1 404 Not Found
 Cache-Control: private
 Content-Length: 1948
 Content-Type: text/html
-Expires: Sun, 15 Oct 2017 08:50:24 GMT
+Expires: Mon, 16 Oct 2017 08:50:43 GMT
 Server: Microsoft-IIS/7.0
-Set-Cookie: ASPSESSIONIDCATDADSA=AMLJMAHBJPDMIAJKIAKJDJJD; path=/
+Set-Cookie: ASPSESSIONIDCATADDSB=OCDNHIBCEAOFNPJAGFDOCMBA; path=/
 X-Powered-By: ASP.NET
 X-Powered-By-Plesk: PleskWin
-Date: Sun, 15 Oct 2017 08:50:23 GMT
+Date: Mon, 16 Oct 2017 08:50:43 GMT
 
 == Body ==
 
