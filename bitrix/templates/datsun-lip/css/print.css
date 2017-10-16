@@ -1,0 +1,239 @@
+@media print {
+
+	.cars-in-stock .details div.left > .special {
+		display: inline-block;
+		height: auto;
+		font-size: 10px !important;
+		line-height: 18px;
+		color: #4d4d4d;
+		padding: 10px 14px;
+		background: #fde8ed;
+		width: 88%;
+    	margin-right: 12%;
+	}
+
+	.cars-in-stock .details div.left > .special p {
+		font-size: 10px !important;
+
+	}
+
+	footer {
+		display: none;
+	}
+
+	* {
+		-webkit-print-color-adjust: exact;
+		print-color-adjust: exact;
+	}
+
+	#header-main {
+		display: block; 
+		position: relative;
+	}
+
+	header .logo a {
+		position: relative;
+		background-image: none;
+	}
+
+	header .logo a:after {
+		content: url('../images/logo.png');
+		position: absolute;
+		display: block;
+		width: 197px;
+		height: 55px;
+		top: -8px;
+		left: 0;
+		/* background-image: url('../images/logo.png'); */
+		background-size: 197px 55px;
+		z-index: 10;
+	}
+
+/*
+text-cols-main?
+*/
+
+.map, .btn.show-all-cars, .text-cols-main {
+	display: none;
+}
+
+.cars-in-stock {
+	font-size: 12px;
+	line-height: initial;
+
+}
+
+.cars-in-stock table {
+	width: 100%;
+	max-width: 100%;
+	border: 0px;
+	border-top: 1px solid #051c60;
+	page-break-inside:always;
+}
+
+.cars-in-stock table tr:nth-child(1) th, .cars-in-stock table tr:nth-child(1) {
+	display: table-row;
+	opacity: 1;
+}
+
+.cars-in-stock .table-content th.color-gray, .cars-in-stock .table-content th {
+	width: initial;
+	display: table-cell;
+	opacity: 1;
+}
+
+.cars-in-stock table tr {
+	display: table-row;
+	clear: both;
+	width: initial;
+	max-width: initial;
+	border: initial;
+	padding: initial;
+	margin: initial;
+	page-break-after: auto;
+	page-break-inside: avoid;
+}
+
+.cars-in-stock table tr td {
+	display: table-cell;
+	clear: both;
+	width: 100%;
+	max-width: 100%;
+	border: 0px;
+	text-align: center;
+	margin: 0;
+	border-bottom: 1px solid #cecece;
+	padding: 5px 5px !important;
+	text-align: left;
+}
+
+.header-spacer {
+	height: 0;
+}
+
+#burger, #horizontal-multilevel-menu, #header-main nav.open_nav {
+	display: none;
+}
+
+.name_block {
+	margin-bottom: 45px;
+	line-height: 35px;
+	font-size: 28px!important;
+}
+.cars-in-stock .details div.left {
+	display: block;
+	float: left;
+	width: 67%;
+}
+.cars-in-stock .details div.right {
+	position: relative;
+	top: auto;
+	display: inline-block;
+	float: right;
+	width: 30%;
+	margin-right: 3%;
+}
+.cars-in-stock .details.has-no-special > div.right {
+     height: 185px; 
+        top: auto;
+}
+.cars-in-stock .details div.left > .right {
+	clear: initial;
+	top: auto;
+
+	float: right;
+	width: 28%;
+	height: auto;
+	margin-right: 12%;
+}
+.cars-in-stock .details div.left > .left {
+	clear: both;
+	text-align: center;
+
+	float: left;
+	height: auto;
+	margin: 0;
+	width: 60%;
+}
+.cars-in-stock .details div.left > .left img {
+	width: 100%;
+	margin: 0;
+	text-align: center;
+}
+.name_block {
+	margin-bottom: 5px;
+	line-height: 45px;
+	font-size: 16px !important;
+}
+.cars-in-stock .details div.left > .right > div {
+	padding-left: 0px;
+}
+.cars-in-stock .details div.left > .right .special {
+	width: 100%;
+	margin: 8px 0;
+}
+.cars-in-stock .details div.left > .right .special > .title {
+	padding: 0px;
+	margin: 0 0 5px 0;
+	font-size: 10px;
+	font-weight: bold;
+}
+.cars-in-stock .details .backform {
+	margin-top: 440px;
+}
+.cars-in-stock .details .element {
+	font-size: 10px;
+}
+.cars-in-stock.title {
+	display: block;
+	float: none;
+	font-size: 24px !important;
+	line-height: initial;
+	color: #ed1b25;
+	margin-bottom: 15px;
+	width: 100%;
+	margin-left: 0;
+}
+
+.cars-in-stock span.result {
+	display: block;
+	height: initial;
+	font-size: 12px;
+	line-height: initial;
+}
+
+.cars-in-stock .details div.left > .right .price {
+	font-size: 15px;
+	margin: 0 0 6px;
+}
+.cars-in-stock .details div.left > .right .price > span {
+	font-size: 10px;
+}
+
+.cars-in-stock .details div.left > .right > div > a {
+	font-size: 10px;
+}
+
+.table-content td:first-child img {
+	max-width: 110px;
+}
+
+.cars-in-stock table td:first-child img {
+	width: 110px;
+}
+
+.cars-in-stock .table-content {
+	margin: 15px 0 10px;
+	font-size: 15px;
+	font-weight: normal;
+}
+
+.cars-in-stock .table-content th:last-child, .cars-in-stock table td:last-child {
+	display: none;
+}
+
+.cars-in-stock .details .desc {
+	display: none;
+}
+
+}

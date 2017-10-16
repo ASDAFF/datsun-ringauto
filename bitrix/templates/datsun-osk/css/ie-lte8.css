@@ -1,0 +1,4 @@
+@font-face {font-family:"DatsunWebLight"; src:url("../fonts/Datsun-Light.eot"); src:url("../fonts/Datsun-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Datsun-Light.woff") format("woff"), url("../fonts/Datsun-Light.ttf") format("truetype"), url("../fonts/Datsun-Light.svg#datsunlight") format("svg"); font-weight:normal; font-style:normal}
+
+.text-cols-content h2 {font-weight:normal; font-family:DatsunWebLight, sans-serif}
+.content-title-container h1 {font-weight:normal; font-family:DatsunWebLight, sans-serif}
