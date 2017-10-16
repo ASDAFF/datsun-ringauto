@@ -25,7 +25,7 @@ $this->setFrameMode(true);
 				$file = CFile::ResizeImageGet($arItem["PREVIEW_PICTURE"], array('width'=>350, 'height'=>240), BX_RESIZE_IMAGE_EXACT, true);
 				?>
 
-		<li><a class="news-item-fancy" href="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>" title="<?echo $arItem["NAME"]?>"><img src="<?=$file['src']?>" alt="<?echo $arItem["NAME"]?>"/></a></li>
+		<li><a class="news-item-fancy" href="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>" title=""><img src="<?=$file['src']?>" alt="<?echo $arItem["NAME"]?>"/></a></li>
 
 			<?endif;?>
 		<?endforeach;?>
