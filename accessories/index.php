@@ -39,8 +39,8 @@ $APPLICATION->SetTitle("accessories");
                 </div>
 
                 <div class="twin-pics">
-                    <div class="left-pic"><a href="on-do/"><img src="./images/on-do_acc_page.jpg"></a></div>
-                    <div class="right-pic"><a href="mi-do/"><img src="./images/mi-do_acc_page.jpg"></a></div>
+                    <div class="left-pic"><a href="/aksessuary/"><img src="./images/on-do_acc_page.jpg"></a></div>
+                    <div class="right-pic"><a href="/aksessuary/"><img src="./images/mi-do_acc_page.jpg"></a></div>
                 </div>
                 <div class="news-subtitle">
                     ПРАЙС-ЛИСТ НА ОРИГИНАЛЬНЫЕ АКСЕССУАРЫ:
