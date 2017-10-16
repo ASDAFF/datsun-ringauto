@@ -21,7 +21,7 @@ $this->setFrameMode(true);
 		<?foreach($arResult["ITEMS"] as $arItem):?>
 		<div class="news-slider-item">
 			<a href="<?=$arItem["DETAIL_PAGE_URL"]?>" class="news-item">
-				<div class="news-item-inner">
+				<div class="news-item-inner" style="height: 500px;background: #FFFFFF;">
 					<div class="news-item-photo">
 						<img src="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>">
 					</div>
@@ -31,7 +31,7 @@ $this->setFrameMode(true);
 						</div>
 						<?if($arParams["DISPLAY_PREVIEW_TEXT"]!="N" && $arItem["PREVIEW_TEXT"]):?>
 							<div class="news-item-descr">
-								<?echo $arItem["PREVIEW_TEXT"];?>
+								<?echo TruncateText($arItem["PREVIEW_TEXT"], 120);?>
 							</div>
 						<?endif;?>
 						<?if($arParams["DISPLAY_DATE"]!="N" && $arItem["DISPLAY_ACTIVE_FROM"]):?>

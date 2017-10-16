@@ -13,7 +13,9 @@
 $this->setFrameMode(true);
 ?>
 
-<section class="block-bg-offer" style="background: url('/offers/images/top.jpg');">
+<? if($arResult['DETAIL_PICTURE']['SRC']): ?>
+
+<section class="block-bg-offer" style="background: url('<?=$arResult['DETAIL_PICTURE']['SRC']?>');">
     <div class="top-price-block">
 
         <div class="top-name" style="background-image: url('/offers/images/1.png')"><?=$arResult["NAME"]?></div>
@@ -32,6 +34,8 @@ $this->setFrameMode(true);
 
     </div>
 </section>
+
+<? endif; ?>
 
 <section class="ex-offer">
 

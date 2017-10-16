@@ -7,12 +7,12 @@
 .offer-item-prices span.price{
 	font-weight: bold;
 	color: #1E679E;
-	font-size: 20px;
+	font-size: 25px;
 }
 .offer-item-prices span.sale{
 	font-weight: bold;
 	color: #194470;
-	font-size: 20px;
+	font-size: 25px;
 }
 
 .offer-item-prices span{
@@ -20,7 +20,7 @@
 	text-align: center;
 }
 
-.offer-item-prices span:first-child{ width: 40%;text-align: left; }
+.offer-item-prices span:first-child{ width: 40%;text-align: left;font-size: 18px; }
 .offer-item-prices span:last-child{ width: 20%;text-align: right; }
 
 .news-item-title.offer{

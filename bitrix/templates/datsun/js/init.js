@@ -2,12 +2,13 @@
 ymaps.ready(init);
 var myMap;
 
+
 function init () {
 	myMap = new ymaps.Map('map', {
-		center: [59.939072, 30.450346],
-		zoom: 16
+		center: [51.795999, 39.204499],
+		zoom: 18
 	});
-	var myGeocoder = ymaps.geocode('г. Санкт-Петербург, просп. Косыгина, д.2/1');
+	var myGeocoder = ymaps.geocode('Воронежская область, Россия, автодорога Воронеж - Москва, 7-й километр');
 	myGeocoder.then(
 	function (res) {
 		var coords = res.geoObjects.get(0).geometry.getCoordinates();

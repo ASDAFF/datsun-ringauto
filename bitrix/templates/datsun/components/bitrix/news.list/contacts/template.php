@@ -19,7 +19,7 @@ $this->setFrameMode(true);
 <div class="contacts">
 	<div class="contacts-block">
 		<div class="contact-icon"></div>
-		<div class="contact-descr"><p><span class="descr1">Адрес:</span></p><p><?=$arItem["PROPERTIES"]["STREET"]["VALUE"]?></p></div>
+		<div class="contact-descr"><p><span class="descr1">Адрес:</span></p><p><?=$arItem["PROPERTIES"]["STREET"]["~VALUE"]?></p></div>
 	</div>
 	<div class="contacts-block">
 		<div class="contact-icon"></div>
@@ -28,7 +28,7 @@ $this->setFrameMode(true);
 	<div class="clear"></div>
 	<div class="contacts-block">
 		<div class="contact-icon"></div>
-		<div class="contact-descr"><p><span class="descr1">Режим работы:</span></p><p><?=$arItem["PROPERTIES"]["WORK_TIME"]["VALUE"]?></p></div>
+		<div class="contact-descr"><p><span class="descr1">Режим работы:</span></p><p><?=$arItem["PROPERTIES"]["WORK_TIME"]["~VALUE"]?></p></div>
 	</div>
 	<div class="contacts-block">
 		<div class="contact-icon"></div>
