@@ -186,7 +186,7 @@
                 </div>
             </li>
         </ul>
-        <a target="_blank" href="on-DO_price.pdf" class="download-btn-alt win-btn price-btn">Скачать прайс</a>
+        <a target="_blank" href="/on-do/on-DO_price.pdf" class="download-btn-alt win-btn price-btn">Скачать прайс</a>
     </div>
 </section>
 <!-- PRICING TABLE END -->

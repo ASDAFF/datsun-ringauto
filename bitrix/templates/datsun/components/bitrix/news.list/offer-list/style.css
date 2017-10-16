@@ -7,21 +7,21 @@
 .offer-item-prices span.price{
 	font-weight: bold;
 	color: #1E679E;
-	font-size: 25px;
+	font-size: 32px;
 }
 .offer-item-prices span.sale{
 	font-weight: bold;
 	color: #194470;
-	font-size: 25px;
+	font-size: 32px;
 }
 
 .offer-item-prices span{
-	width: 40%;
-	text-align: center;
+	width: 50%;
+	text-align: right;
 }
 
-.offer-item-prices span:first-child{ width: 40%;text-align: left;font-size: 18px; }
-.offer-item-prices span:last-child{ width: 20%;text-align: right; }
+.offer-item-prices span:first-child{ width: 40%;text-align: left;font-size: 20px; }
+.offer-item-prices span:last-child{ width: 10%;text-align: right; }
 
 .news-item-title.offer{
 	color: #4d4d4d;
