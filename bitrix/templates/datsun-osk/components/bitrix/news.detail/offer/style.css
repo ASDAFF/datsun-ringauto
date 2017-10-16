@@ -272,20 +272,20 @@
 .offer-item-prices span.price{
     font-weight: bold;
     color: #1E679E;
-    font-size: 30px;
+    font-size: 27px;
 }
 .offer-item-prices span.sale{
     font-weight: bold;
     color: #194470;
-    font-size: 30px;
+    font-size: 27px;
 }
 
 .offer-item-prices span{
     width: 50%;
-    text-align: right;
+    text-align: center;
 }
 
-.offer-item-prices span:first-child{ width: 40%;text-align: left;font-size: 20px; }
+.offer-item-prices span:first-child{ width: 40%;text-align: left;font-size: 17px; }
 .offer-item-prices span:last-child{ width: 10%;text-align: right; }
 
 .news-item-title.offer{
