@@ -12,7 +12,7 @@ $(window).load(function() {
     //------------------------------------------------------------------------
 	$.ajax({
 		type: "GET",
-		url: "/bitrix/templates/datsun/js/init.js",
+		url: "/bitrix/templates/datsun-osk/js/init.js",
 		dataType: "script",
 		cache: true
 	});

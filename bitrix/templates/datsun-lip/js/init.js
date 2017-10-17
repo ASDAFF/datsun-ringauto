@@ -8,7 +8,7 @@ function init () {
 		center: [51.795999, 39.204499],
 		zoom: 18
 	});
-	var myGeocoder = ymaps.geocode('Воронежская область, Россия, автодорога Воронеж - Москва, 7-й километр');
+	var myGeocoder = ymaps.geocode('Липецк, Россия, улица 50 лет НЛМК, 22');
 	myGeocoder.then(
 	function (res) {
 		var coords = res.geoObjects.get(0).geometry.getCoordinates();
