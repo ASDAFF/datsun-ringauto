@@ -283,13 +283,18 @@ $this->setFrameMode(true);
     <div class="advantages-slider">
         <ul class="advantages-slider-bx">
 
+            <?
+            $default_comlict = array_chunk($arResult["PROPERTIES"]["DEFAULT_COMPLIT"]["VALUE"],8);
+            $default_comlict_count = count($default_comlict);
+            for($i = 0;$i < $default_comlict_count;$i++):
+            ?>
             <li>
                 <div class="title">Комплектации datsun</div>
 
                 <div class="text">
                     <span>Комплектация <?=$arResult["PROPERTIES"]["MODEL"]["VALUE"]?></span>
                     <ul>
-                        <?foreach($arResult["PROPERTIES"]["DEFAULT_COMPLIT"]["VALUE"] as $default):?>
+                        <?foreach($default_comlict[$i] as $default):?>
                         <li><span><?=$default;?></span></li>
                         <? endforeach; ?>
 
@@ -297,21 +302,8 @@ $this->setFrameMode(true);
                 </div>
                 <img alt="<?=$arResult['NAME']?>" src="<?=$arResult["PREVIEW_PICTURE"]["SRC"]?>" class="image"  />
             </li>
+            <? endfor; ?>
 
-            <li>
-                <div class="title">Комплектации datsun</div>
-
-                <div class="text">
-                    <span>Комплектация <?=$arResult["PROPERTIES"]["MODEL"]["VALUE"]?></span>
-                    <ul>
-                        <?foreach($arResult["PROPERTIES"]["DEFAULT_COMPLIT"]["VALUE"] as $default):?>
-                            <li><span><?=$default;?></span></li>
-                        <? endforeach; ?>
-
-                    </ul>
-                </div>
-                <img alt="<?=$arResult['NAME']?>" src="<?=$arResult["PREVIEW_PICTURE"]["SRC"]?>" class="image"  />
-            </li>
 
 
         </ul>
