@@ -24,7 +24,7 @@ $this->setFrameMode(true);
 				<p class="all-shares-title"><?=$arItem["NAME"]?></p>
 				<div class="all-shares-line"></div>
 				<?if($arParams["DISPLAY_PREVIEW_TEXT"]!="N" && $arItem["PREVIEW_TEXT"]):?>
-					<p class="all-shares-text"><?echo $arItem["PREVIEW_TEXT"];?></p>
+					<p class="all-shares-text"><?echo TruncateText($arItem["PREVIEW_TEXT"], 100);?></p>
 				<?endif;?>
 
 			</div>
