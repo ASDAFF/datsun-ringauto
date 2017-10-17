@@ -42,7 +42,7 @@ $this->setFrameMode(true);
 		<a class="item form-fancybox" href="#signUpForATestDrive">Записаться на тест-драйв</a>
 		<a class="item form-fancybox" href="#calculateLoan">Рассчитать кредит</a>
 		<a class="item form-fancybox" href="#writingToService">Записаться на сервис</a>
-		<a class="item red" href="/cars/in_stock/?arrFilter_79=&set_filter=НАЙТИ">Автомобили в наличии</a>
+		<a class="item red" href="/offers/">Автомобили в наличии</a>
 	</div>
 
 </div>
