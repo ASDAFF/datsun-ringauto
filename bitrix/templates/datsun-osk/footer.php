@@ -259,20 +259,29 @@
     </div>
 
     <?$APPLICATION->IncludeComponent(
-        "nbrains:main.feedback",
-        "",
-        Array(
-            "EMAIL_TO" => "info@bitrix.ru",
-            "EVENT_MESSAGE_ID" => array(
-                0 => "12",
-            ),
-            "IBLOCK_ID" => "45",
-            "IBLOCK_TYPE" => "feedback",
-            "OK_TEXT" => "Спасибо, ваше сообщение принято.",
-            "PROPERTY_CODE" => array("FIO","PHONE","MODEL","DATE","COMMENT","RULE"),
-            "USE_CAPTCHA" => "N"
-        )
-    );?>
+	"nbrains:main.feedback", 
+	".default", 
+	array(
+		"EMAIL_TO" => "info@bitrix.ru",
+		"EVENT_MESSAGE_ID" => array(
+			0 => "40",
+		),
+		"IBLOCK_ID" => "45",
+		"IBLOCK_TYPE" => "feedback",
+		"OK_TEXT" => "Спасибо, ваше сообщение принято.",
+		"PROPERTY_CODE" => array(
+			0 => "COMMENT",
+			1 => "MODEL",
+			2 => "RULE",
+			3 => "PHONE",
+			4 => "DATE",
+			5 => "FIO",
+		),
+		"USE_CAPTCHA" => "N",
+		"COMPONENT_TEMPLATE" => ".default"
+	),
+	false
+);?>
 
 </div>
 
