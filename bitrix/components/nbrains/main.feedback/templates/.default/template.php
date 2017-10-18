@@ -74,7 +74,7 @@ if(strlen($arResult["OK_MESSAGE"]) > 0)
 					?>
 					<div class="form-i">
 						<input class="zapis_check" type="checkbox" name="<?=$field['CODE']?>" value="<?=$field['VALUE_ID'][0]?>" checked/>
-						<span class="agreement">Я даю свое согласие на обработку персональных данных, с <a href="/upload/personal.docx">условиями обработки персональных данных</a> ознакомлен</span>
+						<span class="agreement">Я даю свое согласие на обработку персональных данных, с <a href="/rules/personal.docx">условиями обработки персональных данных</a> ознакомлен</span>
 					</div>
 					<?
 				}

@@ -35,7 +35,7 @@ if(strlen($arResult["OK_MESSAGE"]) > 0)
 		<input class="zapis_check" type="checkbox" name="RULE" value="Y" checked/>
 
 		<span class="agreement">Я даю свое согласие на обработку персональных данных, с
-			<a href="/upload/personal.docx">условиями обработки персональных данных</a> ознакомлен</span>
+			<a href="/rules/personal.docx">условиями обработки персональных данных</a> ознакомлен</span>
 	</div>
 	<label><table><tbody><tr><td><input type="text" name="name" value=""></td></tr></tbody></table></label>
 
