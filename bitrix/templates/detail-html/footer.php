@@ -5,19 +5,35 @@
             <div class="footer-subscribe-title">Подписаться на новости</div>
             <div class="footer-subscribe-text">Мы будем предоставлять Вам<br>актуальную и важную информацию<br>без спама</div>
 
-            <form name="SIMPLE_FORM_12" action="/on-do/" method="POST" enctype="multipart/form-data"><input type="hidden" name="sessid" id="sessid_2" value="35328a620dee4260e952fa5514697c39" /><input type="hidden" name="WEB_FORM_ID" value="12" />			<input class="form-control" type="email" name="form_email_54" id="subscribe_email" placeholder="Введите Ваш E-mail" required>
-                <div class="form-i footer-_sub">
-                    <input class="zapis_check" type="checkbox" name="zapis_check" value=""/>
-                    <span class="agreement">Я даю свое согласие на обработку персональных данных, с условиями обработки персональных данных ознакомлен</span>
-                </div>
+            <?
+            switch(SITE_ID){
+                case "s1":
+                    $news_id = 55;
+                    break;
 
+                case "s2":
+                    $news_id = 56;
+                    break;
 
-                <label><table><tbody><tr><td><input type="text" name="name" value=""></td></tr></tbody></table></label>
-                <input type="submit" name="web_form_submit" value=" "></input>
-
-
-            </form>
-
+                case "s3":
+                    $news_id = 57;
+                    break;
+            }
+            ?>
+            <?$APPLICATION->IncludeComponent("nbrains:main.feedback", "follow-news", Array(
+                "EMAIL_TO" => "info@bitrix.ru",	// E-mail, на который будет отправлено письмо
+                "EVENT_MESSAGE_ID" => "",	// Почтовые шаблоны для отправки письма
+                "IBLOCK_ID" => $news_id,	// Код информационного блока
+                "IBLOCK_TYPE" => "feedback",	// Тип информационного блока (используется только для проверки)
+                "OK_TEXT" => "Спасибо, ваше сообщение принято.",	// Сообщение, выводимое пользователю после отправки
+                "PROPERTY_CODE" => array(	// Поля формы
+                    0 => "EMAIL",
+                    1 => "RULE",
+                ),
+                "USE_CAPTCHA" => "N",	// Использовать защиту от автоматических сообщений (CAPTCHA) для неавторизованных пользователей
+            ),
+                false
+            );?>
             <div class="clear"></div>
 <!--
             <div class="footer-subcsribe-vk"><span>Присоединяйтесь к нам</span> <a href="https://vk.com/ctk_center"><img width="99" src="images/vk.svg" data-png-fallback="images/vk.png"></a><div class="clear"></div></div>-->
@@ -245,7 +261,16 @@
 
         <div class="clear"></div>
 
-        <div class="copyright">© 2014-2017 "Ринг Авто" Официальный дилер Datsun. Информация, указанная на настоящем интернет-сайте, носит исключительно информационный характер и ни при каких условиях не является публичной офертой (ст. 437 ГК РФ). Политика конфиденциальности. Согласие на обработку персональных данных. <br><br><img width="39" src="images/logo-footer@2x.png" alt="">
+        <div class="copyright">
+            <?
+            $APPLICATION->IncludeFile("/include/model-footer-text.php", Array(), Array(
+                "MODE"      => "html",
+                "NAME"      => "Редактирование включаемой области раздела",
+                "TEMPLATE"  => ""
+            ));
+            ?>
+            <br><br>
+            <img width="39" src="images/logo-footer@2x.png" alt="">
             <a class="artfactor" href="#"></a>
         </div>
 
