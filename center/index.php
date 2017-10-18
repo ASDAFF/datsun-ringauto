@@ -39,7 +39,7 @@ $APPLICATION->SetTitle("center");
                 </p>
                 <ul class="red-bullet">
                     <li><p><a href="/testdrive/">тест-драйв</a></p></li>
-                    <li><p><a href="/teh_service/">сервисное обслуживание и ремонт</a></p></li>
+                    <li><p><a href="/teh-service/">сервисное обслуживание и ремонт</a></p></li>
                     <li><p><a href="/credit/">кредитование и страхование</a></p></li>
                     <li><p><a href="/trade-in/">Trade-In</a></p></li>
                     <li><p><a href="/corp-sales/">лизинг и выгодные условия для корпоративных клиентов</a></p></li>

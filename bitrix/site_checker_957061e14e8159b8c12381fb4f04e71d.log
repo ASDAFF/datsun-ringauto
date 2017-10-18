@@ -1,22 +1,22 @@
-2017-Oct-17 12:13:21 Наличие необходимых модулей php (check_php_modules): Ok
+2017-Oct-18 12:35:45 Наличие необходимых модулей php (check_php_modules): Ok
 Все необходимые модули установлены
-2017-Oct-17 12:13:21 Обязательные параметры PHP (check_php_settings): Ok
+2017-Oct-18 12:35:45 Обязательные параметры PHP (check_php_settings): Ok
 Настройки правильные
-2017-Oct-17 12:13:21 Модули веб-сервера (check_security): Ok
+2017-Oct-18 12:35:45 Модули веб-сервера (check_security): Ok
 Конфликтов не выявлено
-2017-Oct-17 12:13:21 Значения переменных сервера (check_server_vars): Ok
+2017-Oct-18 12:35:45 Значения переменных сервера (check_server_vars): Ok
 Корректные
-2017-Oct-17 12:13:21 Сохранение сессии (check_session): Ok
+2017-Oct-18 12:35:45 Сохранение сессии (check_session): Ok
 50% done
-2017-Oct-17 12:13:21 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
+2017-Oct-18 12:35:45 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
 Правильные. Сайт работает в UTF кодировке
-2017-Oct-17 12:13:21 Служебные скрипты в корне сайта (check_install_scripts): Ok
+2017-Oct-18 12:35:45 Служебные скрипты в корне сайта (check_install_scripts): Ok
 Отсутствуют
-2017-Oct-17 12:13:21 Работа с сокетами (check_socket): Fail
-Connection to www.datsun-ringauto.ru:80	Success
+2017-Oct-18 12:35:45 Работа с сокетами (check_socket): Fail
+Connection to datsun-ringauto.ru:80	Success
 == Request ==
 GET /bitrix/admin/site_checker.php?test_type=socket_test&unique_id=95a17e68c9154993570770b6dbb11ca9 HTTP/1.1
-Host: www.datsun-ringauto.ru
+Host: datsun-ringauto.ru
 
 
 == Response ==
@@ -24,12 +24,12 @@ HTTP/1.1 404 Not Found
 Cache-Control: private
 Content-Length: 1948
 Content-Type: text/html
-Expires: Tue, 17 Oct 2017 09:13:20 GMT
+Expires: Wed, 18 Oct 2017 09:35:45 GMT
 Server: Microsoft-IIS/7.0
-Set-Cookie: ASPSESSIONIDCCQAAARD=NNDNEFNCBBDLPKKNNJMPNAHG; path=/
+Set-Cookie: ASPSESSIONIDAARTBQSQ=NIILMNIDDIFEOHFAHOMAEGEJ; path=/
 X-Powered-By: ASP.NET
 X-Powered-By-Plesk: PleskWin
-Date: Tue, 17 Oct 2017 09:13:19 GMT
+Date: Wed, 18 Oct 2017 09:35:44 GMT
 
 == Body ==
 

@@ -30,7 +30,7 @@
                 <li>
                     <a href="#" class="root-item">Сервис</a>
                     <ul>
-                        <li><a href="/teh_service/">Техническое обслуживание</a></li>
+                        <li><a href="/teh-service/">Техническое обслуживание</a></li>
                         <li><a href="/repair/">Ремонт</a></li>
                         <li><a href="/warranty/">Гарантия</a></li>
                         <li><a href="/accessories/">Запчасти</a></li>

@@ -30,7 +30,7 @@
                 <li>
                     <a href="#" class="root-item">Сервис</a>
                     <ul>
-                        <li><a href="/teh_service/">Техническое обслуживание</a></li>
+                        <li><a href="/teh-service/">Техническое обслуживание</a></li>
                         <li><a href="/repair/">Ремонт</a></li>
                         <li><a href="/warranty/">Гарантия</a></li>
                         <li><a href="/accessories/">Запчасти</a></li>
@@ -49,7 +49,7 @@
 
                 <li><a href="/center" class="root-item">О компании</a>
                     <ul>
-                        <li><a href="/center/">Ринг Авто Север</a></li>
+                        <li><a href="/center/">Ринг Авто Оскол</a></li>
                         <li><a href="/people/">Наш коллектив</a></li>
                         <li><a href="/news/">Новости</a></li>
                         <li><a href="/reviews/">Благодарности</a></li>
@@ -72,7 +72,7 @@
             <form name="SIMPLE_FORM_12" action="/" method="POST" enctype="multipart/form-data"><input type="hidden" name="sessid" id="sessid" value="4809d17c626e5aa24603c916574f94b9" /><input type="hidden" name="WEB_FORM_ID" value="12" />			<input class="form-control" type="email" name="form_email_54" id="subscribe_email" placeholder="Введите Ваш E-mail" required>
                 <div class="form-i footer-_sub">
                     <input class="zapis_check" type="checkbox" name="zapis_check" value=""/>
-                    <span class="agreement">Я даю свое согласие на обработку персональных данных, с <a href="/upload/personal.docx">условиями обработки персональных данных</a> ознакомлен</span>
+                    <span class="agreement">Я даю свое согласие на обработку персональных данных, с <a href="/upload/personal3.docx">условиями обработки персональных данных</a> ознакомлен</span>
                 </div>
 
 
@@ -86,7 +86,7 @@
 
             <div class="clear"></div>
             <div class="footer-subcsribe-vk"><span>Присоединяйтесь к нам</span>
-                <a href="https://vk.com/club76864985" target="_blank">
+                <a href="https://vk.com/club99434746" target="_blank">
                     <img width="99" height="24" src="<?=SITE_TEMPLATE_PATH?>/images/vk.svg" data-png-fallback="<?=SITE_TEMPLATE_PATH?>/images/vk.png">
                 </a>
                 <div class="clear"></div>
@@ -96,7 +96,7 @@
         <div class="clear"></div>
 
         <div class="copyright">
-			© 2014-2017 ООО "Глобал Системз", Официальный дилер Datsun в Воронеже. Информация, указанная на настоящем интернет-сайте, носит исключительно информационный характер и ни при каких условиях не является публичной офертой (ст. 437 ГК РФ). <a href="/upload/conf_politic.docx" style="color:#fff">Политика конфиденциальности</a>. <a href="/upload/personal.docx" style="color:#fff">Согласие на обработку персональных данных</a>.<br><br>
+			© 2014-2017 ООО "Ринг Авто Оскол". Официальный дилер Datsun в Старом Осколе. Информация, указанная на настоящем интернет-сайте, носит исключительно информационный характер и ни при каких условиях не является публичной офертой (ст. 437 ГК РФ). <a href="/upload/conf_politic3.docx" style="color:#fff">Политика конфиденциальности</a>. <a href="/upload/personal3.docx" style="color:#fff">Согласие на обработку персональных данных</a>.<br><br>
             <a class="to_sitemap" href="#"></a>
             <img width="39" src="<?=SITE_TEMPLATE_PATH?>/images/logo-footer@2x.png" alt="">
             <a class="artfactor" href="#"></a>

@@ -62,7 +62,7 @@
                     </li>
                 </ul>
                 <div class="download-btn-block">
-                    <a href="/offers/" class="download-btn-alt win-btn" onClick="ga('send', 'pageview', {'page': 'button-click','title': 'Нажатие на кнопку'});" data-toggle="modal" >Купить автомобиль</a>
+                    <a href="/offers/" class="download-btn-alt win-btn" onClick="ga('send', 'pageview', {'page': 'button-click','title': 'Нажатие на кнопку'});" data-toggle="modal" >Подробнее</a>
                 </div>
             </li>
             <li class="gold wow flipInY" data-wow-delay="0.4s">
@@ -120,7 +120,7 @@
                     </li>
                 </ul>
                 <div class="download-btn-block">
-                    <a href="/offers/" class="download-btn-alt win-btn" onClick="ga('send', 'pageview', {'page': 'button-click','title': 'Нажатие на кнопку'});" data-toggle="modal" >Купить автомобиль</a>
+                    <a href="/offers/" class="download-btn-alt win-btn" onClick="ga('send', 'pageview', {'page': 'button-click','title': 'Нажатие на кнопку'});" data-toggle="modal" >Подробнее</a>
                 </div>
             </li>
         </ul>

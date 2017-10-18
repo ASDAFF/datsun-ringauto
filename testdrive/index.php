@@ -52,7 +52,7 @@ $APPLICATION->SetTitle("testdrive");
                 </div>
             </div>
 
-            <p> <strong>Звоните 336-91-19 или оставьте&nbsp;</strong><a href="http://datsun-spb.ru/contacts/" >запрос на звонок</a><strong>, и мы Вам перезвоним.</strong> 	</p>
+            <p> <strong>Звоните +7 (473) 233-27-77 или оставьте&nbsp;</strong><a href="http://datsun-ringauto.ru/contacts/" >запрос на звонок</a><strong>, и мы Вам перезвоним.</strong> 	</p>
 
             <!-- map -->
             <?$APPLICATION->IncludeComponent(

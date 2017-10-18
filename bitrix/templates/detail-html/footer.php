@@ -8,7 +8,7 @@
             <form name="SIMPLE_FORM_12" action="/on-do/" method="POST" enctype="multipart/form-data"><input type="hidden" name="sessid" id="sessid_2" value="35328a620dee4260e952fa5514697c39" /><input type="hidden" name="WEB_FORM_ID" value="12" />			<input class="form-control" type="email" name="form_email_54" id="subscribe_email" placeholder="Введите Ваш E-mail" required>
                 <div class="form-i footer-_sub">
                     <input class="zapis_check" type="checkbox" name="zapis_check" value=""/>
-                    <span class="agreement">Я даю свое согласие на обработку персональных данных, с <a href="/upload/personal.docx">условиями обработки персональных данных</a> ознакомлен</span>
+                    <span class="agreement">Я даю свое согласие на обработку персональных данных, с условиями обработки персональных данных ознакомлен</span>
                 </div>
 
 
@@ -19,7 +19,8 @@
             </form>
 
             <div class="clear"></div>
-            <div class="footer-subcsribe-vk"><span>Присоединяйтесь к нам</span> <a href="https://vk.com/ctk_center"><img width="99" src="images/vk.svg" data-png-fallback="images/vk.png"></a><div class="clear"></div></div>
+<!--
+            <div class="footer-subcsribe-vk"><span>Присоединяйтесь к нам</span> <a href="https://vk.com/ctk_center"><img width="99" src="images/vk.svg" data-png-fallback="images/vk.png"></a><div class="clear"></div></div>-->
         </div>
 
 
@@ -191,7 +192,7 @@
 
 
 
-                        <li><a href="/center/">Ринг Авто Север</a></li>
+                        <li><a href="/center/">Ринг Авто</a></li>
 
 
 
@@ -244,7 +245,7 @@
 
         <div class="clear"></div>
 
-        <div class="copyright">© 2014-2017 ООО "Глобал Системз", Официальный дилер Datsun в Воронеже. Информация, указанная на настоящем интернет-сайте, носит исключительно информационный характер и ни при каких условиях не является публичной офертой (ст. 437 ГК РФ). Политика конфиденциальности.<br><br><img width="39" src="images/logo-footer@2x.png" alt="">
+        <div class="copyright">© 2014-2017 "Ринг Авто" Официальный дилер Datsun. Информация, указанная на настоящем интернет-сайте, носит исключительно информационный характер и ни при каких условиях не является публичной офертой (ст. 437 ГК РФ). Политика конфиденциальности. Согласие на обработку персональных данных. <br><br><img width="39" src="images/logo-footer@2x.png" alt="">
             <a class="artfactor" href="#"></a>
         </div>
 
