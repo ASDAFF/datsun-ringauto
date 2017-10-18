@@ -18,7 +18,7 @@ $this->setFrameMode(true);
 <section class="block-bg-offer" style="background: url('<?=$arResult['DETAIL_PICTURE']['SRC']?>');">
     <div class="top-price-block">
 
-        <div class="top-name" style="background-image: url('/offers/images/1.png')"><?=$arResult["NAME"]?></div>
+        <div class="top-name" style="background-image: url('/offers/images/1.png')"><?=$arResult["PROPERTIES"]["TITLE_TWO"]["VALUE"]?></div>
 
         <div class="top-price" style="background-image: url('/offers/images/2.png')">
             <div class="top-desc">новая цена<br><span>от</span></div>

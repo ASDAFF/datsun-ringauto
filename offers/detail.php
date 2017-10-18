@@ -41,7 +41,7 @@ $APPLICATION->SetTitle("offers");
 		"PAGER_SHOW_ALL" => "N",
 		"PAGER_TEMPLATE" => ".default",
 		"PAGER_TITLE" => "Страница",
-		"PROPERTY_CODE" => array("SpecId","VIN","CREDIT","year","run","TransmissionCount","POWER","MARK","MODEL","NEW_PRICE","CAPACITY","Description","DEFAULT_COMPLIT","OLD_PRICE","OPTION_EQU","OPTION_SUMM","number","FUEL_TYPE","CUZOV","GRAR_TYPE","TRANSMISS","STREET","ColorOrig","SALE",""),
+		"PROPERTY_CODE" => array("SpecId","VIN","CREDIT","year","run","TransmissionCount","POWER","MARK","MODEL","NEW_PRICE","CAPACITY","Description","DEFAULT_COMPLIT","OLD_PRICE","OPTION_EQU","OPTION_SUMM","number","FUEL_TYPE","CUZOV","GRAR_TYPE","TRANSMISS","STREET","ColorOrig","SALE","TITLE_TWO"),
 		"SET_BROWSER_TITLE" => "Y",
 		"SET_CANONICAL_URL" => "N",
 		"SET_LAST_MODIFIED" => "N",

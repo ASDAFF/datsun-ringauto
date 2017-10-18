@@ -68,21 +68,20 @@
             </div>
 
 
-
-            <form name="SIMPLE_FORM_12" action="/" method="POST" enctype="multipart/form-data"><input type="hidden" name="sessid" id="sessid" value="4809d17c626e5aa24603c916574f94b9" /><input type="hidden" name="WEB_FORM_ID" value="12" />			<input class="form-control" type="email" name="form_email_54" id="subscribe_email" placeholder="Введите Ваш E-mail" required>
-                <div class="form-i footer-_sub">
-                    <input class="zapis_check" type="checkbox" name="zapis_check" value=""/>
-                    <span class="agreement">Я даю свое согласие на обработку персональных данных, с <a href="/upload/personal.docx">условиями обработки персональных данных</a> ознакомлен</span>
-                </div>
-
-
-                <label><table><tbody><tr><td><input type="text" name="name" value=""></td></tr></tbody></table></label>
-                <input type="submit" name="web_form_submit" value=" ">
-
-
-            </form>
-
-
+            <?$APPLICATION->IncludeComponent("nbrains:main.feedback", "follow-news", Array(
+                "EMAIL_TO" => "info@bitrix.ru",	// E-mail, на который будет отправлено письмо
+                    "EVENT_MESSAGE_ID" => "",	// Почтовые шаблоны для отправки письма
+                    "IBLOCK_ID" => "55",	// Код информационного блока
+                    "IBLOCK_TYPE" => "feedback",	// Тип информационного блока (используется только для проверки)
+                    "OK_TEXT" => "Спасибо, ваше сообщение принято.",	// Сообщение, выводимое пользователю после отправки
+                    "PROPERTY_CODE" => array(	// Поля формы
+                        0 => "EMAIL",
+                        1 => "RULE",
+                    ),
+                    "USE_CAPTCHA" => "N",	// Использовать защиту от автоматических сообщений (CAPTCHA) для неавторизованных пользователей
+                ),
+                false
+            );?>
 
             <div class="clear"></div>
             <div class="footer-subcsribe-vk"><span>Присоединяйтесь к нам</span>
