@@ -13,7 +13,7 @@ $APPLICATION->SetTitle("reviews");
 	</div>
 	<!-- <div class="news-line"></div> -->
 	<div class="news-banner">
-		<img class="news-banner-img" src="/reviews/images/banner.jpg">
+		<img class="news-banner-img" src="./images/banner.jpg">
 		<div class="news-banner-menu">
 
 			<?$APPLICATION->IncludeComponent(

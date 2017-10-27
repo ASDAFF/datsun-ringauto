@@ -104,7 +104,7 @@ $this->setFrameMode(true);
                 </ul>
 
                 <div class="add-test">
-                    <div class="offer-title blue">Записаться на тест драйв</div>
+                    <div class="offer-title blue">Записаться на тест-драйв</div>
                     <p>и забронировать эксклюзивную цену</p>
                     <a href="#offers-messages" class="offer-btn-test form-fancybox" id="">ОСТАВИТЬ ЗАЯВКУ</a>
                 </div>

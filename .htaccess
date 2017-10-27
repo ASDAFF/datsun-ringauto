@@ -11,6 +11,59 @@ ErrorDocument 404 /404.php
   #php_value mbstring.internal_encoding UTF-8
 </IfModule>
 
+# от 24.10.2017
+Redirect 301 /rules/conf_politic.docx /rules/conf_politic.pdf
+Redirect 301 /rules/personal.docx /rules/personal.pdf
+# от 27.10.2017
+Redirect 301 /about_datsun.htm	/advantages/
+Redirect 301 /about_salon.htm	/center/
+Redirect 301 /company.htm	/center/
+Redirect 301 /contact_salon.htm	/contacts/
+Redirect 301 /corporate.htm	/corp-sales/
+Redirect 301 /datsun_finance.htm	/credit/
+Redirect 301 /datsun_history.htm	/advantages/
+Redirect 301 /datsun_service_3.htm	/warranty/
+Redirect 301 /datsun_today.htm	/advantages/
+Redirect 301 /faq.asp	/reviews/
+Redirect 301 /for_owners.htm	/o-servise/
+Redirect 301 /index.htm	/
+Redirect 301 /insurance.htm	/credit/
+Redirect 301 /maintenance.htm	/teh-service/
+Redirect 301 /models/	/offers/
+Redirect 301 /models/mi-do/	/mi-do/
+Redirect 301 /models/on-do/	/on-do/
+Redirect 301 /news.asp	/news/
+Redirect 301 /news0_1069.html	/news/
+Redirect 301 /news0_1084.html	/news/
+Redirect 301 /news0_1089.html	/news/
+Redirect 301 /news0_1090.html	/news/
+Redirect 301 /news0_1091.html	/news/
+Redirect 301 /news0_1092.html	/news/
+Redirect 301 /news0_1093.html	/news/
+Redirect 301 /news0_1094.html	/news/
+Redirect 301 /news0_1095.html	/news/
+Redirect 301 /news0_1096.html	/news/
+Redirect 301 /news0_1097.html	/news/
+Redirect 301 /news0_1098.html	/news/
+Redirect 301 /news0_1100.html	/news/
+Redirect 301 /news0_1101.html	/news/
+Redirect 301 /news0_1102.html	/news/
+Redirect 301 /news0_1103.html	/news/
+Redirect 301 /news0_1104.html	/news/
+Redirect 301 /news0_1105.html	/news/
+Redirect 301 /news0_1106.html	/news/
+Redirect 301 /news0_1107.html	/news/
+Redirect 301 /news0_1108.html	/news/
+Redirect 301 /news0_1109.html	/news/
+Redirect 301 /news0_1110.html	/news/
+Redirect 301 /news0_1111.html	/news/
+Redirect 301 /optovye_postavki_zapchastey.htm	/accessories/
+Redirect 301 /service_center.htm	/teh-service/
+Redirect 301 /servisnoe_obsluzhivanie.htm	/teh-service/
+Redirect 301 /technical_assistance.htm	/assistance/
+Redirect 301 /TO.htm	/teh-service/
+Redirect 301 /trade_in.htm	/trade-in/
+
 <IfModule mod_rewrite.c>
   Options +FollowSymLinks
   RewriteEngine On

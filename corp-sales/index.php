@@ -123,9 +123,8 @@ $APPLICATION->SetTitle("corp_sales");
                             <p> <span class="descr1"><b>Телефоны:</b></span>
                                 <br />
                             </p>
-                            <p> +7 (921) 982 00 11,</p>
 
-                            <p> <span class="ya-phone-1">+7 (812) 336 91 19</span></p>
+                            <p> <span class="ya-phone-1">+7 (473) 233-27-77</span></p>
                         </div>
 
                         <div class="contact-icon"></div>
@@ -133,7 +132,7 @@ $APPLICATION->SetTitle("corp_sales");
                         <div class="contact-descr">
                             <p> <span class="descr1"><b>E-mail:</b></span>
                                 <br />
-                                <a href="mailto:n.baykova@ctk-center.ru" >n.baykova@ctk-center.ru</a>
+                                <a href="mailto:info@datsun-ringauto.ru" >info@datsun-ringauto.ru</a>
                             </p>
                         </div>
                     </div>

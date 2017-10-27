@@ -33,7 +33,7 @@
 
                 <div class="form-i">
                     <input class="zapis_check" type="checkbox" name="zapis_check" value=""/>
-                    <span class="agreement">Я даю свое согласие на обработку персональных данных, с <a href="/upload/personal.docx">условиями обработки персональных данных</a> ознакомлен</span>
+                    <span class="agreement">Я даю свое согласие на обработку персональных данных, с <a href="/rules/personal.docx">условиями обработки персональных данных</a> ознакомлен</span>
                 </div>
 
             </div>
