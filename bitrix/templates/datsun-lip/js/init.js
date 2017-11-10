@@ -6,7 +6,7 @@ var myMap;
 function init () {
 	myMap = new ymaps.Map('map', {
 		center: [52.583433, 39.581532],
-		zoom: 18
+		zoom: 17
 	});
 	var myGeocoder = ymaps.geocode('Липецк, Россия, улица 50 лет НЛМК, 22');
 	myGeocoder.then(
