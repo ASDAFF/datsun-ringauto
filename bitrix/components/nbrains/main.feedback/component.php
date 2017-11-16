@@ -114,13 +114,17 @@ if($_SERVER["REQUEST_METHOD"] == "POST" && $_POST["submit"] <> '' && (!isset($_P
 
 			$arLoadProductArray = Array(
 				"IBLOCK_SECTION_ID" => false,
-				"DATE_ACTIVE_FROM" => date("d.m.Y H:i:s"),
+				//"DATE_ACTIVE_FROM" => date("d.m.Y H:i:s"),
 				"IBLOCK_ID"      => $arParams['IBLOCK_ID'],
 				"PROPERTY_VALUES"=> $PROP,
 				"NAME"           => "Новое сообщение!",
 				"ACTIVE"         => "N"
 			);
 			$PRODUCT_ID = $el->Add($arLoadProductArray);
+			if(!$PRODUCT_ID){
+				echo "Error: ".$el->LAST_ERROR;
+				die();
+			}
 
 		}
 

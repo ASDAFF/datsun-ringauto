@@ -174,9 +174,9 @@ $MESS["SUP_PHP_L439"] = "You are using PHP version #VERS#, but the system requir
 $MESS["SUP_MYSQL_LCP_ERROR"] = "Your MySQL database has '#CP1#' encoding while the Site Update system requires '#CP#' encoding. Please contact your MySQL administrator to run the following database query: alter database #DB# default character set #CP#";
 $MESS["SUP_MYSQL_COLL_ERROR"] = "Collation of your MySQL database '#CD#' does not match that of the connection '#CC#'.";
 $MESS["SUP_CHECK_UPDATES_PARTNER"] = "Partner Module Updates";
-$MESS["SUP_CURRENT_NUMBER_OF_USERS"] = "; current user count: <a href=\"/bitrix/admin/user_admin.php?lang=en&find_intranet_users=Y&set_filter=Y\">#NUM#</a>";
+$MESS["SUP_CURRENT_NUMBER_OF_USERS"] = "; current user count: <a href=\"/bitrix/admin/user_admin.php?lang=en&INTRANET_USERS=Y&apply_filter=Y\">#NUM#</a>";
 $MESS["SUP_USERS_IS_NOT_LIMITED"] = "Your license has no maximum user limit.";
-$MESS["SUP_CURRENT_NUMBER_OF_USERS1"] = "Active users: <a href=\"/bitrix/admin/user_admin.php?lang=en&find_intranet_users=Y&set_filter=Y\">#NUM#</a>.";
+$MESS["SUP_CURRENT_NUMBER_OF_USERS1"] = "Active users: <a href=\"/bitrix/admin/user_admin.php?lang=en&INTRANET_USERS=Y&apply_filter=Y\">#NUM#</a>.";
 $MESS["SUP_RESERVED_KEY_HINT"] = "You must activate your license key before using the update system.";
 $MESS["SUP_SYSTEM_MESSAGE"] = "Attention";
 $MESS["SUP_CANT_LOCK_UPDATES"] = "The update system must not run in multiple web browser windows";

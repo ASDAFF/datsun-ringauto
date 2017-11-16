@@ -11,7 +11,7 @@
 
         <nav>
 
-            <?if(SITE_TEMPLATE_ID == 'detail-html'):?>
+            <?if(SITE_TEMPLATE_ID == 'detail-html' OR SITE_TEMPLATE_ID == 'detail-html-lip' OR SITE_TEMPLATE_ID == 'detail-html-osk'):?>
             <a class="navbar-brand goto" href="#wrap">Datsun on-DO:</a>
             <ul class="nav">
                 <li><a href="#pricing-table">Комплектации и цены</a> </li>

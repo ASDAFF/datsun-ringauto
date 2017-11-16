@@ -1,0 +1,85 @@
+2017-11-01 17:38:31 -  - exec CUpdateClient::GetUpdatesList
+2017-11-01 17:38:31 -  - exec CUpdateClient::CollectRequestData
+2017-11-01 17:38:31 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.1.0&VERSION=17.0.9&TYPENC=D&SUPD_STS=3&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=datsun-ringauto.ru&CHHB=datsun-ringauto.ru&CSAB=82.146.61.53&SUID=b5d7d82d3b84ebf3098d1cdb3987a842&CANGZIP=Y&CLIENT_PHPVER=5.6.31&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.0.9&bitm_b24connector=17.0.1&bitm_bitrixcloud=17.0.0&bitm_clouds=17.0.0&bitm_compression=16.0.0&bitm_fileman=17.5.0&bitm_highloadblock=17.0.2&bitm_iblock=17.0.9&bitm_perfmon=17.0.0&bitm_search=17.0.1&bitm_seo=17.0.6&bitm_socialservices=17.1.4&bitm_translate=15.0.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-01 17:38:31 -  - exec CUpdateClient::GetHTTPPage
+2017-11-01 17:38:31 -  - TIME GetUpdatesList(request) 0.528 sec
+2017-11-01 17:38:31 -  - exec CUpdateClient::ParseServerData
+2017-11-01 17:38:50 -  - exec CUpdateClient::ActivateCoupon
+2017-11-01 17:38:50 -  - exec CUpdateClient::CollectRequestData
+2017-11-01 17:38:50 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.1.0&VERSION=17.0.9&TYPENC=D&SUPD_STS=3&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=datsun-ringauto.ru&CHHB=datsun-ringauto.ru&CSAB=82.146.61.53&SUID=b5d7d82d3b84ebf3098d1cdb3987a842&CANGZIP=Y&CLIENT_PHPVER=5.6.31&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.0.9&bitm_b24connector=17.0.1&bitm_bitrixcloud=17.0.0&bitm_clouds=17.0.0&bitm_compression=16.0.0&bitm_fileman=17.5.0&bitm_highloadblock=17.0.2&bitm_iblock=17.0.9&bitm_perfmon=17.0.0&bitm_search=17.0.1&bitm_seo=17.0.6&bitm_socialservices=17.1.4&bitm_translate=15.0.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&coupon=S16-NA-47SVUPHGG0Z9WHW2&query_type=coupon
+2017-11-01 17:38:50 -  - exec CUpdateClient::GetHTTPPage
+2017-11-01 17:38:50 -  - TIME ActivateCoupon(request) 0.512 sec
+2017-11-01 17:38:50 -  - exec CUpdateClient::ParseServerData
+2017-11-01 17:38:50 - AC - [CHECK_IS_BAD] Купон (чек) не действителен. 
+2017-11-01 17:38:50 - UPD_ERROR - Error: [CHECK_IS_BAD] Купон (чек) не действителен. Ошибка активации купона. 
+2017-11-01 17:39:05 -  - exec CUpdateClient::GetUpdatesList
+2017-11-01 17:39:05 -  - exec CUpdateClient::CollectRequestData
+2017-11-01 17:39:05 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.1.0&VERSION=17.0.9&TYPENC=D&SUPD_STS=3&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=datsun-ringauto.ru&CHHB=datsun-ringauto.ru&CSAB=82.146.61.53&SUID=b5d7d82d3b84ebf3098d1cdb3987a842&CANGZIP=Y&CLIENT_PHPVER=5.6.31&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.0.9&bitm_b24connector=17.0.1&bitm_bitrixcloud=17.0.0&bitm_clouds=17.0.0&bitm_compression=16.0.0&bitm_fileman=17.5.0&bitm_highloadblock=17.0.2&bitm_iblock=17.0.9&bitm_perfmon=17.0.0&bitm_search=17.0.1&bitm_seo=17.0.6&bitm_socialservices=17.1.4&bitm_translate=15.0.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-01 17:39:05 -  - exec CUpdateClient::GetHTTPPage
+2017-11-01 17:39:09 -  - TIME GetUpdatesList(request) 3.3 sec
+2017-11-01 17:39:09 -  - exec CUpdateClient::ParseServerData
+2017-11-01 17:39:36 -  - exec CUpdateClient::ActivateCoupon
+2017-11-01 17:39:36 -  - exec CUpdateClient::CollectRequestData
+2017-11-01 17:39:36 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.1.0&VERSION=17.0.9&TYPENC=D&SUPD_STS=3&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=datsun-ringauto.ru&CHHB=datsun-ringauto.ru&CSAB=82.146.61.53&SUID=b5d7d82d3b84ebf3098d1cdb3987a842&CANGZIP=Y&CLIENT_PHPVER=5.6.31&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.0.9&bitm_b24connector=17.0.1&bitm_bitrixcloud=17.0.0&bitm_clouds=17.0.0&bitm_compression=16.0.0&bitm_fileman=17.5.0&bitm_highloadblock=17.0.2&bitm_iblock=17.0.9&bitm_perfmon=17.0.0&bitm_search=17.0.1&bitm_seo=17.0.6&bitm_socialservices=17.1.4&bitm_translate=15.0.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&coupon=CHK-BPLVZW3OA8-MT5U2D6QVL&query_type=coupon
+2017-11-01 17:39:36 -  - exec CUpdateClient::GetHTTPPage
+2017-11-01 17:39:36 -  - TIME ActivateCoupon(request) 0.292 sec
+2017-11-01 17:39:36 -  - exec CUpdateClient::ParseServerData
+2017-11-01 17:39:36 - UPD_SUCCESS - Coupon activated
+2017-11-01 17:39:38 -  - exec CUpdateClient::GetUpdatesList
+2017-11-01 17:39:38 -  - exec CUpdateClient::CollectRequestData
+2017-11-01 17:39:38 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.1.0&VERSION=17.0.9&TYPENC=D&SUPD_STS=3&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=datsun-ringauto.ru&CHHB=datsun-ringauto.ru&CSAB=82.146.61.53&SUID=b5d7d82d3b84ebf3098d1cdb3987a842&CANGZIP=Y&CLIENT_PHPVER=5.6.31&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.0.9&bitm_b24connector=17.0.1&bitm_bitrixcloud=17.0.0&bitm_clouds=17.0.0&bitm_compression=16.0.0&bitm_fileman=17.5.0&bitm_highloadblock=17.0.2&bitm_iblock=17.0.9&bitm_perfmon=17.0.0&bitm_search=17.0.1&bitm_seo=17.0.6&bitm_socialservices=17.1.4&bitm_translate=15.0.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-01 17:39:38 -  - exec CUpdateClient::GetHTTPPage
+2017-11-01 17:39:38 -  - TIME GetUpdatesList(request) 0.311 sec
+2017-11-01 17:39:38 -  - exec CUpdateClient::ParseServerData
+2017-11-09 13:47:55 -  - exec CUpdateClient::GetUpdatesList
+2017-11-09 13:47:55 -  - exec CUpdateClient::CollectRequestData
+2017-11-09 13:47:55 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.1.0&VERSION=17.0.9&TYPENC=D&SUPD_STS=3&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=datsun-ringauto.ru&CHHB=datsun-ringauto.ru&CSAB=82.146.61.53&SUID=b5d7d82d3b84ebf3098d1cdb3987a842&CANGZIP=Y&CLIENT_PHPVER=5.6.31&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.0.9&bitm_b24connector=17.0.1&bitm_bitrixcloud=17.0.0&bitm_clouds=17.0.0&bitm_compression=16.0.0&bitm_fileman=17.5.0&bitm_highloadblock=17.0.2&bitm_iblock=17.0.9&bitm_perfmon=17.0.0&bitm_search=17.0.1&bitm_seo=17.0.6&bitm_socialservices=17.1.4&bitm_translate=15.0.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-09 13:47:55 -  - exec CUpdateClient::GetHTTPPage
+2017-11-09 13:47:56 -  - TIME GetUpdatesList(request) 0.344 sec
+2017-11-09 13:47:56 -  - exec CUpdateClient::ParseServerData
+2017-11-09 13:48:00 -  - exec CUpdateClient::UpdateUpdate
+2017-11-09 13:48:00 -  - exec CUpdateClient::CollectRequestData
+2017-11-09 13:48:00 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.1.0&VERSION=17.0.9&TYPENC=D&SUPD_STS=3&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=datsun-ringauto.ru&CHHB=datsun-ringauto.ru&CSAB=82.146.61.53&SUID=b5d7d82d3b84ebf3098d1cdb3987a842&CANGZIP=Y&CLIENT_PHPVER=5.6.31&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.0.9&bitm_b24connector=17.0.1&bitm_bitrixcloud=17.0.0&bitm_clouds=17.0.0&bitm_compression=16.0.0&bitm_fileman=17.5.0&bitm_highloadblock=17.0.2&bitm_iblock=17.0.9&bitm_perfmon=17.0.0&bitm_search=17.0.1&bitm_seo=17.0.6&bitm_socialservices=17.1.4&bitm_translate=15.0.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&query_type=updateupdate
+2017-11-09 13:48:00 -  - exec CUpdateClient::GetHTTPPage
+2017-11-09 13:48:06 -  - TIME UpdateUpdate(request) 5.047 sec
+2017-11-09 13:48:06 -  - exec CUpdateClient::UnGzipArchive
+2017-11-09 13:48:06 -  - TIME UnGzipArchive 0.018 sec
+2017-11-09 13:48:06 -  - exec CUpdateClient::ParseServerData
+2017-11-09 13:48:06 - CURV - Update updated successfully!
+2017-11-09 13:48:06 - UPD_SUCCESS - Update system updated
+2017-11-09 13:48:06 -  - exec CUpdateClient::GetUpdatesList
+2017-11-09 13:48:06 -  - exec CUpdateClient::CollectRequestData
+2017-11-09 13:48:06 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.0.9&TYPENC=D&SUPD_STS=3&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=datsun-ringauto.ru&CHHB=datsun-ringauto.ru&CSAB=82.146.61.53&SUID=b5d7d82d3b84ebf3098d1cdb3987a842&CANGZIP=Y&CLIENT_PHPVER=5.6.31&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.0.9&bitm_b24connector=17.0.1&bitm_bitrixcloud=17.0.0&bitm_clouds=17.0.0&bitm_compression=16.0.0&bitm_fileman=17.5.0&bitm_highloadblock=17.0.2&bitm_iblock=17.0.9&bitm_perfmon=17.0.0&bitm_search=17.0.1&bitm_seo=17.0.6&bitm_socialservices=17.1.4&bitm_translate=15.0.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-09 13:48:06 -  - exec CUpdateClient::GetHTTPPage
+2017-11-09 13:48:06 -  - TIME GetUpdatesList(request) 0.323 sec
+2017-11-09 13:48:06 -  - exec CUpdateClient::ParseServerData
+2017-11-09 13:51:49 -  - exec CUpdateClient::ActivateLicenseKey
+2017-11-09 13:51:49 -  - exec CUpdateClient::CollectRequestData
+2017-11-09 13:51:49 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.0.9&TYPENC=D&SUPD_STS=3&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=datsun-ringauto.ru&CHHB=datsun-ringauto.ru&CSAB=82.146.61.53&SUID=b5d7d82d3b84ebf3098d1cdb3987a842&CANGZIP=Y&CLIENT_PHPVER=5.6.31&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.0.9&bitm_b24connector=17.0.1&bitm_bitrixcloud=17.0.0&bitm_clouds=17.0.0&bitm_compression=16.0.0&bitm_fileman=17.5.0&bitm_highloadblock=17.0.2&bitm_iblock=17.0.9&bitm_perfmon=17.0.0&bitm_search=17.0.1&bitm_seo=17.0.6&bitm_socialservices=17.1.4&bitm_translate=15.0.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&query_type=activate
+2017-11-09 13:51:49 -  - exec CUpdateClient::GetHTTPPage
+2017-11-09 13:51:50 -  - TIME ActivateLicenseKey(request) 0.483 sec
+2017-11-09 13:51:50 -  - exec CUpdateClient::ParseServerData
+2017-11-09 13:51:50 - CUALK - License key activated successfully!
+2017-11-09 13:51:50 - UPD_SUCCESS - Licence activated
+2017-11-09 13:51:50 -  - exec CUpdateClient::GetUpdatesList
+2017-11-09 13:51:50 -  - exec CUpdateClient::CollectRequestData
+2017-11-09 13:51:50 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.0.9&TYPENC=D&SUPD_STS=3&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=datsun-ringauto.ru&CHHB=datsun-ringauto.ru&CSAB=82.146.61.53&SUID=b5d7d82d3b84ebf3098d1cdb3987a842&CANGZIP=Y&CLIENT_PHPVER=5.6.31&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.0.9&bitm_b24connector=17.0.1&bitm_bitrixcloud=17.0.0&bitm_clouds=17.0.0&bitm_compression=16.0.0&bitm_fileman=17.5.0&bitm_highloadblock=17.0.2&bitm_iblock=17.0.9&bitm_perfmon=17.0.0&bitm_search=17.0.1&bitm_seo=17.0.6&bitm_socialservices=17.1.4&bitm_translate=15.0.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-09 13:51:50 -  - exec CUpdateClient::GetHTTPPage
+2017-11-09 13:51:50 -  - TIME GetUpdatesList(request) 0.235 sec
+2017-11-09 13:51:50 -  - exec CUpdateClient::ParseServerData
+2017-11-09 13:51:58 -  - exec CUpdateClient::GetUpdatesList
+2017-11-09 13:51:58 -  - exec CUpdateClient::CollectRequestData
+2017-11-09 13:51:58 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.0.9&TYPENC=D&SUPD_STS=3&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=datsun-ringauto.ru&CHHB=datsun-ringauto.ru&CSAB=82.146.61.53&SUID=b5d7d82d3b84ebf3098d1cdb3987a842&CANGZIP=Y&CLIENT_PHPVER=5.6.31&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.0.9&bitm_b24connector=17.0.1&bitm_bitrixcloud=17.0.0&bitm_clouds=17.0.0&bitm_compression=16.0.0&bitm_fileman=17.5.0&bitm_highloadblock=17.0.2&bitm_iblock=17.0.9&bitm_perfmon=17.0.0&bitm_search=17.0.1&bitm_seo=17.0.6&bitm_socialservices=17.1.4&bitm_translate=15.0.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-09 13:51:58 -  - exec CUpdateClient::GetHTTPPage
+2017-11-09 13:51:59 -  - TIME GetUpdatesList(request) 0.252 sec
+2017-11-09 13:51:59 -  - exec CUpdateClient::ParseServerData
+2017-11-09 13:52:01 -  - exec CUpdateClient::RegisterVersion
+2017-11-09 13:52:01 -  - exec CUpdateClient::CollectRequestData
+2017-11-09 13:52:01 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.0.9&TYPENC=D&SUPD_STS=3&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=datsun-ringauto.ru&CHHB=datsun-ringauto.ru&CSAB=82.146.61.53&SUID=b5d7d82d3b84ebf3098d1cdb3987a842&CANGZIP=Y&CLIENT_PHPVER=5.6.31&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.0.9&bitm_b24connector=17.0.1&bitm_bitrixcloud=17.0.0&bitm_clouds=17.0.0&bitm_compression=16.0.0&bitm_fileman=17.5.0&bitm_highloadblock=17.0.2&bitm_iblock=17.0.9&bitm_perfmon=17.0.0&bitm_search=17.0.1&bitm_seo=17.0.6&bitm_socialservices=17.1.4&bitm_translate=15.0.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&query_type=register
+2017-11-09 13:52:01 -  - exec CUpdateClient::GetHTTPPage
+2017-11-09 13:52:01 -  - TIME RegisterVersion(request) 0.206 sec
+2017-11-09 13:52:01 -  - exec CUpdateClient::UnGzipArchive
+2017-11-09 13:52:01 -  - TIME UnGzipArchive 0.002 sec
+2017-11-09 13:52:01 -  - exec CUpdateClient::ParseServerData
+2017-11-09 13:52:01 - CURV - Product registered successfully!
+2017-11-09 13:52:01 - UPD_SUCCESS - Registered
