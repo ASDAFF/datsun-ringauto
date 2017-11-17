@@ -15,7 +15,7 @@ $APPLICATION->SetTitle("on-do");
         <nav class="navbar navbar-fixed-top navbar-slide">
             <div class="container_fluid">
                 <a class="navbar-brand goto" href="#wrap">Datsun on-DO:</a>
-                
+
                 <button class="navbar-toggle menu-collapse-btn collapsed" data-toggle="collapse" data-target=".navMenuCollapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
                 <div class="collapse navbar-collapse navMenuCollapse">
                     <ul class="nav">

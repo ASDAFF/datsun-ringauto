@@ -18,27 +18,27 @@
     <div class="container">
 
 
-        <form name="SIMPLE_FORM_15" action="/mi-do/" method="POST" enctype="multipart/form-data"><input type="hidden" name="sessid" id="sessid" value="386b6a86f67a133e279886b02ff814fb" /><input type="hidden" name="WEB_FORM_ID" value="15" /><p>Остались вопросы? Заполните заявку на кредит, мы сделаем расчет и перезвоним Вам.</p>
-            <div class="forma row-fluid">
-                <div class="col-md-4 col-lg-4">
-                    <input name="form_text_68" size="0" type="text" value="" placeholder="Имя, Фамилия" required />
-                </div>
-                <div class="col-md-4 col-lg-4">
-                    <input name="form_text_69" size="0" type="text" value="" placeholder="Телефон" required />
-                </div>
-                <label><table><tbody><tr><td><input type="text" name="name" value=""></td></tr></tbody></table></label>
-                <div class="col-md-4 col-lg-4">
-                    <input type="submit" name="web_form_submit" id="subscribe_submit" value="Отправить заявку">
-                </div>
-
-
-                <div class="form-i">
-                    <input class="zapis_check" type="checkbox" name="zapis_check" value=""/>
-                    <span class="agreement">Я даю свое согласие на обработку персональных данных, с <a href="/rules/personal.docx">условиями обработки персональных данных</a> ознакомлен</span>
-                </div>
-
-            </div>
-        </form>
+        <?$APPLICATION->IncludeComponent(
+            "nbrains:main.feedback",
+            "model-form-vertical",
+            array(
+                "EMAIL_TO" => "",
+                "EVENT_MESSAGE_ID" => array(
+                    0 => "8",
+                ),
+                "IBLOCK_ID" => "17",
+                "IBLOCK_TYPE" => "feedback",
+                "OK_TEXT" => "Спасибо, ваше сообщение принято.",
+                "PROPERTY_CODE" => array(
+                    0 => "FIO",
+                    1 => "PHONE",
+                    2 => "RULE",
+                ),
+                "USE_CAPTCHA" => "N",
+                "COMPONENT_TEMPLATE" => "model-form-vertical"
+            ),
+            false
+        );?>
 
         <!-- FORM  END-->
     </div>
