@@ -6,7 +6,9 @@ function closePreloader() {
 setTimeout(closePreloader, 100);
 
 $(document).ready(function($) {
-	
+
+
+    $('input[name="PHONE"]').mask("+7 (999) 999-99-99");
 	
 /*галочки в формах и отправка целей - НАЧАЛО************************************************/
 

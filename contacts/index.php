@@ -79,27 +79,27 @@ $APPLICATION->SetTitle("Контакты");
             <h3>ЗАКАЗ ОБРАТНОГО ЗВОНКА</h3>
             <p>Оставьте свой номер телефона, и наши специалисты свяжутся с Вами в ближайшее время.</p>
             <?$APPLICATION->IncludeComponent(
-	"nbrains:main.feedback", 
-	".default", 
-	array(
-		"EMAIL_TO" => "",
-		"EVENT_MESSAGE_ID" => array(
-			0 => "8",
-		),
-		"IBLOCK_ID" => "17",
-		"IBLOCK_TYPE" => "feedback",
-		"OK_TEXT" => "Спасибо, ваше сообщение принято.",
-		"PROPERTY_CODE" => array(
-			0 => "FIO",
-			1 => "PHONE",
-			2 => "COMMENT",
-			3 => "RULE",
-		),
-		"USE_CAPTCHA" => "N",
-		"COMPONENT_TEMPLATE" => ".default"
-	),
-	false
-);?>
+                "nbrains:main.feedback",
+                ".default",
+                array(
+                    "EMAIL_TO" => "",
+                    "EVENT_MESSAGE_ID" => array(
+                        0 => "8",
+                    ),
+                    "IBLOCK_ID" => "17",
+                    "IBLOCK_TYPE" => "feedback",
+                    "OK_TEXT" => "Спасибо, ваше сообщение принято.",
+                    "PROPERTY_CODE" => array(
+                        0 => "FIO",
+                        1 => "PHONE",
+                        2 => "COMMENT",
+                        3 => "RULE",
+                    ),
+                    "USE_CAPTCHA" => "N",
+                    "COMPONENT_TEMPLATE" => ".default"
+                ),
+                false
+            );?>
         </div>
         <div class="clear"></div>
 
