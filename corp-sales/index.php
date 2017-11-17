@@ -88,18 +88,27 @@ $APPLICATION->SetTitle("corp_sales");
                     <h3>ЗАКАЗ ОБРАТНОГО ЗВОНКА</h3>
 
                     <?$APPLICATION->IncludeComponent(
-                        "nbrains:main.feedback",
-                        "",
-                        Array(
-                            "EMAIL_TO" => "info@bitrix.ru",
-                            "EVENT_MESSAGE_ID" => array(),
-                            "IBLOCK_ID" => "17",
-                            "IBLOCK_TYPE" => "feedback",
-                            "OK_TEXT" => "Спасибо, ваше сообщение принято.",
-                            "PROPERTY_CODE" => array("FIO","PHONE","COMMENT","RULE"),
-                            "USE_CAPTCHA" => "N"
-                        )
-                    );?>
+	"nbrains:main.feedback", 
+	".default", 
+	array(
+		"EMAIL_TO" => "",
+		"EVENT_MESSAGE_ID" => array(
+			0 => "8",
+		),
+		"IBLOCK_ID" => "17",
+		"IBLOCK_TYPE" => "feedback",
+		"OK_TEXT" => "Спасибо, ваше сообщение принято.",
+		"PROPERTY_CODE" => array(
+			0 => "FIO",
+			1 => "PHONE",
+			2 => "COMMENT",
+			3 => "RULE",
+		),
+		"USE_CAPTCHA" => "N",
+		"COMPONENT_TEMPLATE" => ".default"
+	),
+	false
+);?>
                 </div>
 
                 <div class="clear"></div>

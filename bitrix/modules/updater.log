@@ -83,3 +83,8 @@
 2017-11-09 13:52:01 -  - exec CUpdateClient::ParseServerData
 2017-11-09 13:52:01 - CURV - Product registered successfully!
 2017-11-09 13:52:01 - UPD_SUCCESS - Registered
+2017-11-17 00:27:32 - CRUPDCDF1 - Run updater '/bitrix/updates/update_m1510867652/artrix.imageoptimizer/updater1.0.1.php': CopyDirFiles(install/tools, /bitrix/tools)
+2017-11-17 00:27:35 - CRUPDCDF1 - Run updater '/bitrix/updates/update_m1510867655/artrix.imageoptimizer/updater1.0.4.php': CopyDirFiles(install/tools, /bitrix/tools)
+2017-11-17 00:27:35 - CRUPDCDF1 - Run updater '/bitrix/updates/update_m1510867655/artrix.imageoptimizer/updater1.0.4.php': CopyDirFiles(install/css, /bitrix/css)
+2017-11-17 00:27:39 - CRUPDCDF1 - Run updater '/bitrix/updates/update_m1510867659/artrix.imageoptimizer/updater1.0.7.php': CopyDirFiles(install/tools, /bitrix/tools)
+2017-11-17 00:27:39 - CRUPDCDF1 - Run updater '/bitrix/updates/update_m1510867659/artrix.imageoptimizer/updater1.0.7.php': CopyDirFiles(install/css, /bitrix/css)

@@ -36,18 +36,29 @@ $APPLICATION->SetTitle("testdrive");
                 <div class="form-fancybox-modal testdr-form">
 
                     <?$APPLICATION->IncludeComponent(
-                        "nbrains:main.feedback",
-                        "",
-                        Array(
-                            "EMAIL_TO" => "info@bitrix.ru",
-                            "EVENT_MESSAGE_ID" => array(),
-                            "IBLOCK_ID" => "13",
-                            "IBLOCK_TYPE" => "feedback",
-                            "OK_TEXT" => "Спасибо, ваше сообщение принято.",
-                            "PROPERTY_CODE" => array("FIO","PHONE","MODEL","DATE","COMMENT","RULE"),
-                            "USE_CAPTCHA" => "N"
-                        )
-                    );?>
+	"nbrains:main.feedback", 
+	".default", 
+	array(
+		"EMAIL_TO" => "",
+		"EVENT_MESSAGE_ID" => array(
+			0 => "9",
+		),
+		"IBLOCK_ID" => "13",
+		"IBLOCK_TYPE" => "feedback",
+		"OK_TEXT" => "Спасибо, ваше сообщение принято.",
+		"PROPERTY_CODE" => array(
+			0 => "FIO",
+			1 => "PHONE",
+			2 => "MODEL",
+			3 => "DATE",
+			4 => "COMMENT",
+			5 => "RULE",
+		),
+		"USE_CAPTCHA" => "N",
+		"COMPONENT_TEMPLATE" => ".default"
+	),
+	false
+);?>
                     
                 </div>
             </div>

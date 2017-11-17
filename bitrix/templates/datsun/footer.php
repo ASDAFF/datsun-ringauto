@@ -117,40 +117,58 @@
     <div class="title">Запись на сервис</div>
 
     <?$APPLICATION->IncludeComponent(
-        "nbrains:main.feedback",
-        "",
-        Array(
-            "EMAIL_TO" => "info@bitrix.ru",
-            "EVENT_MESSAGE_ID" => array(
-                0 => "11",
-            ),
-            "IBLOCK_ID" => "12",
-            "IBLOCK_TYPE" => "feedback",
-            "OK_TEXT" => "Спасибо, ваше сообщение принято.",
-            "PROPERTY_CODE" => array("FIO","PHONE","MODEL","DATE","COMMENT","RULE"),
-            "USE_CAPTCHA" => "N"
-        )
-    );?>
+	"nbrains:main.feedback", 
+	".default", 
+	array(
+		"EMAIL_TO" => "",
+		"EVENT_MESSAGE_ID" => array(
+			0 => "11",
+		),
+		"IBLOCK_ID" => "12",
+		"IBLOCK_TYPE" => "feedback",
+		"OK_TEXT" => "Спасибо, ваше сообщение принято.",
+		"PROPERTY_CODE" => array(
+			0 => "FIO",
+			1 => "PHONE",
+			2 => "MODEL",
+			3 => "DATE",
+			4 => "COMMENT",
+			5 => "RULE",
+		),
+		"USE_CAPTCHA" => "N",
+		"COMPONENT_TEMPLATE" => ".default"
+	),
+	false
+);?>
 
 </div>
 <div id="writingToServiceOnService" class="popup-form">
     <div class="title">Запись на сервис</div>
 
     <?$APPLICATION->IncludeComponent(
-        "nbrains:main.feedback",
-        "",
-        Array(
-            "EMAIL_TO" => "info@bitrix.ru",
-            "EVENT_MESSAGE_ID" => array(
-                0 => "11",
-            ),
-            "IBLOCK_ID" => "12",
-            "IBLOCK_TYPE" => "feedback",
-            "OK_TEXT" => "Спасибо, ваше сообщение принято.",
-            "PROPERTY_CODE" => array("FIO","PHONE","MODEL","DATE","COMMENT","RULE"),
-            "USE_CAPTCHA" => "N"
-        )
-    );?>
+	"nbrains:main.feedback", 
+	".default", 
+	array(
+		"EMAIL_TO" => "",
+		"EVENT_MESSAGE_ID" => array(
+			0 => "11",
+		),
+		"IBLOCK_ID" => "12",
+		"IBLOCK_TYPE" => "feedback",
+		"OK_TEXT" => "Спасибо, ваше сообщение принято.",
+		"PROPERTY_CODE" => array(
+			0 => "FIO",
+			1 => "PHONE",
+			2 => "MODEL",
+			3 => "DATE",
+			4 => "COMMENT",
+			5 => "RULE",
+		),
+		"USE_CAPTCHA" => "N",
+		"COMPONENT_TEMPLATE" => ".default"
+	),
+	false
+);?>
 
 </div>
 
@@ -159,40 +177,60 @@
     <div class="title">Рассчитать кредит</div>
 
     <?$APPLICATION->IncludeComponent(
-        "nbrains:main.feedback",
-        "",
-        Array(
-            "EMAIL_TO" => "info@bitrix.ru",
-            "EVENT_MESSAGE_ID" => array(
-                0 => "15",
-            ),
-            "IBLOCK_ID" => "14",
-            "IBLOCK_TYPE" => "feedback",
-            "OK_TEXT" => "Спасибо, ваше сообщение принято.",
-            "PROPERTY_CODE" => array("FIO","PHONE","MODEL","FIRST_ADD","COMFORT_PAY","COMMENT","RULE"),
-            "USE_CAPTCHA" => "N"
-        )
-    );?>
+	"nbrains:main.feedback", 
+	".default", 
+	array(
+		"EMAIL_TO" => "",
+		"EVENT_MESSAGE_ID" => array(
+			0 => "15",
+		),
+		"IBLOCK_ID" => "14",
+		"IBLOCK_TYPE" => "feedback",
+		"OK_TEXT" => "Спасибо, ваше сообщение принято.",
+		"PROPERTY_CODE" => array(
+			0 => "FIO",
+			1 => "PHONE",
+			2 => "MODEL",
+			3 => "FIRST_ADD",
+			4 => "COMFORT_PAY",
+			5 => "COMMENT",
+			6 => "RULE",
+		),
+		"USE_CAPTCHA" => "N",
+		"COMPONENT_TEMPLATE" => ".default"
+	),
+	false
+);?>
 
 </div>
 <div id="calculateLoanOnCredit" class="popup-form">
     <div class="title">Рассчитать кредит</div>
 
     <?$APPLICATION->IncludeComponent(
-        "nbrains:main.feedback",
-        "",
-        Array(
-            "EMAIL_TO" => "info@bitrix.ru",
-            "EVENT_MESSAGE_ID" => array(
-                0 => "15",
-            ),
-            "IBLOCK_ID" => "14",
-            "IBLOCK_TYPE" => "feedback",
-            "OK_TEXT" => "Спасибо, ваше сообщение принято.",
-            "PROPERTY_CODE" => array("FIO","PHONE","MODEL","FIRST_ADD","COMFORT_PAY","COMMENT","RULE"),
-            "USE_CAPTCHA" => "N"
-        )
-    );?>
+	"nbrains:main.feedback", 
+	".default", 
+	array(
+		"EMAIL_TO" => "",
+		"EVENT_MESSAGE_ID" => array(
+			0 => "15",
+		),
+		"IBLOCK_ID" => "14",
+		"IBLOCK_TYPE" => "feedback",
+		"OK_TEXT" => "Спасибо, ваше сообщение принято.",
+		"PROPERTY_CODE" => array(
+			0 => "FIO",
+			1 => "PHONE",
+			2 => "MODEL",
+			3 => "FIRST_ADD",
+			4 => "COMFORT_PAY",
+			5 => "COMMENT",
+			6 => "RULE",
+		),
+		"USE_CAPTCHA" => "N",
+		"COMPONENT_TEMPLATE" => ".default"
+	),
+	false
+);?>
 
 </div>
 
@@ -200,20 +238,29 @@
     <div class="title">Записаться на тест-драйв</div>
 
     <?$APPLICATION->IncludeComponent(
-        "nbrains:main.feedback",
-        "",
-        Array(
-            "EMAIL_TO" => "info@bitrix.ru",
-            "EVENT_MESSAGE_ID" => array(
-                0 => "9",
-            ),
-            "IBLOCK_ID" => "13",
-            "IBLOCK_TYPE" => "feedback",
-            "OK_TEXT" => "Спасибо, ваше сообщение принято.",
-            "PROPERTY_CODE" => array("FIO","PHONE","MODEL","DATE","COMMENT","RULE"),
-            "USE_CAPTCHA" => "N"
-        )
-    );?>
+	"nbrains:main.feedback", 
+	".default", 
+	array(
+		"EMAIL_TO" => "",
+		"EVENT_MESSAGE_ID" => array(
+			0 => "9",
+		),
+		"IBLOCK_ID" => "13",
+		"IBLOCK_TYPE" => "feedback",
+		"OK_TEXT" => "Спасибо, ваше сообщение принято.",
+		"PROPERTY_CODE" => array(
+			0 => "FIO",
+			1 => "PHONE",
+			2 => "MODEL",
+			3 => "DATE",
+			4 => "COMMENT",
+			5 => "RULE",
+		),
+		"USE_CAPTCHA" => "N",
+		"COMPONENT_TEMPLATE" => ".default"
+	),
+	false
+);?>
 
 </div>
 
@@ -221,20 +268,29 @@
     <div class="title">Сдать автомобиль в зачет</div>
 
     <?$APPLICATION->IncludeComponent(
-        "nbrains:main.feedback",
-        "",
-        Array(
-            "EMAIL_TO" => "info@bitrix.ru",
-            "EVENT_MESSAGE_ID" => array(
-                0 => "16",
-            ),
-            "IBLOCK_ID" => "15",
-            "IBLOCK_TYPE" => "feedback",
-            "OK_TEXT" => "Спасибо, ваше сообщение принято.",
-            "PROPERTY_CODE" => array("FIO","PHONE","MODEL","CAR","COMMENT","RULE"),
-            "USE_CAPTCHA" => "N"
-        )
-    );?>
+	"nbrains:main.feedback", 
+	".default", 
+	array(
+		"EMAIL_TO" => "",
+		"EVENT_MESSAGE_ID" => array(
+			0 => "16",
+		),
+		"IBLOCK_ID" => "15",
+		"IBLOCK_TYPE" => "feedback",
+		"OK_TEXT" => "Спасибо, ваше сообщение принято.",
+		"PROPERTY_CODE" => array(
+			0 => "FIO",
+			1 => "PHONE",
+			2 => "MODEL",
+			3 => "CAR",
+			4 => "COMMENT",
+			5 => "RULE",
+		),
+		"USE_CAPTCHA" => "N",
+		"COMPONENT_TEMPLATE" => ".default"
+	),
+	false
+);?>
 
 </div>
 
@@ -242,20 +298,27 @@
     <div class="title">Получить консультацию</div>
 
     <?$APPLICATION->IncludeComponent(
-        "nbrains:main.feedback",
-        "",
-        Array(
-            "EMAIL_TO" => "info@bitrix.ru",
-            "EVENT_MESSAGE_ID" => array(
-                0 => "14",
-            ),
-            "IBLOCK_ID" => "16",
-            "IBLOCK_TYPE" => "feedback",
-            "OK_TEXT" => "Спасибо, ваше сообщение принято.",
-            "PROPERTY_CODE" => array("FIO","PHONE","COMMENT","RULE"),
-            "USE_CAPTCHA" => "N"
-        )
-    );?>
+	"nbrains:main.feedback", 
+	".default", 
+	array(
+		"EMAIL_TO" => "",
+		"EVENT_MESSAGE_ID" => array(
+			0 => "14",
+		),
+		"IBLOCK_ID" => "16",
+		"IBLOCK_TYPE" => "feedback",
+		"OK_TEXT" => "Спасибо, ваше сообщение принято.",
+		"PROPERTY_CODE" => array(
+			0 => "FIO",
+			1 => "PHONE",
+			2 => "COMMENT",
+			3 => "RULE",
+		),
+		"USE_CAPTCHA" => "N",
+		"COMPONENT_TEMPLATE" => ".default"
+	),
+	false
+);?>
 
 </div>
 
@@ -265,20 +328,29 @@
     </div>
 
     <?$APPLICATION->IncludeComponent(
-        "nbrains:main.feedback",
-        "",
-        Array(
-            "EMAIL_TO" => "info@bitrix.ru",
-            "EVENT_MESSAGE_ID" => array(
-                0 => "12",
-            ),
-            "IBLOCK_ID" => "18",
-            "IBLOCK_TYPE" => "feedback",
-            "OK_TEXT" => "Спасибо, ваше сообщение принято.",
-            "PROPERTY_CODE" => array("FIO","PHONE","MODEL","DATE","COMMENT","RULE"),
-            "USE_CAPTCHA" => "N"
-        )
-    );?>
+	"nbrains:main.feedback", 
+	".default", 
+	array(
+		"EMAIL_TO" => "",
+		"EVENT_MESSAGE_ID" => array(
+			0 => "12",
+		),
+		"IBLOCK_ID" => "18",
+		"IBLOCK_TYPE" => "feedback",
+		"OK_TEXT" => "Спасибо, ваше сообщение принято.",
+		"PROPERTY_CODE" => array(
+			0 => "FIO",
+			1 => "PHONE",
+			2 => "MODEL",
+			3 => "DATE",
+			4 => "COMMENT",
+			5 => "RULE",
+		),
+		"USE_CAPTCHA" => "N",
+		"COMPONENT_TEMPLATE" => ".default"
+	),
+	false
+);?>
 
 </div>
 
@@ -288,20 +360,29 @@
     </div>
 
     <?$APPLICATION->IncludeComponent(
-        "nbrains:main.feedback",
-        "",
-        Array(
-            "EMAIL_TO" => "info@bitrix.ru",
-            "EVENT_MESSAGE_ID" => array(
-                0 => "10",
-            ),
-            "IBLOCK_ID" => "19",
-            "IBLOCK_TYPE" => "feedback",
-            "OK_TEXT" => "Спасибо, ваше сообщение принято.",
-            "PROPERTY_CODE" => array("FIO","PHONE","MODEL","DATE","COMMENT","RULE"),
-            "USE_CAPTCHA" => "N"
-        )
-    );?>
+	"nbrains:main.feedback", 
+	".default", 
+	array(
+		"EMAIL_TO" => "",
+		"EVENT_MESSAGE_ID" => array(
+			0 => "10",
+		),
+		"IBLOCK_ID" => "19",
+		"IBLOCK_TYPE" => "feedback",
+		"OK_TEXT" => "Спасибо, ваше сообщение принято.",
+		"PROPERTY_CODE" => array(
+			0 => "FIO",
+			1 => "PHONE",
+			2 => "MODEL",
+			3 => "DATE",
+			4 => "COMMENT",
+			5 => "RULE",
+		),
+		"USE_CAPTCHA" => "N",
+		"COMPONENT_TEMPLATE" => ".default"
+	),
+	false
+);?>
 </div>
 
 <div id="offers-messages" class="popup-form">
@@ -310,20 +391,28 @@
     </div>
 
     <?$APPLICATION->IncludeComponent(
-        "nbrains:main.feedback",
-        "",
-        Array(
-            "EMAIL_TO" => "info@bitrix.ru",
-            "EVENT_MESSAGE_ID" => array(
-                0 => "13",
-            ),
-            "IBLOCK_ID" => "21",
-            "IBLOCK_TYPE" => "feedback",
-            "OK_TEXT" => "Спасибо, ваше сообщение принято.",
-            "PROPERTY_CODE" => array("FIO","PHONE","DATE","COMMENT","RULE"),
-            "USE_CAPTCHA" => "N"
-        )
-    );?>
+	"nbrains:main.feedback", 
+	".default", 
+	array(
+		"EMAIL_TO" => "",
+		"EVENT_MESSAGE_ID" => array(
+			0 => "13",
+		),
+		"IBLOCK_ID" => "21",
+		"IBLOCK_TYPE" => "feedback",
+		"OK_TEXT" => "Спасибо, ваше сообщение принято.",
+		"PROPERTY_CODE" => array(
+			0 => "FIO",
+			1 => "PHONE",
+			2 => "DATE",
+			3 => "COMMENT",
+			4 => "RULE",
+		),
+		"USE_CAPTCHA" => "N",
+		"COMPONENT_TEMPLATE" => ".default"
+	),
+	false
+);?>
 </div>
 
 

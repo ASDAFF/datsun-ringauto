@@ -38,18 +38,27 @@ $APPLICATION->SetTitle("reviews");
 		</p>
 
 		<?$APPLICATION->IncludeComponent(
-			"nbrains:main.feedback",
-			"",
-			Array(
-				"EMAIL_TO" => "info@bitrix.ru",
-				"EVENT_MESSAGE_ID" => array(),
-				"IBLOCK_ID" => "10",
-				"IBLOCK_TYPE" => "news",
-				"OK_TEXT" => "Спасибо, ваше сообщение принято.",
-				"PROPERTY_CODE" => array("NAME","COMMENT","PHONE","EMAIL","RULE"),
-				"USE_CAPTCHA" => "N"
-			)
-		);?>
+	"nbrains:main.feedback", 
+	".default", 
+	array(
+		"EMAIL_TO" => "",
+		"EVENT_MESSAGE_ID" => array(
+		),
+		"IBLOCK_ID" => "10",
+		"IBLOCK_TYPE" => "news",
+		"OK_TEXT" => "Спасибо, ваше сообщение принято.",
+		"PROPERTY_CODE" => array(
+			0 => "NAME",
+			1 => "COMMENT",
+			2 => "PHONE",
+			3 => "EMAIL",
+			4 => "RULE",
+		),
+		"USE_CAPTCHA" => "N",
+		"COMPONENT_TEMPLATE" => ".default"
+	),
+	false
+);?>
 
 	</div>
 

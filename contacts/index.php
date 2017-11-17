@@ -82,7 +82,7 @@ $APPLICATION->SetTitle("Контакты");
 	"nbrains:main.feedback", 
 	".default", 
 	array(
-		"EMAIL_TO" => "info@bitrix.ru",
+		"EMAIL_TO" => "",
 		"EVENT_MESSAGE_ID" => array(
 			0 => "8",
 		),

@@ -1,0 +1,163 @@
+2017-11-17 00:03:51 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-11-17 00:03:51 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-11-17 00:03:51 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=datsun-ringauto.ru&LICENSE_KEY=X&SUPD_STS=3&SUPD_URS=0&SUPD_URSA=4&TYPENC=E&CLIENT_PHPVER=5.6.31&NGINX=Y&dbv=5.5.52&instm=main%2C17.0.9%2CN%3Bb24connector%2C17.0.1%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Biblock%2C17.0.9%2CN%3Bperfmon%2C17.0.0%2CN%3Bsearch%2C17.0.1%2CN%3Bseo%2C17.0.6%2CN%3Bsocialservices%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bthebrainstech.copyiblock%2C1.1.0%2CN&reqm=bitrix.sitecorporate%2Cthebrainstech.copyiblock&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2017-11-17 00:03:51 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-11-17 00:03:52 -  - TIME GetUpdatesList(request) 0.522 sec
+2017-11-17 00:03:52 -  - exec CUpdateClientPartner::ParseServerData
+2017-11-17 00:27:20 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-11-17 00:27:20 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-11-17 00:27:20 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=datsun-ringauto.ru&LICENSE_KEY=X&SUPD_STS=3&SUPD_URS=0&SUPD_URSA=4&TYPENC=E&CLIENT_PHPVER=5.6.31&NGINX=Y&dbv=5.5.52&instm=main%2C17.0.9%2CN%3Bb24connector%2C17.0.1%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Biblock%2C17.0.9%2CN%3Bperfmon%2C17.0.0%2CN%3Bsearch%2C17.0.1%2CN%3Bseo%2C17.0.6%2CN%3Bsocialservices%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bthebrainstech.copyiblock%2C1.1.0%2CN&reqm=bitrix.sitecorporate%2Cthebrainstech.copyiblock%2Cartrix.imageoptimizer&SUPD_SRS=RU&SUPD_CMP=Y
+2017-11-17 00:27:20 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-11-17 00:27:20 -  - TIME GetUpdatesList(request) 0.344 sec
+2017-11-17 00:27:20 -  - exec CUpdateClientPartner::ParseServerData
+2017-11-17 00:27:30 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-11-17 00:27:30 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-11-17 00:27:30 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=datsun-ringauto.ru&LICENSE_KEY=X&SUPD_STS=3&SUPD_URS=0&SUPD_URSA=4&TYPENC=E&CLIENT_PHPVER=5.6.31&NGINX=Y&dbv=5.5.52&instm=main%2C17.0.9%2CN%3Bb24connector%2C17.0.1%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Biblock%2C17.0.9%2CN%3Bperfmon%2C17.0.0%2CN%3Bsearch%2C17.0.1%2CN%3Bseo%2C17.0.6%2CN%3Bsocialservices%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bthebrainstech.copyiblock%2C1.1.0%2CN&reqm=artrix.imageoptimizer&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2017-11-17 00:27:30 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-11-17 00:27:30 -  - TIME LoadModulesUpdates(request) 0.299 sec
+2017-11-17 00:27:30 -  - exec CUpdateClientPartner::ParseServerData
+2017-11-17 00:27:30 - S - STEP
+2017-11-17 00:27:30 - LMU01 - LoadModulesUpdates-Step
+2017-11-17 00:27:30 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-11-17 00:27:30 -  - exec CUpdateClientPartner::ParseServerData
+2017-11-17 00:27:30 -  - loadFile
+2017-11-17 00:27:31 - U - RETURN
+2017-11-17 00:27:31 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-11-17 00:27:31 -  - TIME UnGzipArchive 0.009 sec
+2017-11-17 00:27:31 -  - TIME UpdateStepModules 0.009 sec
+2017-11-17 00:27:31 - UPD_SUCCESS - Updated: artrix.imageoptimizer
+2017-11-17 00:27:31 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-11-17 00:27:31 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-11-17 00:27:31 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=datsun-ringauto.ru&LICENSE_KEY=X&SUPD_STS=3&SUPD_URS=0&SUPD_URSA=4&TYPENC=E&CLIENT_PHPVER=5.6.31&NGINX=Y&dbv=5.5.52&instm=main%2C17.0.9%2CN%3Bb24connector%2C17.0.1%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Biblock%2C17.0.9%2CN%3Bperfmon%2C17.0.0%2CN%3Bsearch%2C17.0.1%2CN%3Bseo%2C17.0.6%2CN%3Bsocialservices%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bthebrainstech.copyiblock%2C1.1.0%2CN%3Bartrix.imageoptimizer%2C1.0.0%2CN&reqm=artrix.imageoptimizer&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2017-11-17 00:27:31 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-11-17 00:27:31 -  - TIME LoadModulesUpdates(request) 0.378 sec
+2017-11-17 00:27:31 -  - exec CUpdateClientPartner::ParseServerData
+2017-11-17 00:27:31 - S - STEP
+2017-11-17 00:27:31 - LMU01 - LoadModulesUpdates-Step
+2017-11-17 00:27:31 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-11-17 00:27:31 -  - exec CUpdateClientPartner::ParseServerData
+2017-11-17 00:27:31 -  - loadFile
+2017-11-17 00:27:32 - U - RETURN
+2017-11-17 00:27:32 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-11-17 00:27:32 -  - TIME UnGzipArchive 0.012 sec
+2017-11-17 00:27:32 - CSURUS1 - Run updater '/bitrix/updates/update_m1510867652/artrix.imageoptimizer/updater1.0.1.php'
+2017-11-17 00:27:32 -  - TIME UpdateStepModules 0.016 sec
+2017-11-17 00:27:32 - UPD_SUCCESS - Updated: artrix.imageoptimizer (1.0.1)<br>Обновление модуля \"Модуль оптимизации изображений под Google PageSpeed\"
+2017-11-17 00:27:32 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-11-17 00:27:32 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-11-17 00:27:32 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=datsun-ringauto.ru&LICENSE_KEY=X&SUPD_STS=3&SUPD_URS=0&SUPD_URSA=4&TYPENC=E&CLIENT_PHPVER=5.6.31&NGINX=Y&dbv=5.5.52&instm=main%2C17.0.9%2CN%3Bb24connector%2C17.0.1%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Biblock%2C17.0.9%2CN%3Bperfmon%2C17.0.0%2CN%3Bsearch%2C17.0.1%2CN%3Bseo%2C17.0.6%2CN%3Bsocialservices%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bthebrainstech.copyiblock%2C1.1.0%2CN%3Bartrix.imageoptimizer%2C1.0.1%2CN&reqm=artrix.imageoptimizer&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2017-11-17 00:27:32 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-11-17 00:27:33 -  - TIME LoadModulesUpdates(request) 0.311 sec
+2017-11-17 00:27:33 -  - exec CUpdateClientPartner::ParseServerData
+2017-11-17 00:27:33 - S - STEP
+2017-11-17 00:27:33 - LMU01 - LoadModulesUpdates-Step
+2017-11-17 00:27:33 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-11-17 00:27:33 -  - exec CUpdateClientPartner::ParseServerData
+2017-11-17 00:27:33 -  - loadFile
+2017-11-17 00:27:33 - U - RETURN
+2017-11-17 00:27:33 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-11-17 00:27:33 -  - TIME UnGzipArchive 0.005 sec
+2017-11-17 00:27:33 -  - TIME UpdateStepModules 0.008 sec
+2017-11-17 00:27:33 - UPD_SUCCESS - Updated: artrix.imageoptimizer (1.0.2)<br>Обновление модуля \"Модуль оптимизации изображений под Google PageSpeed\": lang файлы
+2017-11-17 00:27:33 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-11-17 00:27:33 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-11-17 00:27:33 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=datsun-ringauto.ru&LICENSE_KEY=X&SUPD_STS=3&SUPD_URS=0&SUPD_URSA=4&TYPENC=E&CLIENT_PHPVER=5.6.31&NGINX=Y&dbv=5.5.52&instm=main%2C17.0.9%2CN%3Bb24connector%2C17.0.1%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Biblock%2C17.0.9%2CN%3Bperfmon%2C17.0.0%2CN%3Bsearch%2C17.0.1%2CN%3Bseo%2C17.0.6%2CN%3Bsocialservices%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bthebrainstech.copyiblock%2C1.1.0%2CN%3Bartrix.imageoptimizer%2C1.0.2%2CN&reqm=artrix.imageoptimizer&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2017-11-17 00:27:33 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-11-17 00:27:34 -  - TIME LoadModulesUpdates(request) 0.374 sec
+2017-11-17 00:27:34 -  - exec CUpdateClientPartner::ParseServerData
+2017-11-17 00:27:34 - S - STEP
+2017-11-17 00:27:34 - LMU01 - LoadModulesUpdates-Step
+2017-11-17 00:27:34 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-11-17 00:27:34 -  - exec CUpdateClientPartner::ParseServerData
+2017-11-17 00:27:34 -  - loadFile
+2017-11-17 00:27:34 - U - RETURN
+2017-11-17 00:27:34 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-11-17 00:27:34 -  - TIME UnGzipArchive 0.001 sec
+2017-11-17 00:27:34 -  - TIME UpdateStepModules 0.002 sec
+2017-11-17 00:27:34 - UPD_SUCCESS - Updated: artrix.imageoptimizer (1.0.3)<br>Обновление модуля \"Модуль оптимизации изображений под Google PageSpeed\": lang файлы
+2017-11-17 00:27:35 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-11-17 00:27:35 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-11-17 00:27:35 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=datsun-ringauto.ru&LICENSE_KEY=X&SUPD_STS=3&SUPD_URS=0&SUPD_URSA=4&TYPENC=E&CLIENT_PHPVER=5.6.31&NGINX=Y&dbv=5.5.52&instm=main%2C17.0.9%2CN%3Bb24connector%2C17.0.1%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Biblock%2C17.0.9%2CN%3Bperfmon%2C17.0.0%2CN%3Bsearch%2C17.0.1%2CN%3Bseo%2C17.0.6%2CN%3Bsocialservices%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bthebrainstech.copyiblock%2C1.1.0%2CN%3Bartrix.imageoptimizer%2C1.0.3%2CN&reqm=artrix.imageoptimizer&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2017-11-17 00:27:35 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-11-17 00:27:35 -  - TIME LoadModulesUpdates(request) 0.393 sec
+2017-11-17 00:27:35 -  - exec CUpdateClientPartner::ParseServerData
+2017-11-17 00:27:35 - S - STEP
+2017-11-17 00:27:35 - LMU01 - LoadModulesUpdates-Step
+2017-11-17 00:27:35 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-11-17 00:27:35 -  - exec CUpdateClientPartner::ParseServerData
+2017-11-17 00:27:35 -  - loadFile
+2017-11-17 00:27:35 - U - RETURN
+2017-11-17 00:27:35 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-11-17 00:27:35 -  - TIME UnGzipArchive 0.003 sec
+2017-11-17 00:27:35 - CSURUS1 - Run updater '/bitrix/updates/update_m1510867655/artrix.imageoptimizer/updater1.0.4.php'
+2017-11-17 00:27:35 -  - TIME UpdateStepModules 0.007 sec
+2017-11-17 00:27:35 - UPD_SUCCESS - Updated: artrix.imageoptimizer (1.0.4)<br>1) Подсчет изображений до начала обработки 2) Улучшен алгоритм поиска изображений 3) Библиотека CURL теперь необязательна 4) Увеличена скорость обработки изображений
+2017-11-17 00:27:36 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-11-17 00:27:36 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-11-17 00:27:36 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=datsun-ringauto.ru&LICENSE_KEY=X&SUPD_STS=3&SUPD_URS=0&SUPD_URSA=4&TYPENC=E&CLIENT_PHPVER=5.6.31&NGINX=Y&dbv=5.5.52&instm=main%2C17.0.9%2CN%3Bb24connector%2C17.0.1%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Biblock%2C17.0.9%2CN%3Bperfmon%2C17.0.0%2CN%3Bsearch%2C17.0.1%2CN%3Bseo%2C17.0.6%2CN%3Bsocialservices%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bthebrainstech.copyiblock%2C1.1.0%2CN%3Bartrix.imageoptimizer%2C1.0.4%2CN&reqm=artrix.imageoptimizer&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2017-11-17 00:27:36 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-11-17 00:27:36 -  - TIME LoadModulesUpdates(request) 0.303 sec
+2017-11-17 00:27:36 -  - exec CUpdateClientPartner::ParseServerData
+2017-11-17 00:27:36 - S - STEP
+2017-11-17 00:27:36 - LMU01 - LoadModulesUpdates-Step
+2017-11-17 00:27:37 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-11-17 00:27:37 -  - exec CUpdateClientPartner::ParseServerData
+2017-11-17 00:27:37 -  - loadFile
+2017-11-17 00:27:37 - U - RETURN
+2017-11-17 00:27:37 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-11-17 00:27:37 -  - TIME UnGzipArchive 0.002 sec
+2017-11-17 00:27:37 -  - TIME UpdateStepModules 0.004 sec
+2017-11-17 00:27:37 - UPD_SUCCESS - Updated: artrix.imageoptimizer (1.0.5)<br>Обновление модуля \"Модуль оптимизации изображений под Google PageSpeed\": ошибка редактирования параметров настройки
+2017-11-17 00:27:37 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-11-17 00:27:37 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-11-17 00:27:37 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=datsun-ringauto.ru&LICENSE_KEY=X&SUPD_STS=3&SUPD_URS=0&SUPD_URSA=4&TYPENC=E&CLIENT_PHPVER=5.6.31&NGINX=Y&dbv=5.5.52&instm=main%2C17.0.9%2CN%3Bb24connector%2C17.0.1%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Biblock%2C17.0.9%2CN%3Bperfmon%2C17.0.0%2CN%3Bsearch%2C17.0.1%2CN%3Bseo%2C17.0.6%2CN%3Bsocialservices%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bthebrainstech.copyiblock%2C1.1.0%2CN%3Bartrix.imageoptimizer%2C1.0.5%2CN&reqm=artrix.imageoptimizer&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2017-11-17 00:27:37 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-11-17 00:27:38 -  - TIME LoadModulesUpdates(request) 0.388 sec
+2017-11-17 00:27:38 -  - exec CUpdateClientPartner::ParseServerData
+2017-11-17 00:27:38 - S - STEP
+2017-11-17 00:27:38 - LMU01 - LoadModulesUpdates-Step
+2017-11-17 00:27:38 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-11-17 00:27:38 -  - exec CUpdateClientPartner::ParseServerData
+2017-11-17 00:27:38 -  - loadFile
+2017-11-17 00:27:38 - U - RETURN
+2017-11-17 00:27:38 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-11-17 00:27:38 -  - TIME UnGzipArchive 0.005 sec
+2017-11-17 00:27:38 -  - TIME UpdateStepModules 0.008 sec
+2017-11-17 00:27:38 - UPD_SUCCESS - Updated: artrix.imageoptimizer (1.0.6)<br>Обновление модуля \"Модуль оптимизации изображений под Google PageSpeed\": ошибка lang-файла
+2017-11-17 00:27:38 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-11-17 00:27:38 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-11-17 00:27:38 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=datsun-ringauto.ru&LICENSE_KEY=X&SUPD_STS=3&SUPD_URS=0&SUPD_URSA=4&TYPENC=E&CLIENT_PHPVER=5.6.31&NGINX=Y&dbv=5.5.52&instm=main%2C17.0.9%2CN%3Bb24connector%2C17.0.1%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Biblock%2C17.0.9%2CN%3Bperfmon%2C17.0.0%2CN%3Bsearch%2C17.0.1%2CN%3Bseo%2C17.0.6%2CN%3Bsocialservices%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bthebrainstech.copyiblock%2C1.1.0%2CN%3Bartrix.imageoptimizer%2C1.0.6%2CN&reqm=artrix.imageoptimizer&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2017-11-17 00:27:38 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-11-17 00:27:39 -  - TIME LoadModulesUpdates(request) 0.325 sec
+2017-11-17 00:27:39 -  - exec CUpdateClientPartner::ParseServerData
+2017-11-17 00:27:39 - S - STEP
+2017-11-17 00:27:39 - LMU01 - LoadModulesUpdates-Step
+2017-11-17 00:27:39 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-11-17 00:27:39 -  - exec CUpdateClientPartner::ParseServerData
+2017-11-17 00:27:39 -  - loadFile
+2017-11-17 00:27:39 - U - RETURN
+2017-11-17 00:27:39 -  - exec CUpdateClientPartner::UnGzipArchive
+2017-11-17 00:27:39 -  - TIME UnGzipArchive 0.003 sec
+2017-11-17 00:27:39 - CSURUS1 - Run updater '/bitrix/updates/update_m1510867659/artrix.imageoptimizer/updater1.0.7.php'
+2017-11-17 00:27:39 -  - TIME UpdateStepModules 0.007 sec
+2017-11-17 00:27:39 - UPD_SUCCESS - Updated: artrix.imageoptimizer (1.0.7)<br>Обновление модуля \"Модуль оптимизации изображений под Google PageSpeed\"
+2017-11-17 00:27:39 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2017-11-17 00:27:39 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-11-17 00:27:39 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=datsun-ringauto.ru&LICENSE_KEY=X&SUPD_STS=3&SUPD_URS=0&SUPD_URSA=4&TYPENC=E&CLIENT_PHPVER=5.6.31&NGINX=Y&dbv=5.5.52&instm=main%2C17.0.9%2CN%3Bb24connector%2C17.0.1%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Biblock%2C17.0.9%2CN%3Bperfmon%2C17.0.0%2CN%3Bsearch%2C17.0.1%2CN%3Bseo%2C17.0.6%2CN%3Bsocialservices%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bthebrainstech.copyiblock%2C1.1.0%2CN%3Bartrix.imageoptimizer%2C1.0.7%2CN&reqm=artrix.imageoptimizer&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2017-11-17 00:27:39 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-11-17 00:27:40 -  - TIME LoadModulesUpdates(request) 0.359 sec
+2017-11-17 00:27:40 -  - exec CUpdateClientPartner::ParseServerData
+2017-11-17 00:27:40 - STEP - Finish - NOUPDATES
+2017-11-17 00:27:40 - STEP - Finish - NOUPDATES
+2017-11-17 00:27:47 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-11-17 00:27:47 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-11-17 00:27:47 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=datsun-ringauto.ru&LICENSE_KEY=X&SUPD_STS=3&SUPD_URS=0&SUPD_URSA=4&TYPENC=E&CLIENT_PHPVER=5.6.31&NGINX=Y&dbv=5.5.52&instm=main%2C17.0.9%2CN%3Bb24connector%2C17.0.1%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Biblock%2C17.0.9%2CN%3Bperfmon%2C17.0.0%2CN%3Bsearch%2C17.0.1%2CN%3Bseo%2C17.0.6%2CN%3Bsocialservices%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bthebrainstech.copyiblock%2C1.1.0%2CN%3Bartrix.imageoptimizer%2C1.0.7%2CN&reqm=bitrix.sitecorporate%2Cthebrainstech.copyiblock%2Cartrix.imageoptimizer&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2017-11-17 00:27:47 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-11-17 00:27:47 -  - TIME GetUpdatesList(request) 0.315 sec
+2017-11-17 00:27:47 -  - exec CUpdateClientPartner::ParseServerData
+2017-11-17 00:27:47 -  - exec CUpdateClientPartner::GetUpdatesList
+2017-11-17 00:27:47 -  - exec CUpdateClientPartner::__CollectRequestData
+2017-11-17 00:27:47 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=datsun-ringauto.ru&LICENSE_KEY=X&SUPD_STS=3&SUPD_URS=0&SUPD_URSA=4&TYPENC=E&CLIENT_PHPVER=5.6.31&NGINX=Y&dbv=5.5.52&instm=main%2C17.0.9%2CN%3Bb24connector%2C17.0.1%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C17.0.0%2CN%3Bclouds%2C17.0.0%2CN%3Bcompression%2C16.0.0%2CN%3Bfileman%2C17.5.0%2CN%3Bhighloadblock%2C17.0.2%2CN%3Biblock%2C17.0.9%2CN%3Bperfmon%2C17.0.0%2CN%3Bsearch%2C17.0.1%2CN%3Bseo%2C17.0.6%2CN%3Bsocialservices%2C17.1.4%2CN%3Btranslate%2C15.0.0%2CN%3Bthebrainstech.copyiblock%2C1.1.0%2CN%3Bartrix.imageoptimizer%2C1.0.7%2CN&reqm=bitrix.sitecorporate%2Cthebrainstech.copyiblock%2Cartrix.imageoptimizer&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2017-11-17 00:27:47 -  - exec CUpdateClientPartner::GetHTTPPage
+2017-11-17 00:27:48 -  - TIME GetUpdatesList(request) 0.304 sec
+2017-11-17 00:27:48 -  - exec CUpdateClientPartner::ParseServerData
