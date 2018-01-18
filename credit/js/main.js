@@ -14,7 +14,7 @@ jQuery(function($){
     $("#docked-nav-wrapper").on("click","a", function (event) {
         //отмен€ем стандартную обработку нажати€ по ссылке
         event.preventDefault();
-        
+
         //забираем идентификатор бока с атрибута href
         var id  = $(this).attr('href'),
 
@@ -31,19 +31,19 @@ jQuery(function($){
     var avatarSourceBottom = avatarElem.getBoundingClientRect().bottom + window.pageYOffset;
 
 
-    var menuArr = ['#about','#standard','#special','#credit','#safety'];
+    var menuArr = ['#about','#standard','#special','#credit','#safety','#benefits','#lightcasco','#supercasco'];
 
 
 
     window.onscroll = function() {
 
         $.each(menuArr, function(index, value){
-
-            if(window.pageYOffset > $(value).offset().top - 300){
-                $("#docked-nav-wrapper a").removeClass('active');
-                $('#docked-nav-wrapper a[href="'+value+'"]').addClass('active');
+            if($(value).length > 0){
+                if(window.pageYOffset > $(value).offset().top - 300){
+                    $("#docked-nav-wrapper a").removeClass('active');
+                    $('#docked-nav-wrapper a[href="'+value+'"]').addClass('active');
+                }
             }
-
         });
 
 
