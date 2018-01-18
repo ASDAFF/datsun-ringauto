@@ -10,7 +10,7 @@
 
                 <div class="price-from"> 	 цена от </div>
 
-                <div class="price" style="margin-bottom: 0px;"> 	 321 000 <span>руб.*</span></div>
+                <div class="price" style="margin-bottom: 0px;"> 	 350 000 <span>руб.*</span></div>
 
                 <br />
 

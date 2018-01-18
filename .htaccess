@@ -67,6 +67,24 @@ Redirect 301 /trade_in.htm	/trade-in/
 <IfModule mod_rewrite.c>
   Options +FollowSymLinks
   RewriteEngine On
+  
+  #редирект на без www от 21.12.2017
+RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+#убрать //
+RewriteCond %{REQUEST_URI} ^(.*)/{2,}(.*)$
+RewriteRule (.*) %1/%2 [R=301,L]
+
+#Редирект с index.html и index.php на папку (удаление из строки браузера index.html\php)
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /.*index\.(php|html|htm)?\ HTTP/
+RewriteRule ^(.*)index\.(php|html|htm)?$ http://datsun-ringauto.ru/$1 [R=301,L]
+
+
+
+
+
+ 
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-l
   RewriteCond %{REQUEST_FILENAME} !-d

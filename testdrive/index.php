@@ -1,5 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("title", "Пройдите тест-драйв автомобиля Datsun! | Ринг Авто Север дилер Datsun");
 $APPLICATION->SetTitle("testdrive");
 ?>
     <div class="header-spacer"></div>

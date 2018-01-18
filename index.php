@@ -1,5 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("title", "Datsun | Ринг Авто Север 🚘 официальный дилер в Воронеже");
 $APPLICATION->SetTitle("Datsun");
 ?>
 
@@ -234,25 +235,7 @@ $APPLICATION->SetTitle("Datsun");
                     <div class="clear"></div>
                 </div>
 
-                <!-- advantages and video END-->
-
-<!--                <div id="advert">-->
-<!--                    <ul class="bxslider-fader clearfix">-->
-<!--                        <li style="background-image: url('http://datsun-spb.ru/files/sl_2.jpg');">-->
-<!--                            <div class="bxslider-fader-title">CTK CENTER</div>-->
-<!---->
-<!--                            <div class="bxslider-fader-description">Первый дилерский центр DATSUN в санкт-петербурге</div>-->
-<!--                        </li>-->
-<!---->
-<!--                        <li class="invert" style="background-image: url('http://datsun-spb.ru/files/sl_1.jpg'); background-size:cover;">-->
-<!--                            <div class="bxslider-fader-description">В просторном шоу-руме представлен</div>-->
-<!---->
-<!--                            <div class="bxslider-fader-title">Весь модельный ряд datsun</div>-->
-<!--                        </li>-->
-<!--                    </ul>-->
-<!--                </div>-->
-
-                <!-- text cols -->
+               
 
                 <div class="text-cols text-cols-main">
                     <div class="text-cols-inner">

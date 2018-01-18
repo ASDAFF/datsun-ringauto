@@ -108,6 +108,7 @@
             <br><br>
             <a class="to_sitemap" href="#"></a>
             <img width="39" src="<?=SITE_TEMPLATE_PATH?>/images/logo-footer@2x.png" alt="">
+			<a class="prime-incut white colour" style="float: right;"></a>
             <a class="artfactor" href="#"></a>
             <span id="bx-composite-banner"></span>
         </div>

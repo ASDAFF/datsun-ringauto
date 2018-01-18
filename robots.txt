@@ -1,0 +1,23 @@
+﻿User-agent: *
+Disallow: /*utm
+Disallow: /*clid=
+Disallow: /*openstat
+Disallow: /*from
+Disallow: /*.pdf
+Disallow: /*.xls
+Disallow: /*.doc
+Disallow: /*.ppt
+Disallow: /*.txt
+Disallow: /*.swf
+Disallow: /*.mp3
+Disallow: /*.zip
+Allow: *.css
+Allow: *.js
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.png
+Allow: *.gif
+Clean-param: utm_source&utm_medium&utm_term&utm_content&utm_campaign&yclid&gclid&_openstat&from /
+Host: http://datsun-ringauto.ru/
+
+Sitemap: http://datsun-ringauto.ru/sitemap.xml

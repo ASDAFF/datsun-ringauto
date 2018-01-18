@@ -1,20 +1,20 @@
-2017-Nov-16 19:01:39 Наличие необходимых модулей php (check_php_modules): Ok
+2018-Jan-17 19:52:16 Наличие необходимых модулей php (check_php_modules): Ok
 Все необходимые модули установлены
-2017-Nov-16 19:01:39 Обязательные параметры PHP (check_php_settings): Ok
+2018-Jan-17 19:52:16 Обязательные параметры PHP (check_php_settings): Ok
 Настройки правильные
-2017-Nov-16 19:01:39 Модули веб-сервера (check_security): Ok
+2018-Jan-17 19:52:16 Модули веб-сервера (check_security): Ok
 Конфликтов не выявлено
-2017-Nov-16 19:01:39 Значения переменных сервера (check_server_vars): Ok
+2018-Jan-17 19:52:16 Значения переменных сервера (check_server_vars): Ok
 Корректные
-2017-Nov-16 19:01:39 Сохранение сессии (check_session): Ok
+2018-Jan-17 19:52:16 Сохранение сессии (check_session): Ok
 50% done
-2017-Nov-16 19:01:39 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
+2018-Jan-17 19:52:16 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
 Правильные. Сайт работает в UTF кодировке
-2017-Nov-16 19:01:39 Служебные скрипты в корне сайта (check_install_scripts): Ok
+2018-Jan-17 19:52:16 Служебные скрипты в корне сайта (check_install_scripts): Ok
 Отсутствуют
-2017-Nov-16 19:01:39 Работа с сокетами (check_socket): Ok
-Connection to www.datsun-ringauto.ru:80	Success
+2018-Jan-17 19:52:16 Работа с сокетами (check_socket): Ok
+Connection to datsun-oskol.ru:80	Success
 
 Успешно
-2017-Nov-16 19:01:39 Выполнение агентов на cron (check_bx_crontab): Warning
+2018-Jan-17 19:52:16 Выполнение агентов на cron (check_bx_crontab): Warning
 Замечание. Агенты выполняются на хитах, рекомендуется перевести выполнение агентов на cron

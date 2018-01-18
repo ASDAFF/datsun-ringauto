@@ -1,5 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("title", "Преимущества автомобилей Датсун | Ринг Авто Север");
 $APPLICATION->SetTitle("advantages");
 ?>
 

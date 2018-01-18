@@ -1,5 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("title", "О сервисе | Ринг Авто Север дилер Datsun");
 $APPLICATION->SetTitle("o-servise");
 ?>
 
