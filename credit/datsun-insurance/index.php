@@ -15,6 +15,12 @@ $APPLICATION->SetTitle("Datsun страхование, КАСКО");
             font-size: 15px!important;
             height: auto;
         }
+
+        @media (max-width: 1400px){
+            .content {
+                padding: 0!important;
+            }
+        }
     </style>
 
 
@@ -166,7 +172,7 @@ $APPLICATION->SetTitle("Datsun страхование, КАСКО");
 
 
 
-                <div class="content-zone container c_002 content-divider-hidden" id=benefits>
+                <div class="content-zone container c_002 content-divider" id=benefits>
 
                     <hr>
 
@@ -299,7 +305,7 @@ $APPLICATION->SetTitle("Datsun страхование, КАСКО");
                                                         <div><ul>
                                                                 <li>неизменное качество DATSUN;</li>
                                                                 <li>выгодные предложения для каждого клиента;</li>
-                                                                <li>оформление и ремонт в&nbsp;<a href="/dealer-finder.html">официальном дилерском центре DATSUN</a>;</li>
+                                                                <li>оформление и ремонт в&nbsp;<a href="/contacts/">официальном дилерском центре DATSUN</a>;</li>
                                                                 <li>выделенная круглосуточная линия поддержки 8 800 333 58 02;</li>
                                                                 <li>возможно оформление в кредит³.</li>
                                                             </ul>
@@ -336,7 +342,7 @@ $APPLICATION->SetTitle("Datsun страхование, КАСКО");
 
 
 
-                <div class="content-zone container c_002 content-divider-hidden" id=lightcasco>
+                <div class="content-zone container c_002 content-divider" id=lightcasco>
 
                     <hr>
 
@@ -492,7 +498,7 @@ $APPLICATION->SetTitle("Datsun страхование, КАСКО");
 
 
 
-                <div class="content-zone container c_002 content-divider-hidden" id=supercasco>
+                <div class="content-zone container c_002 content-divider" id=supercasco>
 
                     <hr>
 

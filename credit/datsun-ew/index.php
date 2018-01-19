@@ -15,6 +15,12 @@ $APPLICATION->SetTitle("ПРОГРАММА DATSUN 3+");
             font-size: 15px!important;
             height: auto;
         }
+
+        @media (max-width: 1400px){
+            .content {
+                padding: 0!important;
+            }
+        }
     </style>
 
 

@@ -29,7 +29,7 @@ $APPLICATION->SetTitle("credit");
     <div class="header-spacer"></div>
 
 
-    <main class="content" id="container">
+    <main id="container" role="main">
 
 
         <div class="grid-row bleed">
@@ -245,7 +245,7 @@ $APPLICATION->SetTitle("credit");
 
 
 
-                <div class="content-zone container c_002 content-divider-hidden" id=about>
+                <div class="content-zone container c_002 content-divider" id=about>
 
                     <hr>
 
@@ -551,7 +551,7 @@ $APPLICATION->SetTitle("credit");
 
 
 
-                <div class="content-zone container c_002 content-divider-hidden" >
+                <div class="content-zone container c_002 content-divider" >
 
                     <hr>
 
@@ -965,7 +965,7 @@ $APPLICATION->SetTitle("credit");
 
 
 
-                <div class="content-zone container c_002 content-divider-hidden" id=standard>
+                <div class="content-zone container c_002 content-divider" id=standard>
 
                     <hr>
 
@@ -1353,7 +1353,7 @@ $APPLICATION->SetTitle("credit");
 
 
 
-                <div class="content-zone container c_002 content-divider-hidden" id=special>
+                <div class="content-zone container c_002 content-divider" id=special>
 
                     <hr>
 
@@ -1637,7 +1637,7 @@ $APPLICATION->SetTitle("credit");
 
 
 
-                                                        <li><a href="#getConsult" class="form-fancybox consult" title="УЗНАТЬ ПОДРОБНОСТИ ПРОГРАММЫ «ВПЕРЕД!»">УЗНАТЬ ПОДРОБНОСТИ ПРОГРАММЫ «ВПЕРЕД!»</a></li>
+                                                        <li><a href="/credit/buy-back_datsun/" class="" title="УЗНАТЬ ПОДРОБНОСТИ ПРОГРАММЫ «ВПЕРЕД!»">УЗНАТЬ ПОДРОБНОСТИ ПРОГРАММЫ «ВПЕРЕД!»</a></li>
 
 
 
@@ -1674,7 +1674,7 @@ $APPLICATION->SetTitle("credit");
 
 
 
-                <div class="content-zone container c_002 content-divider-hidden" id=credit>
+                <div class="content-zone container c_002 content-divider" id=credit>
 
                     <hr>
 
@@ -1956,7 +1956,7 @@ $APPLICATION->SetTitle("credit");
 
 
 
-                <div class="content-zone container c_002 content-divider-hidden" id=safety>
+                <div class="content-zone container c_002 content-divider" id=safety>
 
                     <hr>
 
@@ -2258,7 +2258,7 @@ $APPLICATION->SetTitle("credit");
 
 
 
-                <div class="content-zone container c_002 content-divider-hidden" >
+                <div class="content-zone container c_002 content-divider" >
 
                     <hr>
 
