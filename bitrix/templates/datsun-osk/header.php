@@ -92,8 +92,8 @@
 
         <?
         //FILTER NEWS FOR SITE
-        $GLOBALS['newsFilter'] = array("PROPERTY_SITES_VALUE" => SITE_ID);
+        //$GLOBALS['newsFilter'] = array("PROPERTY_SITES_VALUE" => SITE_ID);
         //FILTER SLIDER TOP FOR SITE
-        $GLOBALS['sliderFilter'] = array("PROPERTY_SITES_VALUE" => SITE_ID);
+        //$GLOBALS['sliderFilter'] = array("PROPERTY_SITES_VALUE" => SITE_ID);
         ?>
 
