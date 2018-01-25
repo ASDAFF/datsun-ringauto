@@ -82,10 +82,9 @@
                 ),
                 false
             );?>
-
             <div class="clear"></div>
             <div class="footer-subcsribe-vk"><span>Присоединяйтесь к нам</span>
-                <a href="https://vk.com/club76864985" target="_blank">
+                 <a href="https://vk.com/ringautodatsun" target="_blank">
                     <img width="99" height="24" src="<?=SITE_TEMPLATE_PATH?>/images/vk.svg" data-png-fallback="<?=SITE_TEMPLATE_PATH?>/images/vk.png">
                 </a>
                 <div class="clear"></div>
