@@ -1852,16 +1852,18 @@ footer {
 .footer-subcsribe-vk {
 	font-size: 0.9em;
 	padding-top: 1em;
+	text-align: center;
 }
+
 .footer-subcsribe-vk span {
-	display: inline-block;
+	display: block;
 	vertical-align: top;
 	letter-spacing: 0.7px;
-	float: left;
+	/*float: left;*/
 }
 .footer-subcsribe-vk a {
-	display: inline-block;
-	float: right;
+	/*display: inline-block;*/
+	/*float: right;*/
 }
 .footer-menu {
 	padding-right: 0;

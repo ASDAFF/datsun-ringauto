@@ -87,7 +87,7 @@
                  <a href="https://vk.com/ringautodatsun" target="_blank">
                     <img width="99" height="24" src="<?=SITE_TEMPLATE_PATH?>/images/vk.svg" data-png-fallback="<?=SITE_TEMPLATE_PATH?>/images/vk.png">
                 </a>
-                <div class="clear"></div>
+
 				<a href="https://ok.ru/group/54952238448891" target="_blank">
 					<img width="" height="24" src="<?=SITE_TEMPLATE_PATH?>/images/logo_wide.png" data-png-fallback="<?=SITE_TEMPLATE_PATH?>/images/vk.png">
 				</a>
