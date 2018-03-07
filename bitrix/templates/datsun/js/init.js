@@ -5,10 +5,10 @@ var myMap;
 
 function init () {
 	myMap = new ymaps.Map('map', {
-		center: [51.795999, 39.204499],
+		center: [51.794608, 39.199428],
 		zoom: 18
 	});
-	var myGeocoder = ymaps.geocode('Воронежская область, Россия, автодорога Воронеж - Москва, 7-й километр');
+	var myGeocoder = ymaps.geocode('А-134, 7-й километр, 4');
 	myGeocoder.then(
 	function (res) {
 		var coords = res.geoObjects.get(0).geometry.getCoordinates();
