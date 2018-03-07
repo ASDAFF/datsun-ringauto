@@ -118,16 +118,19 @@ $APPLICATION->SetTitle("corp_sales");
                 <p></p>
 
                 <div class="inline">
+
                     <div class="contacts-block-2">
-                        <img src="./images/pr_1.jpg"  />
+                       <img src="./images/pr_1.jpg"  />
                     </div>
 
                     <div class="contacts-block" style="width: 450px;">
-                        <b>Наталья Байкова,<br />руководитель отдела продаж Datsun:</b>
+                        <b></b>
                         <br />
                         <br />
 
+
                         <div class="contact-icon"></div>
+
 
                         <div class="contact-descr">
                             <p> <span class="descr1"><b>Телефоны:</b></span>

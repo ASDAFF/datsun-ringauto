@@ -7,7 +7,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </div>
-        <div class="dealer-logo"><img src="<?=SITE_TEMPLATE_PATH?>/images/dealer-logo@2x.png" alt="" width="181" height="" /></div>
+        <div class="dealer-logo"><a href='/'><img src="<?=SITE_TEMPLATE_PATH?>/images/dealer-logo@2x.png" alt="" width="181" height="" /></a></div>
 
         <nav>
 

@@ -1,6 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("title", "Купите Datsun mi-DО (Датсун ми-ДО) в Воронеже у официального дилера  по привлекательной цене");
+$APPLICATION->SetPageProperty("title", "Купите Datsun mi-DO (Датсун ми-ДО) в Воронеже у официального дилера  по привлекательной цене");
 $APPLICATION->SetTitle("mi-do");
 ?>
 
