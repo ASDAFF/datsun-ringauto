@@ -10,8 +10,8 @@
 
         <div class="wow bounceInUp">
             <ul class="bxslider-credit">
-                <li><img src="http://datsun-spb.ru/files/kr_08.jpg" alt=""></li>
-                <li><img src="http://datsun-spb.ru/upload/medialibrary/ef5/Кредит.jpg" alt=""></li>
+                <li><img src="/on-do/images/kr_08.jpg" alt=""></li>
+                <li><img src="/on-do/images/Кредит.jpg" alt=""></li>
             </ul>
         </div>
     </div>

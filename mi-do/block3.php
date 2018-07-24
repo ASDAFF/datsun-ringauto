@@ -2,7 +2,7 @@
 <section id="innovations1">
     <div class="container">
         <div class="title">
-            <h2>DATSUN MI-DO 2017 В КРЕДИТ</h2>
+            <h2>DATSUN MI-DO В КРЕДИТ</h2>
             <p>Интересуетесь покупкой автомобиля Датсун Ми До в кредит?</br>
                 Воспользуйтесь специальной программой Datsun Finance, одним из главных преимуществ которой является</br>
                 <strong>КАСКО от 3,5%</strong>.</p>
@@ -10,8 +10,8 @@
 
         <div class="wow bounceInUp">
             <ul class="bxslider-credit">
-                <li><img src="http://datsun-spb.ru/files/kr_08.jpg" alt=""></li>
-                <li><img src="http://datsun-spb.ru/upload/medialibrary/ef5/Кредит.jpg" alt=""></li>
+                <li><img src="/mi-do/images/kr_08.jpg" alt=""></li>
+                <li><img src="/mi-do/images/Кредит.jpg" alt=""></li>
             </ul>
         </div>
     </div>

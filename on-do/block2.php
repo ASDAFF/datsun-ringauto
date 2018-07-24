@@ -5,7 +5,7 @@
             <h1>Datsun On-Do</h1>
             <h2>Комплектации и цены</h2>
         </div>
-        <p style="margin:-20px 0 40px;">Модель седана Datsun on-DO произвела фурор среди автолюбителей, предложив концепцию надежного японского автомобиля по весьма доступной цене в 2017 году.</p>
+        <p style="margin:-20px 0 40px;">Модель седана Datsun on-DO произвела фурор среди автолюбителей, предложив концепцию надежного японского автомобиля по весьма доступной цене в 2018 году.</p>
         <ul class="pricing-table on">
             <li class="wow flipInY"data-wow-delay="0.2s">
                 <small>комплектация</small>
@@ -17,7 +17,7 @@
                         <td>87 л.с.</td>
                     </tr>
                 </table>
-<span>от <strong>350&nbsp;000 </strong> руб*.
+<span>от <strong>380&nbsp;000 </strong> руб*.
   <br />
  <strong>&nbsp;</strong> </span>
                 <ul class="benefits-list">
@@ -75,9 +75,9 @@
                         <td>87 л.с.</td>
                     </tr>
                 </table>
-<span>от <strong>382&nbsp;000</strong> руб.
+<span>от <strong>493&nbsp;000</strong> руб.
   <br />
- от <strong>432&nbsp;000</strong> руб.</span>
+ от <strong>543&nbsp;000</strong> руб.</span>
                 <ul class="benefits-list">
                     <li>
                         <p> 		 В дополнение к Access: 	</p>
@@ -137,9 +137,9 @@
                         <td>87 л.с.</td>
                     </tr>
                 </table>
-<span>от <strong>441&nbsp;000</strong> руб*.
+<span>от <strong>552&nbsp;000</strong> руб*.
   <br />
- от <strong>491&nbsp;000</strong> руб*. </span>
+ от <strong>567&nbsp;000</strong> руб*. </span>
                 <ul class="benefits-list">
                     <li>
                         <p> 		 В дополнение к Trust: 	</p>

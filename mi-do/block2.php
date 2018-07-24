@@ -5,7 +5,7 @@
             <h1>Datsun Mi-Do</h1>
             <h2>Комплектации и цены</h2>
         </div>
-        <p style="margin:-20px 0 40px;">Хэтчбек Datsun mi-DO доступен на российском рынке в двух комплектациях и с двумя типами трансмиссии. Как и первая модель линейки — on-DO — новинка продолжает концепцию надежного японского автомобиля по доступной цене в 2017 году.</p>
+        <p style="margin:-20px 0 40px;">Хэтчбек Datsun mi-DO доступен на российском рынке в двух комплектациях и с двумя типами трансмиссии. Как и первая модель линейки — on-DO — новинка продолжает концепцию надежного японского автомобиля по доступной цене в 2018 году.</p>
         <ul class="pricing-table">
             <li class="silver wow flipInY" data-wow-delay="0.2s">
                 <small>комплектация</small>
@@ -17,9 +17,9 @@
                         <td>87 л.с.</td>
                     </tr>
                 </table>
-<span>от <strong>403&nbsp;000</strong> руб*. (MT) 
+<span>от <strong>536&nbsp;000</strong> руб*. (MT) 
   <br />
- от <strong>476&nbsp;000</strong> руб*. (AT)</span>
+ от <strong>586&nbsp;000</strong> руб*. (AT)</span>
                 <ul class="benefits-list">
                     <li>
                         <p> 		 Электроусилитель руля 	</p>
@@ -75,9 +75,9 @@
                         <td>87 л.с.</td>
                     </tr>
                 </table>
-<span>от <strong>461&nbsp;000</strong> руб*. (MT) 
+<span>от <strong>594&nbsp;000</strong> руб*. (MT) 
   <br />
- от <strong>540&nbsp;000</strong> руб*. (AT)</span>
+ от <strong>609&nbsp;000</strong> руб*. (AT)</span>
                 <ul class="benefits-list">
                     <li>
                         <p> 		 Бамперы, дверные ручки и боковые зеркала, окрашенные в цвет кузова 	</p>

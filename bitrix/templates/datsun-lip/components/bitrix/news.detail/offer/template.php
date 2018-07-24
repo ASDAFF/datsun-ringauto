@@ -11,9 +11,7 @@
 /** @var string $componentPath */
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
-?>
-
-<? if($arResult['DETAIL_PICTURE']['SRC']): ?>
+?><? if($arResult['DETAIL_PICTURE']['SRC']): ?>
 
 <section class="block-bg-offer" style="background: url('<?=$arResult['DETAIL_PICTURE']['SRC']?>');">
     <div class="top-price-block">
@@ -260,13 +258,13 @@ $this->setFrameMode(true);
 
         <div class="credits">
             <div class="credit-block-30">
-                от <span>3,5 %</span>
+                от <span>6 %</span>
             </div>
             <div class="credit-block-30">
                 на <span>3</span> года
             </div>
             <div class="credit-block-40">
-                от <span>10 %</span> первый взнос
+                от <span>40%</span> первый взнос
             </div>
 
             <div class="clear"></div>
@@ -340,22 +338,3 @@ $this->setFrameMode(true);
     );?>
     <!-- map END -->
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

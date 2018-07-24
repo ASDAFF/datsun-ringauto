@@ -10,13 +10,13 @@
 
                 <div class="price-from"> 	 цена от </div>
 
-                <div class="price" style="margin-bottom: 0px;"> 	 350 000 <span>руб.*</span></div>
+                <div class="price" style="margin-bottom: 0px;"> 	 380 000 <span>руб.*</span></div>
 
                 <br />
 
                 <div class="bubble-square">Платеж по кредиту
                     <br />
-                    4 800 руб./мес.</div>
+                    2 500 руб./мес.</div>
                 <div class="slider-links">
                     <a class="item form-fancybox" href="#signUpForATestDrive">Записаться на тест-драйв</a>
                     <a class="item form-fancybox" href="#handOverInOffset">Сдать а/м в зачет</a>
@@ -30,7 +30,7 @@
                 <br />
                 <span>по кредиту</span>
                 <br />
-                <span>4 600 руб./мес.</span>
+                <span>3 000 руб./мес.</span>
                 <br />
             </div>
 
